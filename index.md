@@ -21,9 +21,9 @@ You are my Sunshine<br />
 </details>
 
 <details>
- <summary><font size="5"><i class="fas fa-gamepad"></i>Video Games</font></summary>
+ <summary><font size="5">Video Games</font></summary>
   
-Dearly Beloved - Kingdom Hearts</font><br />
+Dearly Beloved - Kingdom Hearts<br />
 Pokemon Center Theme<br />
 Song of Storms - Legend of Zelda<br />
 Super Mario NES Theme (simple version)<br />
