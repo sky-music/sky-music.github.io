@@ -3,6 +3,16 @@ layout: default
 ---
 
 <details>
+  <summary>Click to expand!</summary>
+  
+  ## Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
+
+<details>
   <summary>Music Sheets</summary>
   
 *Can't Help Falling in Love (Intro)
