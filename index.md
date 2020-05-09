@@ -21,7 +21,7 @@ You are my Sunshine<br />
 </details>
 
 <details>
-<summary><font size="5">Video Games</summary>
+ <summary><font size="5"><i class="fas fa-gamepad"></i>Video Games</font></summary>
   
 Dearly Beloved - Kingdom Hearts</font><br />
 Pokemon Center Theme<br />
