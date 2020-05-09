@@ -5,15 +5,15 @@ layout: default
 <details>
   <summary>Music Sheets</summary>
   
-  *Can't Help Falling in Love (Intro)
-  *Graduation Photo
-  *Hallelujah
-  *Illusionary Daytime Flute
-  *Kiss the Rain
-  *Love Like You (transcribed by Nezara)
-  *Mitsuha's Theme - Kimi No Na wa (transcribed by Peri)
-  *Superstition (transcribed by Nezara)
-  *You are my Sunshine
+..*Can't Help Falling in Love (Intro)
+..*Graduation Photo
+..*Hallelujah
+..*Illusionary Daytime Flute
+..*Kiss the Rain
+..*Love Like You (transcribed by Nezara)
+..*Mitsuha's Theme - Kimi No Na wa (transcribed by Peri)
+..*Superstition (transcribed by Nezara)
+..*You are my Sunshine
 </details>
 
 <details>
