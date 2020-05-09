@@ -3,21 +3,21 @@ layout: default
 ---
 
 <p>A collection of fan made visual music sheets for songs to learn in Sky: Children of the light!</p>
-If you would like to create your own sheet please check the links in side bar for a tutorial, amonst other useful links.</p>
+If you would like to create your own sheet please check the links in side bar for a tutorial, amonst other useful links.
 
 
 <details>
   <summary>Music Sheets</summary>
   
-Can't Help Falling in Love (Intro)  
-Graduation Photo  
-Hallelujah  
-Illusionary Daytime Flute  
-Kiss the Rain  
-Love Like You
-Mitsuha's Theme - Kimi No Na wa  
-Superstition  
-You are my Sunshine  
+Can't Help Falling in Love (Intro)<br />
+Graduation Photo<br />
+Hallelujah<br />
+Illusionary Daytime Flute<br />
+Kiss the Rain<br />
+Love Like You<br />
+Mitsuha's Theme - Kimi No Na wa<br />
+Superstition<br />
+You are my Sunshine<br />
 </details>
 
 <details>
