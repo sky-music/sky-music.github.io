@@ -2,122 +2,82 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+<details>
+  <summary>Music Sheets</summary>
+  
+*Can't Help Falling in Love (Intro)
+*Graduation Photo
+*Hallelujah
+*Illusionary Daytime Flute
+*Kiss the Rain
+*Love Like You (transcribed by Nezara)
+*Mitsuha's Theme - Kimi No Na wa (transcribed by Peri)
+*Superstition (transcribed by Nezara)
+*You are my Sunshine
+</details>
 
-[Link to another page](./another-page.html).
+<details>
+  <summary>Video Games</summary>
+  
+*Dearly Beloved (Kingdom Hearts)
+*Pokemon Center Theme
+*Song of Storms - Legend of Zelda
+*Super Mario NES Theme (simple version)
+*Super Mario NES Theme (with chords)
+*Sweden (Minecraft) - C418
+*Threshold (Journey)
+*Zelda's Lullaby (Ocarina of Time)
+</details>
 
-There should be whitespace between paragraphs.
+<details>
+  <summary>TV Shows & Movies</summary>
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+*Always With Me - Spirited Away
+*Binary Sunset - Star Wars
+*Dango daikazoku - Kyoto Animation
+*Davy Jones Theme - Pirates of the Caribbean
+*Do-Re-Mi - The Sound of Music
+*Godfather Theme - Speak Softly Love
+*Harry Potter - Hedwig's Theme (Advanced)
+*Little Boxes - Weeds
+*Married Life - UP
+*My Heart Will Go On - Titanic Theme
+*Rugrats Theme
+*Shiny (Moana)
+*Somewhere Over the Rainbow (Advanced)
+*穿越时空的思念
+</details>
 
-# Header 1
+<details>
+  <summary>Pop Music</summary>
+  
+*Eleanor Rigby (The Beatles)
+*Hey Jude (The Beatles)
+*Island in the Sun (Weezer)
+*Kaze wo atsumete (Happy End, 1971)
+*Last Christmas (first verse)
+*Take on me (A-Ah)
+*With a little help from my friends (The Beatles)
+*Yellow Submarine (The Beatles)
+*Yesterday (The Beatles)
+*Young Dumb & Broke (Khalid)
+</details>
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+<details>
+  <summary>Traditional</summary>
+  
+*Amazing Grace (John Newton)
+*American folk songs
+*Scarborough Fair
+</details>
 
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+<details>
+  <summary>Classical</summary>
+  
+*Carol of the Bells
+*Clair de Lune - Debussy
+*Für Elise (Beethoven)
+*Jesu, Joy of Man's Desiring
+*Lullaby (Brahms)
+*Ode to Joy (Beethoven)
+</details>
