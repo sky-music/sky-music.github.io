@@ -17,7 +17,7 @@ If you would like to create your own sheet please check the links in side bar fo
 <p>Love Like You (transcribed by Nezara)
 <p>Mitsuha's Theme - Kimi No Na wa (transcribed by Peri)
 <p>Superstition (transcribed by Nezara)
-<p>You are my Sunshine</p>
+<p>You are my Sunshine
 </details>
 
 <details>
