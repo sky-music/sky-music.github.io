@@ -5,10 +5,10 @@ layout: default
 <div class="collapse-card">
   <div class="collapse-card__heading">
     <div class="collapse-card__title">
-      <i class="fa fa-question-circle fa-2x fa-fw"></i> <!-- Title Text -->
+      <i class="fa fa-question-circle fa-2x fa-fw"></i> yest
     </div>
   </div>
-  <div class="collapse-card__body"><!-- Body Text --></div>
+  <div class="collapse-card__body">test</div>
 </div>
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
