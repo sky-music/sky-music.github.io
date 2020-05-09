@@ -12,7 +12,6 @@ layout: default
      * Sub bullets
 </details>
 
-# A collapsible section containing code
 <details>
   <summary>Click to expand!</summary>
   
@@ -22,19 +21,6 @@ layout: default
       return 'No more';
     }
   ```
-</details>
-
-# How to structure
-```
-# A collapsible section with markdown
-<details>
-  <summary>Click to expand!</summary>
-  
-  ## Heading
-  1. A numbered
-  2. list
-     * With some
-     * Sub bullets
 </details>
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
