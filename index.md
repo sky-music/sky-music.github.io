@@ -2,6 +2,15 @@
 layout: default
 ---
 
+<div class="collapse-card">
+  <div class="collapse-card__heading">
+    <div class="collapse-card__title">
+      <i class="fa fa-question-circle fa-2x fa-fw"></i> <!-- Title Text -->
+    </div>
+  </div>
+  <div class="collapse-card__body"><!-- Body Text --></div>
+</div>
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
