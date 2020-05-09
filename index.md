@@ -2,6 +2,41 @@
 layout: default
 ---
 
+<details>
+  <summary>Click to expand!</summary>
+  
+  ## Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
+
+# A collapsible section containing code
+<details>
+  <summary>Click to expand!</summary>
+  
+  ```javascript
+    function whatIsLove() {
+      console.log('Baby Don't hurt me. Don't hurt me');
+      return 'No more';
+    }
+  ```
+</details>
+
+# How to structure
+```
+# A collapsible section with markdown
+<details>
+  <summary>Click to expand!</summary>
+  
+  ## Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
