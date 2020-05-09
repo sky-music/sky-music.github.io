@@ -2,8 +2,8 @@
 layout: default
 ---
 
-## Welcome to another page
+<h1>Discord</h1>
 
-_yay_
+Feel free to join our Discord server by clicking <a href="https://discord.gg/XHvs37T">Here</a>
 
 [back](./)
