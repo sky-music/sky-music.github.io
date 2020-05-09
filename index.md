@@ -9,28 +9,35 @@ If you would like to create your own sheet please check the links in side bar fo
 <details>
   <summary>Music Sheets</summary>
   
-<p>Can't Help Falling in Love (Intro)
-<p>Graduation Photo
-<p>Hallelujah
-<p>Illusionary Daytime Flute
-<p>Kiss the Rain
-<p>Love Like You (transcribed by Nezara)
-<p>Mitsuha's Theme - Kimi No Na wa (transcribed by Peri)
-<p>Superstition (transcribed by Nezara)
-<p>You are my Sunshine
+Can't Help Falling in Love (Intro)  
+Graduation Photo  
+Hallelujah  
+Illusionary Daytime Flute  
+Kiss the Rain  
+Love Like You
+Mitsuha's Theme - Kimi No Na wa  
+Superstition  
+You are my Sunshine  
 </details>
 
 <details>
   <summary>Video Games</summary>
   
-Dearly Beloved (Kingdom Hearts)
-Pokemon Center Theme
-Song of Storms - Legend of Zelda
-Super Mario NES Theme (simple version)
-Super Mario NES Theme (with chords)
-Sweden (Minecraft) - C418
-Threshold (Journey)
-Zelda's Lullaby (Ocarina of Time)
+Dearly Beloved - Kingdom Hearts   
+
+Pokemon Center Theme  
+
+Song of Storms - Legend of Zelda  
+
+Super Mario NES Theme (simple version)  
+
+Super Mario NES Theme (with chords)  
+
+Sweden (Minecraft) - C418  
+
+Threshold (Journey)  
+
+Zelda's Lullaby (Ocarina of Time)  
 </details>
 
 <details>
