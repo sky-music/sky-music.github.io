@@ -9,14 +9,14 @@ If you would like to create your own sheet please check the links in side bar fo
 <details>
   <summary>Music Sheets</summary>
   
-<p>Can't Help Falling in Love (Intro)</p>
-<p>Graduation Photo</p>
-<p>Hallelujah</p>
-<p>Illusionary Daytime Flute</p>
-<p>Kiss the Rain</p>
-<p>Love Like You (transcribed by Nezara)</p>
-<p>Mitsuha's Theme - Kimi No Na wa (transcribed by Peri)</p>
-<p>Superstition (transcribed by Nezara)</p>
+<p>Can't Help Falling in Love (Intro)
+<p>Graduation Photo
+<p>Hallelujah
+<p>Illusionary Daytime Flute
+<p>Kiss the Rain
+<p>Love Like You (transcribed by Nezara)
+<p>Mitsuha's Theme - Kimi No Na wa (transcribed by Peri)
+<p>Superstition (transcribed by Nezara)
 <p>You are my Sunshine</p>
 </details>
 
