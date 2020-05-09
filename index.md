@@ -7,9 +7,9 @@ If you would like to create your own sheet please check the links in side bar fo
 
 
 <details>
- <font size="5"><summary>Music Sheets</summary>
+ <summary><font size="5">Music Sheets</font></summary>
   
-Can't Help Falling in Love (Intro)<br /></font>
+Can't Help Falling in Love (Intro)<br />
 Graduation Photo<br />
 Hallelujah<br />
 Illusionary Daytime Flute<br />
@@ -21,7 +21,7 @@ You are my Sunshine<br />
 </details>
 
 <details>
-  <font size="2"><summary>Video Games</summary></font>
+<summary>Video Games</summary>
   
 Dearly Beloved - Kingdom Hearts<br />
 Pokemon Center Theme<br />
