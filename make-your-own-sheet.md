@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Welcome to another page
+## Welcome to Make your own sheet
 
 _yay_
 
