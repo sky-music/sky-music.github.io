@@ -21,9 +21,9 @@ You are my Sunshine<br />
 </details>
 
 <details>
-<summary>Video Games</summary>
+<summary><font size="5">Video Games</summary>
   
-Dearly Beloved - Kingdom Hearts<br />
+Dearly Beloved - Kingdom Hearts</font><br />
 Pokemon Center Theme<br />
 Song of Storms - Legend of Zelda<br />
 Super Mario NES Theme (simple version)<br />
@@ -34,7 +34,7 @@ Zelda's Lullaby (Ocarina of Time)<br />
 </details>
 
 <details>
-  <summary>TV Shows & Movies</summary>
+  <summary><font size="5">TV Shows & Movies</font></summary>
 
 Always With Me - Spirited Away<br />
 Binary Sunset - Star Wars<br />
@@ -53,7 +53,7 @@ Somewhere Over the Rainbow (Advanced)<br />
 </details>
 
 <details>
-  <summary>Pop Music</summary>
+  <summary><font size="5">Pop Music</font></summary>
   
 Eleanor Rigby (The Beatles)<br />
 Hey Jude (The Beatles)<br />
@@ -68,7 +68,7 @@ Young Dumb & Broke (Khalid)<br />
 </details>
 
 <details>
-  <summary>Traditional</summary>
+  <summary><font size="5">Traditional</font></summary>
   
 Amazing Grace (John Newton)<br />
 American folk songs<br />
@@ -76,7 +76,7 @@ Scarborough Fair<br />
 </details>
 
 <details>
-  <summary>Classical</summary>
+ <summary><font size="5">Classical</font></summary>
   
 Carol of the Bells<br />
 Clair de Lune - Debussy<br />
