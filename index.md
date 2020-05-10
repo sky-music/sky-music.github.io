@@ -7,10 +7,24 @@ layout: default
 Click a section to see a drop down list.
 
 
+  <ul>
+    <li> <a href="./songs/Cant_Help_Falling_in_Love_Intro.html"> Can't Help Falling in Love (Intro) </a> </li>
+    <li> <a href="./songs/graduation_photo.html"> Graduation Photo </a> </li>
+    <li> <a href="./songs/Hallelujah.html"> Hallelujah </a> </li>
+    <li> <a href="./songs/illusionary_daytime_flute.html"> Illusionary Daytime 幻昼 Flute </a> </li>
+    <li> <a href="./songs/Kiss-the-Rain.html"> Kiss the Rain </a> </li>
+    <li> <a href="./songs/Love_Like_You.html"> Love Like You (transcribed by Nezara) </a> </li>
+    <li> <a href="./songs/Superstition.html"> Superstition (transcribed by Nezara) </a> </li>
+    <li> <a href="./songs/You-are-my-Sunshine.html"> You are my Sunshine </a> </li>
+
+
+  </ul>
+
+
 <details>
  <summary><font size="5">Music Sheets</font></summary>
   
-Can't Help Falling in Love (Intro)<br />
+<a href="./songs/Cant_Help_Falling_in_Love_Intro.html"> Can't Help Falling in Love (Intro) </a><br />
 Graduation Photo<br />
 Hallelujah<br />
 Illusionary Daytime Flute<br />
