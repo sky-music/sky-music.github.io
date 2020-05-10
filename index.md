@@ -23,75 +23,87 @@ Click a section to see a drop down list.
 
 <details>
  <summary><font size="5">Videogames</font></summary>
-  
-Dearly Beloved - Kingdom Hearts<br />
-Pokemon Center Theme<br />
-Song of Storms - Legend of Zelda<br />
-Super Mario NES Theme (simple version)<br />
-Super Mario NES Theme (with chords)<br />
-Sweden (Minecraft) - C418<br />
-Threshold (Journey)<br />
-Zelda's Lullaby (Ocarina of Time)<br /> 
+
+<ul>   
+<li>Dearly Beloved - Kingdom Hearts</li>
+<li>Pokemon Center Theme</li>
+<li>Song of Storms - Legend of Zelda</li>
+<li>Super Mario NES Theme (simple version)</li>
+<li>Super Mario NES Theme (with chords)</li>
+<li>Sweden - Minecraft</li>
+<li>Threshold - Journey</li>
+<li>Zelda's Lullaby - Ocarina of Time</li> 
+</ul> 
 </details>
 
 
 <details>
  <summary><font size="5">Anime</font></summary>
   
-Always With Me - Spirited Away<br />
-Dango Daikazoku - Kyoto Animation<br />
-Fly Me to the Moon - Neon Genesis Evangelion<br />
-Hokage Funeral - Naruto<br />
-Mitsuha's Theme - Kimi No Na wa - Your Name <br />
-穿越时空的思念<br />
+<ul> 
+<li>Always With Me - Spirited Away</li>
+<li>Dango Daikazoku - Kyoto Animation</li>
+<li>Fly Me to the Moon - Neon Genesis Evangelion</li>
+<li>Hokage Funeral - Naruto</li>
+<li>Mitsuha's Theme - Kimi No Na wa - Your Name</li>
+<li>穿越时空的思念</li>
+</ul> 
 </details>
 
 <details>
   <summary><font size="5">TV Shows & Movies</font></summary>
 
-Binary Sunset - Star Wars<br />
-Davy Jones Theme - Pirates of the Caribbean<br />
-Do-Re-Mi - The Sound of Music<br />
-Godfather Theme - Speak Softly Love<br />
-Harry Potter - Hedwig's Theme (Advanced)<br />
-Little Boxes - Weeds<br />
-Married Life - UP<br />
-My Heart Will Go On - Titanic Theme<br />
-Rugrats Theme<br />
-Shiny (Moana)<br />
-Somewhere Over the Rainbow (Advanced)<br />
+<ul> 
+<li>Binary Sunset - Star Wars</li>
+<li>Davy Jones Theme - Pirates of the Caribbean</li>
+<li>Do-Re-Mi - The Sound of Music</li>
+<li>Godfather Theme - Speak Softly Love</li>
+<li>Harry Potter - Hedwig's Theme (Advanced)</li>
+<li>Little Boxes - Weeds</li>
+<li>Married Life - UP</li>
+<li>My Heart Will Go On - Titanic Theme</li>
+<li>Rugrats Theme</li>
+<li>Shiny (Moana)</li>
+<li>Somewhere Over the Rainbow (Advanced)</li>
+</ul> 
 </details>
 
 <details>
   <summary><font size="5">Pop Music</font></summary>
-  
-Eleanor Rigby (The Beatles)<br />
-Hey Jude (The Beatles)<br />
-Island in the Sun (Weezer)<br />
-Kaze wo atsumete (Happy End, 1971)<br />
-Last Christmas (first verse)<br />
-Take on me (A-Ah)<br />
-With a little help from my friends (The Beatles)<br />
-Yellow Submarine (The Beatles)<br />
-Yesterday (The Beatles)<br />
-Young Dumb & Broke (Khalid)<br />
+
+<ul>  
+<li>Eleanor Rigby (The Beatles)</li>
+<li>Hey Jude (The Beatles)</li>
+<li>Island in the Sun (Weezer)</li>
+<li>Kaze wo atsumete (Happy End, 1971)</li>
+<li>Last Christmas (first verse)</li>
+<li>Take on me (A-Ah)</li>
+<li>With a little help from my friends (The Beatles)</li>
+<li>Yellow Submarine (The Beatles)</li>
+<li>Yesterday (The Beatles)</li>
+<li>Young Dumb & Broke (Khalid)</li>
+</ul> 
 </details>
 
 <details>
   <summary><font size="5">Traditional</font></summary>
-  
-Amazing Grace (John Newton)<br />
-American folk songs<br />
-Scarborough Fair<br />
+
+<ul>   
+<li>Amazing Grace (John Newton)</li>
+<li>American folk songs</li>
+<li>Scarborough Fair</li>
+</ul> 
 </details>
 
 <details>
  <summary><font size="5">Classical</font></summary>
-  
-Carol of the Bells<br />
-Clair de Lune - Debussy<br />
-Für Elise (Beethoven)<br />
-Jesu, Joy of Man's Desiring<br />
-Lullaby (Brahms)<br />
-Ode to Joy (Beethoven)
+
+<ul>   
+<li>Carol of the Bells</li>
+<li>Clair de Lune</li>
+<li>Für Elise</li>
+<li>Jesu, Joy of Man's Desiring</li>
+<li>Lullaby</li>
+<li>Ode to Joy</li>
+</ul> 
 </details>
