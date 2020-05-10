@@ -86,7 +86,7 @@ Click a section to see a drop down list.
 </details>
 
 <details>
-  <summary><font size="5">Traditional</font></summary>
+  <summary><font size="5"><img src="./assets/images/Traditional.png"> Traditional</font></summary>
 
 <ul>   
 <li>Amazing Grace (John Newton)</li>
