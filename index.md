@@ -107,3 +107,5 @@ Click a section to see a drop down list.
 <li>Ode to Joy</li>
 </ul> 
 </details>
+
+{% include search-lunr.html %}
