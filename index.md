@@ -38,7 +38,7 @@ Click a section to see a drop down list.
 
 
 <details>
- <summary><font size="5">Anime</font></summary>
+ <summary><font size="5"><img src="./assets/images/Anime.png"> Anime</font></summary>
   
 <ul> 
 <li>Always With Me - Spirited Away</li>
@@ -51,7 +51,7 @@ Click a section to see a drop down list.
 </details>
 
 <details>
-  <summary><font size="5">TV Shows & Movies</font></summary>
+  <summary><font size="5"><img src="./assets/images/Movie.png">TV Shows & Movies</font></summary>
 
 <ul> 
 <li>Binary Sunset - Star Wars</li>
