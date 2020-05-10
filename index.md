@@ -39,7 +39,6 @@ Zelda's Lullaby (Ocarina of Time)<br />
   
 Always With Me - Spirited Away<br />
 Dango Daikazoku - Kyoto Animation<br />
-Song of Storms - Legend of Zelda<br />
 Fly Me to the Moon - Neon Genesis Evangelion<br />
 Hokage Funeral - Naruto<br />
 Mitsuha's Theme - Kimi No Na wa - Your Name <br />
@@ -49,7 +48,6 @@ Mitsuha's Theme - Kimi No Na wa - Your Name <br />
 <details>
   <summary><font size="5">TV Shows & Movies</font></summary>
 
-Always With Me - Spirited Away<br />
 Binary Sunset - Star Wars<br />
 Davy Jones Theme - Pirates of the Caribbean<br />
 Do-Re-Mi - The Sound of Music<br />
