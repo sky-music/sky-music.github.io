@@ -7,7 +7,7 @@ layout: default
 Click a section to see a drop down list.
 
 <details>
- <summary><font size="5">Music Sheets</font></summary>
+ <summary><font size="5"><img src="./assets/images/MusicSheets.png"> Music Sheets</font></summary>
 
 <ul>  
 <li><a href="./songs/Cant-Help-Falling-in-Love-Intro.html"> Can't Help Falling in Love (Intro) </a></li>
@@ -69,7 +69,7 @@ Click a section to see a drop down list.
 </details>
 
 <details>
-  <summary><font size="5">Pop Music</font></summary>
+  <summary><font size="5"><img src="./assets/images/songs.png"> Pop Music</font></summary>
 
 <ul>  
 <li>Eleanor Rigby (The Beatles)</li>
@@ -96,7 +96,7 @@ Click a section to see a drop down list.
 </details>
 
 <details>
- <summary><font size="5">Classical</font></summary>
+ <summary><font size="5"><img src="./assets/images/Classical.png"> Classical</font></summary>
 
 <ul>   
 <li>Carol of the Bells</li>
