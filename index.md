@@ -22,7 +22,7 @@ Click a section to see a drop down list.
 </details>
 
 <details>
- <summary><font size="5">Videogames</font></summary>
+ <summary><font size="5"><img src="./assets/images/VideoGames.png"> Videogames</font></summary>
 
 <ul>   
 <li>Dearly Beloved - Kingdom Hearts</li>
