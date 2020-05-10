@@ -6,32 +6,19 @@ layout: default
 <p>If you would like to <a href="https://sky-pod.github.io/Sky-Pod/make-your-own-sheet.html">create your own music sheet</a> please check the links in side bar for a tutorial, amongst other useful links.</p>
 Click a section to see a drop down list.
 
-
-  <ul>
-    <li> <a href="./songs/Cant_Help_Falling_in_Love_Intro.html"> Can't Help Falling in Love (Intro) </a> </li>
-    <li> <a href="./songs/graduation_photo.html"> Graduation Photo </a> </li>
-    <li> <a href="./songs/Hallelujah.html"> Hallelujah </a> </li>
-    <li> <a href="./songs/illusionary_daytime_flute.html"> Illusionary Daytime 幻昼 Flute </a> </li>
-    <li> <a href="./songs/Kiss-the-Rain.html"> Kiss the Rain </a> </li>
-    <li> <a href="./songs/Love_Like_You.html"> Love Like You (transcribed by Nezara) </a> </li>
-    <li> <a href="./songs/Superstition.html"> Superstition (transcribed by Nezara) </a> </li>
-    <li> <a href="./songs/You-are-my-Sunshine.html"> You are my Sunshine </a> </li>
-
-
-  </ul>
-
-
 <details>
  <summary><font size="5">Music Sheets</font></summary>
-  
-<a href="./songs/Cant_Help_Falling_in_Love_Intro.html"> Can't Help Falling in Love (Intro) </a><br />
-Graduation Photo<br />
-Hallelujah<br />
-Illusionary Daytime Flute<br />
-Kiss the Rain<br />
-Love Like You<br /
-Superstition<br />
-You are my Sunshine<br />
+
+<ul>  
+<li><a href="./songs/Cant_Help_Falling_in_Love_Intro.html"> Can't Help Falling in Love (Intro) </a></li>
+<li>Graduation Photo</li>
+<li>Hallelujah</li>
+<li>Illusionary Daytime Flute</li>
+<li>Kiss the Rain</li>
+<li>Love Like You</li>
+<li>Superstition</li>
+<li>You are my Sunshine</li>
+</ul>
 </details>
 
 <details>
