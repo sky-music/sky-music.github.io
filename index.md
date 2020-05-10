@@ -3,7 +3,7 @@ layout: default
 ---
 
 <p>A collection of fan made visual music sheets for songs to learn in Sky: Children of the light!</p>
-<p>If you would like to create your own sheet please check the links in side bar for a tutorial, amongst other useful links.</p>
+<p>If you would like to <a href="https://sky-pod.github.io/Sky-Pod/make-your-own-sheet.html">Create your own music sheet</a> please check the links in side bar for a tutorial, amongst other useful links.</p>
 Click a section to see a drop down list.
 
 
