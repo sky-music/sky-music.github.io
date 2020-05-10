@@ -414,6 +414,21 @@ svg rect.note-background {
 </style>
 <meta charset="utf-8"/></head>
 <body>
+    <header>
+      <div class="inner">
+        <a href="{{ '/' | absolute_url }}">
+          <h1>Sky Music</h1>
+        </a>
+        <h3><p style="color:white">Visual Music Sheets for the game Sky: Children of the Light</p></h3>
+        {% if site.github.is_project_page %}
+          <a href="https://sky-pod.github.io/Sky-Pod/" class="button"></a>
+        {% endif %}
+        {% if site.github.is_user_page %}
+          <a href="{{ site.github.owner_url }}" class="button"><small>Follow me on</small> GitHub</a>
+        {% endif %}
+      </div>
+    </header>
+
 <h1> Can't Help Falling in Love Intro </h1>
 <p> <b>Original Artist(s):</b> Elvis Presley </p>
 <p> <b>Transcript:</b> Fiqo Mendez</p>
