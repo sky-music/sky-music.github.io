@@ -20,7 +20,7 @@ Click a section to see a drop down list.
 <li>You are my Sunshine</li>
 </ul>
 </details>
-
+<br>
 <details>
  <summary><font size="5"><img src="./assets/images/VideoGames.png">&nbsp;&nbsp;Videogames</font></summary>
 
@@ -35,8 +35,7 @@ Click a section to see a drop down list.
 <li>Zelda's Lullaby - Ocarina of Time</li> 
 </ul> 
 </details>
-
-
+<br>
 <details>
  <summary><font size="5"><img src="./assets/images/Anime.png">&nbsp;&nbsp;Anime</font></summary>
   
@@ -49,7 +48,7 @@ Click a section to see a drop down list.
 <li>穿越时空的思念</li>
 </ul> 
 </details>
-
+<br>
 <details>
   <summary><font size="5"><img src="./assets/images/Movie.png">&nbsp;&nbsp;&nbsp;&nbsp;TV Shows & Movies</font></summary>
 
@@ -67,7 +66,7 @@ Click a section to see a drop down list.
 <li>Somewhere Over the Rainbow (Advanced)</li>
 </ul> 
 </details>
-
+<br>
 <details>
   <summary><font size="5"><img src="./assets/images/songs.png">&nbsp;&nbsp;&nbsp;&nbsp;Pop Music</font></summary>
 
@@ -84,7 +83,7 @@ Click a section to see a drop down list.
 <li>Young Dumb & Broke (Khalid)</li>
 </ul> 
 </details>
-
+<br>
 <details>
   <summary><font size="5"><img src="./assets/images/Traditional.png">&nbsp;&nbsp;Traditional</font></summary>
 
@@ -94,7 +93,7 @@ Click a section to see a drop down list.
 <li>Scarborough Fair</li>
 </ul> 
 </details>
-
+<br>
 <details>
  <summary><font size="5"><img src="./assets/images/Classical.png">&nbsp;&nbsp;&nbsp;Classical</font></summary>
 
