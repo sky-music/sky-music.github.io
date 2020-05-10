@@ -7,7 +7,7 @@ layout: default
 Click a section to see a drop down list.
 
 <details>
- <summary><font size="5"><img src="./assets/images/MusicSheets.png">    Music Sheets</font></summary>
+ <summary><font size="5"><img src="./assets/images/MusicSheets.png">&nbsp;&nbsp;&nbsp;Music Sheets</font></summary>
 
 <ul>  
 <li><a href="./songs/Cant-Help-Falling-in-Love-Intro.html"> Can't Help Falling in Love (Intro) </a></li>
@@ -22,7 +22,7 @@ Click a section to see a drop down list.
 </details>
 
 <details>
- <summary><font size="5"><img src="./assets/images/VideoGames.png">  Videogames</font></summary>
+ <summary><font size="5"><img src="./assets/images/VideoGames.png">&nbsp;&nbsp;Videogames</font></summary>
 
 <ul>   
 <li>Dearly Beloved - Kingdom Hearts</li>
@@ -38,7 +38,7 @@ Click a section to see a drop down list.
 
 
 <details>
- <summary><font size="5"><img src="./assets/images/Anime.png">  Anime</font></summary>
+ <summary><font size="5"><img src="./assets/images/Anime.png">&nbsp;&nbsp;Anime</font></summary>
   
 <ul> 
 <li>Always With Me - Spirited Away</li>
@@ -51,7 +51,7 @@ Click a section to see a drop down list.
 </details>
 
 <details>
-  <summary><font size="5"><img src="./assets/images/Movie.png">     TV Shows & Movies</font></summary>
+  <summary><font size="5"><img src="./assets/images/Movie.png">&nbsp;&nbsp;&nbsp;&nbsp;TV Shows & Movies</font></summary>
 
 <ul> 
 <li>Binary Sunset - Star Wars</li>
@@ -69,7 +69,7 @@ Click a section to see a drop down list.
 </details>
 
 <details>
-  <summary><font size="5"><img src="./assets/images/songs.png">     Pop Music</font></summary>
+  <summary><font size="5"><img src="./assets/images/songs.png">&nbsp;&nbsp;&nbsp;&nbsp;Pop Music</font></summary>
 
 <ul>  
 <li>Eleanor Rigby (The Beatles)</li>
@@ -86,7 +86,7 @@ Click a section to see a drop down list.
 </details>
 
 <details>
-  <summary><font size="5"><img src="./assets/images/Traditional.png"> Traditional</font></summary>
+  <summary><font size="5"><img src="./assets/images/Traditional.png">&nbsp;&nbsp;Traditional</font></summary>
 
 <ul>   
 <li>Amazing Grace (John Newton)</li>
@@ -96,7 +96,7 @@ Click a section to see a drop down list.
 </details>
 
 <details>
- <summary><font size="5"><img src="./assets/images/Classical.png">    Classical</font></summary>
+ <summary><font size="5"><img src="./assets/images/Classical.png">&nbsp;&nbsp;&nbsp;Classical</font></summary>
 
 <ul>   
 <li>Carol of the Bells</li>
