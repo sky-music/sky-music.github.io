@@ -6,6 +6,8 @@ layout: default
 <p>If you would like to <a href="https://sky-pod.github.io/Sky-Pod/make-your-own-sheet.html">create your own music sheet</a> please check the links in side bar for a tutorial, amongst other useful links.</p>
 Click a section to see a drop down list.
 
+{% include search-lunr.html %}
+
 <details>
  <summary><font size="5">Music Sheets</font></summary>
 
