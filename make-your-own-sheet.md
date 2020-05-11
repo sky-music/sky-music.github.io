@@ -5,7 +5,7 @@ layout: default
 <h1>Make your own visual music sheet!</h1>
 
 <p>Here's a step by step guide how to create your own visual music sheet.</p>
-If you would like to contribute a finished sheet to this website please join our <a href="./discord.md">Discord</a> server by clicking <a href="./discord.md">Here</a>
+If you would like to contribute a finished sheet to this website please join our <a href="./discord.html">Discord</a> server by clicking <a href="./discord.html">Here</a>
 
 <h2>Python Method</h2>
 
@@ -69,11 +69,11 @@ You'll now be asked to input a recommended key (leave blank if unsure), the song
 Your song will be saved in html format to the /songs_out/ folder where you saved the sky-python-music-sheet-maker folder.
 
 <h2>We would love to have your song on this website!</h2>
-Join our <a href="./discord.md">Discord</a> and send us the file so we can upload it here! We can also embed and accompanying video if you have one hosted somewhere.
+Join our <a href="./discord.httml">Discord</a> and send us the file so we can upload it here! We can also embed and accompanying video if you have one hosted somewhere.
 All we ask is that you quality check your sheet before submitting, as others will be learning from it too.
 
 
-If you need any support or would like to ask questions you can join our <a href="./discord.md">Discord</a> server by clicking <a href="./discord.md">Here</a>
+If you need any support or would like to ask questions you can join our <a href="./discord.html">Discord</a> server by clicking <a href="./discord.html">Here</a>
 
 
 
