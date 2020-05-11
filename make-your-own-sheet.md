@@ -81,7 +81,7 @@ You'll now be asked to input a recommended key (leave blank if unsure), the song
 Your song will be saved in html format to the /songs_out/ folder where you saved the sky-python-music-sheet-maker folder.
 
 <h2>Finished Example</h2>
-<p>Let's look at the intro to 'Can't help falling in love with you' by Elvis Presley.</p>
+<p>Let's look at the intro to '<a href="./songs/Cant-Help-Falling-in-Love-Intro.html">Can't help falling in love with you</a>' by Elvis Presley.</p>
 Following the steps above, in CMD or Terminal we input:
 <pre>
   <code>
