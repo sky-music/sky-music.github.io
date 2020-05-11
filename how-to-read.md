@@ -12,8 +12,8 @@ layout: default
 
 <h3>What do the colours mean</h3>
 <p>They're just a way to differentiate between rows (A, B and C) to make the sheets a bit easier to read.</p>
-<p><strong>However!</strong></p>
-If you find a section like the image below it generally means the notes are played in a fast pace, from light to dark colour.
+<p><b>However!</b></p>
+If you find a section like the image below it generally means the notes are played in a fast pace one after the other.
 
 <img src="./assets/images/colourednotes.JPG">
 
