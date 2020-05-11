@@ -13,11 +13,13 @@ If you would like to contribute a finished sheet to this website please join our
 If you don't yet have Python 3 already installed on your computer you can download it by clicking <a href="https://www.python.org/downloads/" target="_blank">Here</a>
 
 <p>Once installed, open cmd (Command Prompt) on Windows, or Terminal on Mac, and copy and past these commands:</p>
-    ```yml
+<pre>
+  <code>
 python3 -m pip install --upgrade pip
 python3 -m pip install --upgrade pillow
 pip install mido==1.2.9
-    ```
+  </code>
+</pre>
     
 <h3>Step 2 - Run Python Music Sheet Maker</h3>
 Download our Sky Music Sheet Maker by clicking <a href="https://github.com/sky-music/sky-python-music-sheet-maker" target="_blank">Here</a>. Click on the green "Clone or Download" button, then choose "Download" ZIP".
