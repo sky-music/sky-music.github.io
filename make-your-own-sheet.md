@@ -63,7 +63,7 @@ If you're unfamilliar with this chart or how it will output, please see the <a h
 <p>Use . for blank notes, used to signify a pause in the song, for example typing "B4 . B5" will produce:</p>
 <p><img src="./assets/images/space.png"></p>
 <hr>
-<p>Use - for coloured notes, used to signify pressing buttons in a fast pace on after the other, for example "A3-B1-B3-B5-C3" will produce:</p>
+<p>Use - for coloured notes, used to signify pressing buttons in a fast pace one after the other, for example "A3-B1-B3-B5-C3" will produce:</p>
 <p><img src="./assets/images/colourednotes.JPG"></p>
 <hr>
 <p>To indicate a repeat section, use * directly followed by a number, for example "C1C3 *2" will produce:</p>
