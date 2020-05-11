@@ -93,7 +93,7 @@ B5 C1 A3A5B5 . A2A5B4 . A1A3B3 .
 </pre>
 
 And out comes:
-<p><img src="./assets/images/finshedexample.JPG"></p>
+<p><img src="./assets/images/finishedexample.JPG"></p>
 
 <h2>We would love to have your song on this website!</h2>
 <p>Join our <a href="./discord.html">Discord</a> and send us the file so we can upload it here! We can also embed an accompanying video if you have one hosted somewhere.</p>
