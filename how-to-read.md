@@ -25,7 +25,7 @@ Lastly, if you come across a blank space with a dot in the middle.
 
 <p>Please note that all the sheets on this website are fan made and are the creators own interpretation. If you already know the song and it's rythm in your head it will help reading the music sheets here.</p>
 
-If you notice any errors on a sheet or require any further assitance come and join our <a href="https://sky-pod.github.io/discord.html">Discord</a>.
+If you notice any errors on a sheet or require any further assitance come and join our <a href="./discord.html">Discord</a>.
 
  <h2>Demo</h2>
   <p class="home-page"> We can recommend <a href="http://skysheetmusic.com">skysheetmusic.com</a> as piano simulator to practise songs.</p>
