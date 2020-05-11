@@ -8,5 +8,3 @@ layout: default
 If you would like to contribute a finished sheet to this website please join our <a href="https://discord.gg/XHvs37T" target="_blank">Discord</a> server by clicking <a href="https://discord.gg/XHvs37T" target="_blank">Here</a>
 
 ## 1.a Download Python
-
-[back](./)
