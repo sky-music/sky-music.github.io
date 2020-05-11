@@ -30,6 +30,3 @@ If you notice any errors on a sheet or require any further assitance come and jo
  <h2>Demo</h2>
   <p class="home-page"> We can recommend <a href="http://skysheetmusic.com">skysheetmusic.com</a> as piano simulator to practise songs.</p>
   <iframe src="https://player.vimeo.com/video/358248560" width="640" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-
-[back](./)
