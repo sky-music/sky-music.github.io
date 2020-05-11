@@ -65,32 +65,13 @@ header h2 {
 }
 
 #main-content {
-  float: left;
-  width: 690px;
+  width: 100%;
 }
 
 #main-content img {
   max-width: 100%;
 }
 
-aside#sidebar {
-  float: right;
-  width: 200px;
-  min-height: 504px;
-  padding-left: 20px;
-  font-size: 12px;
-  line-height: 1;
-  background: transparent url(../images/sidebar-bg.jpg) 0 0 no-repeat;
-}
-
-aside#sidebar p.repo-owner,
-aside#sidebar p.repo-owner a {
-  font-weight: bold;
-}
-
-#downloads {
-  margin-bottom: 40px;
-}
 
 a.button {
   width: 202px;
