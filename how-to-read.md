@@ -6,7 +6,7 @@ layout: default
 
 <p>The visual music sheets on this website are a bit like <a href="https://sky-pod.github.io/discord.html">tablature</a>, which is a form of musical notation indicating instrument fingering rather than musical pitches.</p>
 
-</p>So in the below example, you simply press where the Sky music chart asks you to, which on the ABC1-5 reference chart is A3, B2 and C4</p>
+<p>So in the below example, you simply press where the Sky music chart asks you to, which on the ABC1-5 reference chart is A3, B2 and C4</p>
 
 <img src="./assets/images/skypad.png">
 
@@ -23,7 +23,7 @@ Lastly, if you come across a blank space with a dot in the middle.
 
 <p>This signifies a pause in the song.</p>
 
-<p>Please note that all the sheets on this website are fan made and are the creators own interpretation. If already know the song and it's rythm in your head it will help reading the music sheets here.</p>
+<p>Please note that all the sheets on this website are fan made and are the creators own interpretation. If you already know the song and it's rythm in your head it will help reading the music sheets here.</p>
 
 If you notice any errors on a sheet or require any further assitance come and join our <a href="https://sky-pod.github.io/discord.html">Discord</a>.
 
