@@ -51,7 +51,7 @@ python3 command_line.py
 We recommend typing your notation out in Notepad or similar before inputting into cmd/Terminal, as it's easier for you to fix any mistakes this way.
 
 <p>For the benefit of this tutorial we'll use the ABC1-5 method, however you may find other supported notations <a href="./assets/images/notations.png" target="_blank">Here</a></p>
-<p><img src="./assets/images/ABC15.jpg"></p>
+<p><img src="./assets/images/Chart.jpg"></p>
 If you're unfamilliar with this chart or how it will output, please see the <a href="./how-to-read.html">How to Read</a> page.
 
 <p>Seperate boxes by using a blank space, for example typing "B3 B4 B5" will produce:</p>
