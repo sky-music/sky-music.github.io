@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html xmlns:svg="http://www.w3.org/2000/svg">
 <head>
+var idx = lunr(function () {
+  this.field('title')
+  this.field('body')
+
+  this.add({
+    "title": "Can't Help Falling in Love",
+    "author": "Elvis Presley",
+    "id": "1"
+  })
+})
 <title>Can't Help Falling in Love Intro</title>
 <style type="text/css">
 html {
