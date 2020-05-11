@@ -53,18 +53,21 @@ We recommend typing your notation out in Notepad or similar before inputting int
 <p>We'll use the ABC1-5 method to input songs.</p>
 <p><img src="./assets/images/ABC15.jpg"></p>
 If you're unfamilliar with this chart or how it will output, please see the <a href="./how-to-read.html">How to Read</a> page.
-
+</hr>
 <p>Seperate boxes by using a blank space, for example typing "B3 B4 B5" will produce:</p>
 <img src="./assets/images/notespaces.png">
-
+</hr>
 <p>Type letters next to each other for a chord, for example typing "A1A3A5 B1B3B5" will produce:</p>
 <img src="./assets/images/chords.png">
-
+</hr>
 <p>Use . for blank notes, used to signify a pause in the song, for example typing "B4 . B5" will produce:</p>
 <img src="./assets/images/space.png">
-
+</hr>
 <p>Use - for coloured notes, used to signify pressing buttons in a fast pace, for example "A3-B1-B3-B5-C3" will produce:</p>
 <img src="./assets/images/colourednotes.JPG">
+</hr>
+<p>To indicate a repeat section, use * directly followed by a number, for example "C1C3 *2" will produce:</p>
+<img src="./assets/images/Repeat.JPG">
 
 <p>Tip 1: We usually find 8 boxes a row works best.</p>
 Tip 2: Do not use a blank line as this will end the song. If you need a blank line in the song use . for blank notes.
