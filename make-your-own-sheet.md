@@ -36,14 +36,14 @@ cd Desktop/sky-python-music-sheet-maker-master/python
 <p>While still in cmd on Windows, enter:</p>
 <pre>
   <code>
-command_line.py
+command_line_player.py
   </code>
 </pre>
 
 <p>OR while still in terminal on Mac, enter:</p>
 <pre>
   <code>
-python3 command_line.py
+python3 command_line_player.py
   </code>
 </pre>
 
