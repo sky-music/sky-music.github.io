@@ -20,9 +20,9 @@ pip install mido==1.2.9
 </pre>
     
 <h2>Step 2 - Run Python Music Sheet Maker</h2>
-<p>Download our Sky Music Sheet Maker by clicking <a href="https://github.com/sky-music/sky-python-music-sheet-maker" target="_blank">Here</a>. Click on the green "Clone or Download" button, then choose "Download" ZIP".</p>
+<p>Download the Sky Music Sheet Maker by clicking <a href="https://github.com/sky-music/sky-python-music-sheet-maker" target="_blank">Here</a>. Click on the green "Clone or Download" button, then choose "Download ZIP".</p>
 
-For the sake of examples let's extract this to your Desktop.
+For the sake of an example let's extract this to your Desktop.
 
 <p>Open cmd on Windows, or Terminal on Mac, and enter the following command:</p>
 <pre>
@@ -40,7 +40,7 @@ command_line.py
   </code>
 </pre>
 
-<p>OR if still in terminal on Mac, enter:</p>
+<p>OR while still in terminal on Mac, enter:</p>
 <pre>
   <code>
 python3 command_line.py
@@ -50,10 +50,10 @@ python3 command_line.py
 <h2>Step 3 - Write your music</h2>
 We recommend typing your notation out in Notepad or similar before inputting into cmd/Terminal, as it's easier for you to fix any mistakes this way.
 
-<p>For the benefit of this tutorial we'll use the ABC1-5 method, however you may find other supported notations <a href="./assets/images/notations.png" target="_blank">Here</a></p>
+<p>For the benefit of this tutorial we'll use the most recognised ABC1-5 method, however you may find other supported notations <a href="./assets/images/notations.png" target="_blank">Here</a>, replace the notation accordingly.</p>
 <p><img src="./assets/images/Chart.jpg"></p>
 If you're unfamilliar with this chart or how it will output, please see the <a href="./how-to-read.html">How to Read</a> page.
-
+<hr>
 <p>Seperate boxes by using a blank space, for example typing "B3 B4 B5" will produce:</p>
 <p><img src="./assets/images/notespaces.png"></p>
 <hr>
@@ -63,7 +63,7 @@ If you're unfamilliar with this chart or how it will output, please see the <a h
 <p>Use . for blank notes, used to signify a pause in the song, for example typing "B4 . B5" will produce:</p>
 <p><img src="./assets/images/space.png"></p>
 <hr>
-<p>Use - for coloured notes, used to signify pressing buttons in a fast pace, for example "A3-B1-B3-B5-C3" will produce:</p>
+<p>Use - for coloured notes, used to signify pressing buttons in a fast pace on after the other, for example "A3-B1-B3-B5-C3" will produce:</p>
 <p><img src="./assets/images/colourednotes.JPG"></p>
 <hr>
 <p>To indicate a repeat section, use * directly followed by a number, for example "C1C3 *2" will produce:</p>
@@ -79,6 +79,21 @@ To end the song, press 'Enter' for a new line, then press 'Enter' again on the b
 You'll now be asked to input a recommended key (leave blank if unsure), the song title, original artist and who it was transcribed by (your name).
 
 Your song will be saved in html format to the /songs_out/ folder where you saved the sky-python-music-sheet-maker folder.
+
+<h2>Finished Example</h2>
+<p>Let's look at the intro to 'Can't help falling in love with you' by Elvis Presley.</p>
+Following the steps above, in CMD or Terminal we input:
+<pre>
+  <code>
+A1A3B3 . A3B2C2 . A3B1B3 . B4 B5
+A2B1C1 . A3A5B5 . A2A5B4 . A5 A4B1B3
+. A5B2B4 B3 B2 B1 B3 B1B3B5 B4
+B5 C1 A3A5B5 . A2A5B4 . A1A3B3 .
+  </code>
+</pre>
+
+And out comes:
+<p><img src="./assets/images/finshedexample.JPG"></p>
 
 <h2>We would love to have your song on this website!</h2>
 <p>Join our <a href="./discord.html">Discord</a> and send us the file so we can upload it here! We can also embed an accompanying video if you have one hosted somewhere.</p>
