@@ -20,7 +20,8 @@ pip install mido==1.2.9
 </pre>
     
 <h2>Step 2 - Run Python Music Sheet Maker</h2>
-Download our Sky Music Sheet Maker by clicking <a href="https://github.com/sky-music/sky-python-music-sheet-maker" target="_blank">Here</a>. Click on the green "Clone or Download" button, then choose "Download" ZIP".
+<p>Download our Sky Music Sheet Maker by clicking <a href="https://github.com/sky-music/sky-python-music-sheet-maker" target="_blank">Here</a>. Click on the green "Clone or Download" button, then choose "Download" ZIP".</p>
+<i>(If you wish to avoid installing Python there use the beta online version <a href="https://jmmelko.pythonanywhere.com/" target="_blank">Here</a> and skip to step 3)</i>
 
 For the sake of examples let's extract this to your Desktop.
 
