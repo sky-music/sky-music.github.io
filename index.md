@@ -96,6 +96,8 @@ Click a section to see a drop down list.
 <li><a href="./songs/Ode to Joy.html"> Ode to Joy</a></li>
 </ul> 
 </details>
+<br>
+<details>
   <summary><font size="5"><img src="./assets/images/Traditional.png"> Traditional</font></summary>
 
 <ul>   
@@ -104,5 +106,3 @@ Click a section to see a drop down list.
 <li><a href="./songs/Scarborough-Fair.html"> Scarborough Fair</a></li>
 </ul> 
 </details>
-<br>
-<details>
