@@ -36,12 +36,14 @@ cd Desktop/sky-python-music-sheet-maker-master/python
 (If you wish to store the folder elsewhere or change it's name, please change this command accordingly afterwards).
 
 <p>While still in cmd on Windows, enter:</p>
+<pre>
   <code>
 command_line.py
   </code>
 </pre>
 
 <p>OR if still in terminal on Mac, enter:</p>
+<pre>
   <code>
 python3 command_line.py
   </code>
