@@ -27,20 +27,26 @@ Download our Sky Music Sheet Maker by clicking <a href="https://github.com/sky-m
 For the sake of examples let's extract this to your Desktop.
 
 <p>Open cmd on Windows, or Terminal on Mac, and enter the following command:</p>
-    ```yml
+<pre>
+  <code>
 cd Desktop/sky-python-music-sheet-maker-master/python
-    ```
+  </code>
+</pre>
     
 (If you wish to store the folder elsewhere or change it's name, please change this command accordingly afterwards).
 
 <p>While still in cmd on Windows, enter:</p>
-    ```yml
+  <code>
 command_line.py
-    ```
+  </code>
+</pre>
+
 <p>OR if still in terminal on Mac, enter:</p>
-    ```yml
+  <code>
 python3 command_line.py
-    ```
+  </code>
+</pre>
+
 <h3>Step 3 - Write your music</h3>
 We recommend typing your notation out in Notepad or similar before inputting into cmd/Terminal, as it's easier for you to fix any mistakes this way.
 
