@@ -57,7 +57,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/Davy_Jones_Theme.html"> Davy Jones Theme - Pirates of the Caribbean</a></li>
 <li><a href="./songs/Do-Re-Mi-Sound-of-Music.html"> Do-Re-Mi - The Sound of Music</a></li>
 <li><a href="./songs/Godfather_Theme_Speak_Softly_Love.html"> Speak Softly, Love - Godfather Theme</a></li>
-<li>H<a href="./songs/Harry_Potter_-_Hedwigs_Theme.html"> Hedwig's Theme - Harry Potter</a></li>
+<li><a href="./songs/Harry_Potter_-_Hedwigs_Theme.html"> Hedwig's Theme - Harry Potter</a></li>
 <li><a href="./songs/Little_Boxes.html"> Little Boxes - Weeds</a></li>
 <li><a href="./songs/Married-Life-UP.html"> Married Life - UP</a></li>
 <li><a href="./songs/My-Heart-Will-Go-On-Titanic-Theme.html"> My Heart Will Go On - Titanic Theme</a></li>
