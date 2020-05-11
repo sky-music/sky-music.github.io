@@ -5,7 +5,6 @@ layout: default
 <h1>Make your own visual music sheet!</h1>
 
 <p>Here's a step by step guide how to create your own visual music sheet.</p>
-If you would like to contribute a finished sheet to this website please join our <a href="./discord.html">Discord</a> server by clicking  <a href="./discord.html">Here</a>
 
 <h2>Step 1 - Install Python</h2>
 <p>If you don't yet have Python 3 already installed on your computer you can download it by clicking <a href="https://www.python.org/downloads/" target="_blank">Here</a></p>
@@ -54,19 +53,19 @@ We recommend typing your notation out in Notepad or similar before inputting int
 <p>For the benefit of this tutorial we'll use the ABC1-5 method, however you may find other supported notations <a href="./assets/images/notations.png" target="_blank">Here</a></p>
 <p><img src="./assets/images/ABC15.jpg"></p>
 If you're unfamilliar with this chart or how it will output, please see the <a href="./how-to-read.html">How to Read</a> page.
-</hr>
+
 <p>Seperate boxes by using a blank space, for example typing "B3 B4 B5" will produce:</p>
 <p><img src="./assets/images/notespaces.png"></p>
-<hr></hr>
+<hr>
 <p>Type letters with no space for a chord, for example typing "A1A3A5 B1B3B5" will produce:</p>
 <p><img src="./assets/images/chords.png"></p>
-<hr></hr>
+<hr>
 <p>Use . for blank notes, used to signify a pause in the song, for example typing "B4 . B5" will produce:</p>
 <p><img src="./assets/images/space.png"></p>
-<hr></hr>
+<hr>
 <p>Use - for coloured notes, used to signify pressing buttons in a fast pace, for example "A3-B1-B3-B5-C3" will produce:</p>
 <p><img src="./assets/images/colourednotes.JPG"></p>
-<hr></hr>
+<hr>
 <p>To indicate a repeat section, use * directly followed by a number, for example "C1C3 *2" will produce:</p>
 <img src="./assets/images/Repeat.JPG">
 
