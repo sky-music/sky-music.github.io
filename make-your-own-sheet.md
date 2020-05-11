@@ -31,7 +31,7 @@ cd Desktop/sky-python-music-sheet-maker-master/python
   </code>
 </pre>
     
-(If you wish to store the folder elsewhere or change it's name, please change this command accordingly afterwards).
+<i>(If you wish to store the folder elsewhere or change it's name, please change this command accordingly afterwards).</i>
 
 <p>While still in cmd on Windows, enter:</p>
 <pre>
