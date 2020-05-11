@@ -87,8 +87,8 @@ Following the steps above, in CMD or Terminal we input:
   <code>
 A1A3B3 . A3B2C2 . A3B1B3 . B4 B5
 A2B1C1 . A3A5B5 . A2A5B4 . A5 A4B1B3
-. A5B2B4 B3 B2 B1 B3 B1B3B5 B4
-B5 C1 A3A5B5 . A2A5B4 . A1A3B3 .
+. A5B2B4 . B1B3B5 . B4 B5 C1
+A3A5B5 . A2A5B4 . A1A3B3 . . .
   </code>
 </pre>
 
