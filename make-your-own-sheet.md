@@ -7,9 +7,7 @@ layout: default
 <p>Here's a step by step guide how to create your own visual music sheet.</p>
 If you would like to contribute a finished sheet to this website please join our <a href="./discord.html">Discord</a> server by clicking  <a href="./discord.html">Here</a>
 
-<h2>Python Method</h2>
-
-<h3>Step 1 - Install Python</h3>
+<h2>Step 1 - Install Python</h2>
 If you don't yet have Python 3 already installed on your computer you can download it by clicking <a href="https://www.python.org/downloads/" target="_blank">Here</a>
 
 <p>Once installed, open cmd (Command Prompt) on Windows, or Terminal on Mac, and copy and past these commands:</p>
@@ -21,7 +19,7 @@ pip install mido==1.2.9
   </code>
 </pre>
     
-<h3>Step 2 - Run Python Music Sheet Maker</h3>
+<h2>Step 2 - Run Python Music Sheet Maker</h2>
 Download our Sky Music Sheet Maker by clicking <a href="https://github.com/sky-music/sky-python-music-sheet-maker" target="_blank">Here</a>. Click on the green "Clone or Download" button, then choose "Download" ZIP".
 
 For the sake of examples let's extract this to your Desktop.
@@ -49,11 +47,11 @@ python3 command_line.py
   </code>
 </pre>
 
-<h3>Step 3 - Write your music</h3>
+<h2>Step 3 - Write your music</h2>
 We recommend typing your notation out in Notepad or similar before inputting into cmd/Terminal, as it's easier for you to fix any mistakes this way.
 
 <p>We'll use the ABC1-5 method to input songs.</p>
-<img src="./assets/images/ABC15.jpg">
+<p><img src="./assets/images/ABC15.jpg"></p>
 If you're unfamilliar with this chart or how it will output, please see the <a href="./how-to-read.html">How to Read</a> page.
 
 <p>Seperate boxes by using a blank space, for example typing "B3 B4 B5" will produce:</p>
@@ -71,7 +69,7 @@ If you're unfamilliar with this chart or how it will output, please see the <a h
 <p>Tip 1: We usually find 8 boxes a row works best.</p>
 Tip 2: Do not use a blank line as this will end the song. If you need a blank line in the song use . for blank notes.
 
-<h3>Step 4 - Input your music!</h3>
+<h2>Step 4 - Input your music!</h2>
 With your music typed out, now simply copy and paste all of your notes into cmd/terminal after you've followed Step 2.
 To end the song, press 'Enter' for a new line, then press 'Enter' again on the blank line.
 
