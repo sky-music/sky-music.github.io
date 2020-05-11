@@ -7,7 +7,7 @@ layout: default
 Click a section to see a drop down list.
 
 <details>
- <summary><font size="5"><img src="./assets/images/MusicSheets.png">&nbsp;&nbsp;&nbsp;Music Sheets</font></summary>
+ <summary><font size="5"><img src="./assets/images/MusicSheets.png"> Music Sheets</font></summary>
 
 <ul>  
 <li><a href="./songs/Cant-Help-Falling-in-Love-Intro.html"> Can't Help Falling in Love (Intro) </a></li>
@@ -22,7 +22,7 @@ Click a section to see a drop down list.
 </details>
 <br>
 <details>
- <summary><font size="5"><img src="./assets/images/VideoGames.png">&nbsp;&nbsp;Videogames</font></summary>
+ <summary><font size="5"><img src="./assets/images/VideoGames.png"> Videogames</font></summary>
 
 <ul>   
 <li><a href="./songs/Dearly Beloved.html"> Dearly Beloved - Kingdom Hearts</a></li>
@@ -37,7 +37,7 @@ Click a section to see a drop down list.
 </details>
 <br>
 <details>
- <summary><font size="5"><img src="./assets/images/Anime.png">&nbsp;&nbsp;Anime</font></summary>
+ <summary><font size="5"><img src="./assets/images/Anime.png"> Anime</font></summary>
   
 <ul> 
 <li><a href="./songs/Always_with_Me_-_Spirited_Away_-_Ghibli.html"> Always With Me - Spirited Away</a></li>
@@ -50,7 +50,7 @@ Click a section to see a drop down list.
 </details>
 <br>
 <details>
-  <summary><font size="5"><img src="./assets/images/Movie.png">&nbsp;&nbsp;&nbsp;&nbsp;TV Shows & Movies</font></summary>
+  <summary><font size="5"><img src="./assets/images/Movie.png"> TV Shows & Movies</font></summary>
 
 <ul> 
 <li><a href="./songs/Binary_Sunset_-_Star_Wars.html"> Binary Sunset - Star Wars</a></li>
@@ -68,7 +68,7 @@ Click a section to see a drop down list.
 </details>
 <br>
 <details>
-  <summary><font size="5"><img src="./assets/images/songs.png">&nbsp;&nbsp;&nbsp;&nbsp;Pop Music</font></summary>
+  <summary><font size="5"><img src="./assets/images/songs.png"> Pop Music</font></summary>
 
 <ul>  
 <li><a href="./songs/Eleanor Rigby.html"> Eleanor Rigby (The Beatles)</a></li>
@@ -85,17 +85,7 @@ Click a section to see a drop down list.
 </details>
 <br>
 <details>
-  <summary><font size="5"><img src="./assets/images/Traditional.png">&nbsp;&nbsp;Traditional</font></summary>
-
-<ul>   
-<li><a href="./songs/Amazing Grace.html"> Amazing Grace (John Newton)</a></li>
-<li><a href="./songs/American folk songs.html"> American folk songs</a></li>
-<li><a href="./songs/Scarborough-Fair.html"> Scarborough Fair</a></li>
-</ul> 
-</details>
-<br>
-<details>
- <summary><font size="5"><img src="./assets/images/Classical.png">&nbsp;&nbsp;&nbsp;Classical</font></summary>
+ <summary><font size="5"><img src="./assets/images/Classical.png"> Classical</font></summary>
 
 <ul>   
 <li><a href="./songs/Carol-of-the-Bells.html"> Carol of the Bells</a></li>
@@ -106,3 +96,13 @@ Click a section to see a drop down list.
 <li><a href="./songs/Ode to Joy.html"> Ode to Joy</a></li>
 </ul> 
 </details>
+  <summary><font size="5"><img src="./assets/images/Traditional.png"> Traditional</font></summary>
+
+<ul>   
+<li><a href="./songs/Amazing Grace.html"> Amazing Grace (John Newton)</a></li>
+<li><a href="./songs/American folk songs.html"> American folk songs</a></li>
+<li><a href="./songs/Scarborough-Fair.html"> Scarborough Fair</a></li>
+</ul> 
+</details>
+<br>
+<details>
