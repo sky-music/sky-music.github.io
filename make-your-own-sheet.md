@@ -68,7 +68,7 @@ If you're unfamilliar with this chart or how it will output, please see the <a h
 <hr>
 <p>To indicate a repeat section, use * directly followed by a number, for example "C1C3 *2" will produce:</p>
 <img src="./assets/images/Repeat.JPG">
-
+<hr>
 <p>Tip 1: We usually find 8 boxes a row works best.</p>
 Tip 2: Do not use a blank line as this will end the song. If you need a blank line in the song use . for blank notes.
 
