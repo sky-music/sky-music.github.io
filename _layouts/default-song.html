@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+  <link rel="icon"
+      type="image/png"
+      href="./assets/images/sky-music-logo-sheets.png">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
+    <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+
+{% seo %}
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <a href="{{ '/' | absolute_url }}">
+          <h1>Sky Music</h1>
+        </a>
+        <h3><p style="color:white">Visual Music Sheets for the game Sky: Children of the Light</p></h3>
+        {% if site.github.is_project_page %}
+          <a href="https://sky-pod.github.io/" class="button"></a>
+        {% endif %}
+        {% if site.github.is_user_page %}
+          <a href="https://sky-pod.github.io/" class="button"></a>
+        {% endif %}
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          {{ content }}
+        </section>
+
+        <aside id="sidebar">
+{% include search-lunr.html %}
+          <h2><u>Website Links</u></h2>
+          <h3><a href="https://sky-pod.github.io/">Visual Music Sheets</a></h3>
+          <h3><a href="./how-to-read.html">How to Read</a></h3>
+          <h3><a href="./make-your-own-sheet.html">Make your own music sheet</a></h3>
+          <h3><a href="./discord.html">Discord</a></h3>
+          <h2><u>Useful Links</u></h2>
+          <h3><a href="https://sky-children-of-the-light.fandom.com/wiki/Sky_Music_Guide" target="_blank">Sky Music Guide Wiki</a></h3>
+          <h3><a href="http://skysheetmusic.com/#/" target="_blank">Sky Piano Simulator (English version coming soon)</a></h3>
+          <h3><a href="https://sky.bloomexperiment.com/c/music" target="_blank">Sky Fan Forum for Music Discussion</a></h3>
+          <h2><u>Sky Musicians on YouTube</u></h2>
+          <h3><a href="https://www.youtube.com/channel/UCJeRpUbuo6uF19zchjy-_Pw" target="_blank">Fiqo Mendez</a></h3>
+          <h3><a href="https://www.youtube.com/channel/UCmW0obFm3_1VYeW8AQNpwag" target="_blank">Fox Mask</a></h3>
+          <h3><a href="https://www.youtube.com/channel/UCfZWn60hIOCvndq32NYa8Vw" target="_blank">ikina sky</a></h3>
+          <h3><a href="https://www.youtube.com/channel/UCyyVxqrM2eiZZ_SG1550YkQ" target="_blank">Planaria</a></h3>
+          <h2><u>Credits</u></h2>
+          <h3>Python Sheet Maker created by Tracey and jmmelko</h3>
+          <h2><u>Contributors</u></h2>
+          <h3>Tracey</h3>
+          <h3>Sera</h3>
+          <h3>Bait</h3>  
+          <h3>Edpliskin89</h3>  
+          <h3>Madwurms</h3>  
+          <h3>Mel</h3>  
+          <h3>Nezara</h3>  
+          <h3>Peri</h3>  
+          <h3>mimizan</h3>  
+          <h3>redleaf29</h3>  
+          <h3>Tarhiel</h3>  
+          <h3>Pod</h3>
+
+        </aside>
+      </div>
+    </div>
+
+    {% if site.google_analytics %}
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+      </script>
+    {% endif %}
+  </body>
+</html>
