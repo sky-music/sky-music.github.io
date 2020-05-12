@@ -6,7 +6,7 @@ layout: default
 
 <p>The visual music sheets on this website are a bit like <a href="./discord.html">tablature</a>, which is a form of musical notation indicating instrument fingering rather than musical pitches.</p>
 
-<p>So in the below example, you simply press where the Sky music chart asks you to, which on the ABC1-5 reference chart is A3, B2 and C4</p>
+<p>So in the below example, you simply press where the Sky music sheet asks you to, which on the ABC1-5 reference chart is A3, B2 and C4</p>
 
 <img src="./assets/images/skypad.png">
 
