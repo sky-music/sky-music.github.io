@@ -52,7 +52,7 @@ We recommend typing out your notation in Notepad or similar before inputting int
 
 <p>For the benefit of this tutorial we'll use the most recognised ABC1-5 method, however you may find other supported notations <a href="./assets/images/notations.png" target="_blank">Here</a>, replace the notation in this guide accordingly.</p>
 <p><img src="./assets/images/Chart.jpg"></p>
-If you're unfamilliar with this chart or how it will output, please see the <a href="./how-to-read.html">How to Read</a> page.
+If you're unfamilliar with this chart or how it it reads please check out the <a href="./how-to-read.html">How to Read</a> page.
 <hr>
 <p>Seperate boxes by using a blank space, for example typing "B3 B4 B5" will produce:</p>
 <p><img src="./assets/images/notespaces.png"></p>
