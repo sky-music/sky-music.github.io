@@ -102,8 +102,7 @@ All we ask is that you quality check your sheet before submitting, as others wil
 
 If you need any support or would like to ask questions you can join our <a href="./discord.html">Discord</a> server by clicking <a href="./discord.html">Here</a>
 
-
-
+Site repository and instructions here: https://github.com/sky-music/sky-music.github.io
 
 
 
