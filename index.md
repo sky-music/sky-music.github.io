@@ -89,7 +89,8 @@ Click a section to see a drop down list.
 <details>
  <summary><font size="5"><img src="./assets/images/Classical.png"> Classical</font></summary>
 
-<ul>   
+<ul>
+<li><a href="./songs/Canon-in-C.html"> Canon in C</a></li>   
 <li><a href="./songs/Carol-of-the-Bells.html"> Carol of the Bells</a></li>
 <li><a href="./songs/Clair_de_Lune_-_Debussy.html"> Clair de Lune</a></li>
 <li><a href="./songs/Fur Elise.html"> Für Elise</a></li>
