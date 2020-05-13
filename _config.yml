@@ -3,3 +3,5 @@ description: Visual music sheets for the game Sky Children of the Light
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-architect
+plugins:
+  - jekyll-seo-tag
