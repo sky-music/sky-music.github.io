@@ -55,7 +55,7 @@ Click a section to see a drop down list.
   <summary><font size="5"><img src="./assets/images/Movie.png"> TV Shows & Movies</font></summary>
 
 <ul> 
-<li><a href="./songs/A-Whole-New-World.html"> A Whole New World - Aladdin</a></li>
+<li><a href="./songs/A-Whole-New-World-Aladdin.html"> A Whole New World - Aladdin</a></li>
 <li><a href="./songs/Binary_Sunset_-_Star_Wars.html"> Binary Sunset - Star Wars</a></li>
 <li><a href="./songs/Davy_Jones_Theme.html"> Davy Jones Theme - Pirates of the Caribbean</a></li>
 <li><a href="./songs/Do-Re-Mi-Sound-of-Music.html"> Do-Re-Mi - The Sound of Music</a></li>
