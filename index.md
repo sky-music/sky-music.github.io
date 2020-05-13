@@ -13,6 +13,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/Cant-Help-Falling-in-Love-Intro.html"> Can't Help Falling in Love (Intro) </a></li>
 <li><a href="./songs/graduation_photo.html"> Graduation Photo</a></li>
 <li><a href="./songs/Hallelujah.html"> Hallelujah</a></li>
+<li><a href="./songs/Illusionary-Daytime.html"> Illusionary Daytime</a></li>
 <li><a href="./songs/illusionary_daytime_flute.html"> Illusionary Daytime Flute</a></li>
 <li><a href="./songs/Kiss-the-Rain.html"> Kiss the Rain</a></li>
 <li><a href="./songs/Love_Like_You.html"> Love Like You</a></li>
