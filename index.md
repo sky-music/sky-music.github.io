@@ -10,6 +10,7 @@ Click a section to see a drop down list.
  <summary><font size="5"><img src="./assets/images/MusicSheets.png"> Music Sheets</font></summary>
 
 <ul>  
+<li><a href="./songs/Coffin-Dance-Astronomia.html"> Astronomia (Coffin Dance)</a></li>
 <li><a href="./songs/Cant-Help-Falling-in-Love-Intro.html"> Can't Help Falling in Love (Intro) </a></li>
 <li><a href="./songs/graduation_photo.html"> Graduation Photo</a></li>
 <li><a href="./songs/Hallelujah.html"> Hallelujah</a></li>
