@@ -19,6 +19,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/Kiss-the-Rain.html"> Kiss the Rain</a></li>
 <li><a href="./songs/Love_Like_You.html"> Love Like You</a></li>
 <li><a href="./songs/Piano-Man.html"> Piano Man</a></li>
+<li><a href="./songs/River-Flows-in-You.html"> River Flows in You</a></li>
 <li><a href="./songs/Superstition.html"> Superstition</a></li>
 <li><a href="./songs/You-are-my-Sunshine.html"> You are my Sunshine</a></li>
 </ul>
