@@ -33,7 +33,6 @@ Click a section to see a drop down list.
 <li><a href="./songs/Ode to Joy.html"> Ode to Joy</a></li>
 </ul> 
 </details>
-<br>
 <details>
   <summary><font size="5"><img src="./assets/images/Movie.png"> Movies & TV Shows</font></summary>
 
