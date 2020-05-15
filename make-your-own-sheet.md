@@ -56,6 +56,7 @@ If you're unfamilliar with this chart or how it it reads please check out the <a
 <hr>
 <p>Seperate boxes by using a blank space, for example typing "B3 B4 B5" will produce:</p>
 <p><img src="./assets/images/notespaces.png"></p>
+<p><i>If using Jianpu notation please use 0 instead</i></p>
 <hr>
 <p>Type letters with no space for a chord, for example typing "A1A3A5 B1B3B5" will produce:</p>
 <p><img src="./assets/images/chords.png"></p>
@@ -65,6 +66,7 @@ If you're unfamilliar with this chart or how it it reads please check out the <a
 <hr>
 <p>Use - for coloured notes, used to signify pressing buttons in a fast pace one after the other, for example "A3-B1-B3-B5-C3" will produce:</p>
 <p><img src="./assets/images/colourednotes.JPG"></p>
+<p><i>If using Jianpu notation please use ^ instead</i></p>
 <hr>
 <p>To indicate a repeat section, use * directly followed by a number, for example "C1C3 *2" will produce:</p>
 <img src="./assets/images/Repeat.JPG">
