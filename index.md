@@ -10,16 +10,15 @@ Click a section to see a drop down list.
  <summary><font size="5"><img src="./assets/images/Anime.png"> Anime</font></summary>
   
 <ul> 
-<li><a href="./songs/Always_with_Me_-_Spirited_Away_-_Ghibli.html"> Always With Me - Spirited Away</a></li>
-<li><a href="./songs/Dango_daikazoku.html"> Dango Daikazoku - Kyoto Animation</a></li>
-<li><a href="./songs/Fly-Me-to-the-Moon.html"> Fly Me to the Moon - Neon Genesis Evangelion</a></li>
-<li><a href="./songs/Hokage-Funeral.html"> Hokage Funeral - Naruto</a></li>
-<li><a href="./songs/Mitsuhas_Theme_Kimi_No_Na_wa.html"> Mitsuha's Theme - Kimi No Na wa - Your Name</a></li>
-<li><a href="./songs/To-Loves-End-Futari-No-Kimochi.html"> To Love's End (Futari No Kimochi) - Inuyasha</a></li>
-<li><a href="./songs/sky光遇——穿越时空的思念.html"> 穿越时空的思念</a></li>
+<li><a href="./songs/Always_with_Me_-_Spirited_Away_-_Ghibli.html"> Always With Me - Spirited Away - ★★★</a></li>
+<li><a href="./songs/Dango_daikazoku.html"> Dango Daikazoku - Kyoto Animation - ★★</a></li>
+<li><a href="./songs/Fly-Me-to-the-Moon.html"> Fly Me to the Moon - Neon Genesis Evangelion - ★★★</a></li>
+<li><a href="./songs/Hokage-Funeral.html"> Hokage Funeral - Naruto - ★★</a></li>
+<li><a href="./songs/Mitsuhas_Theme_Kimi_No_Na_wa.html"> Mitsuha's Theme - Kimi No Na wa - Your Name - ★★★★</a></li>
+<li><a href="./songs/To-Loves-End-Futari-No-Kimochi.html"> To Love's End (Futari No Kimochi) - Inuyasha - ★★★★</a></li>
+<li><a href="./songs/sky光遇——穿越时空的思念.html"> 穿越时空的思念 - ★★</a></li>
 </ul> 
 </details>
-<br>
 <details>
  <summary><font size="5"><img src="./assets/images/Classical.png"> Classical</font></summary>
 
@@ -52,7 +51,6 @@ Click a section to see a drop down list.
 <li><a href="./songs/The-Raiders-March-Indiana-Jones-Theme.html"> The Raiders March - Indiana Jones Theme</a></li>
 </ul> 
 </details>
-<br>
 <details>
  <summary><font size="5"><img src="./assets/images/MusicSheets.png"> Songs</font></summary>
 
@@ -81,7 +79,6 @@ Click a section to see a drop down list.
 <li><a href="./songs/With a little help from my friends.html"> With a little help from my friends - The Beatles</a></li>
 </ul>
 </details>
-<br>
 <details>
   <summary><font size="5"><img src="./assets/images/Traditional.png"> Traditional</font></summary>
 
@@ -92,7 +89,6 @@ Click a section to see a drop down list.
 <li><a href="./songs/Scarborough-Fair.html"> Scarborough Fair</a></li>
 </ul> 
 </details>
-<br>
 <details>
  <summary><font size="5"><img src="./assets/images/VideoGames.png"> Videogames</font></summary>
 
