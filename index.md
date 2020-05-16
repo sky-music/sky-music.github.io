@@ -48,6 +48,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/Rugrats_Theme.html"> Rugrats Theme</a></li>
 <li><a href="./songs/Shiny.html"> Shiny - Moana</a></li>
 <li><a href="./songs/Somewhere_Over_the_Rainbow.html">Somewhere Over the Rainbow - Wizard of Oz</a></li>
+<li><a href="./songs/Test-Drive.html"> Test Drive - How to Train your Dragon</a></li>
 <li><a href="./songs/The-Raiders-March-Indiana-Jones-Theme.html"> The Raiders March - Indiana Jones Theme</a></li>
 </ul> 
 </details>
@@ -64,11 +65,13 @@ Click a section to see a drop down list.
 <li><a href="./songs/Illusionary-Daytime.html"> Illusionary Daytime - Shirfine</a></li>
 <li><a href="./songs/illusionary_daytime_flute.html"> Illusionary Daytime Flute</a></li>
 <li><a href="./songs/Island in the Sun.html"> Island in the Sun - Weezer</a></li>
+<li><a href="./songs/Lonely.html"> Lonely - Akon</a></li>
 <li><a href="./songs/Kaze wo atsumete.html"> Kaze wo atsumete - Happy End</a></li>
 <li><a href="./songs/Kiss-the-Rain.html"> Kiss the Rain - Yiruma</a></li>
 <li><a href="./songs/Last_Christmas.html"> Last Christmas - Wham!</a></li>
 <li><a href="./songs/Love_Like_You.html"> Love Like You - Rebecca Sugar</a></li>
 <li><a href="./songs/Piano-Man.html"> Piano Man - Billy Joel</a></li>
+<li><a href="./songs/Piano-Man.html"> Popcorn - Hot Butter</a></li>
 <li><a href="./songs/River-Flows-in-You.html"> River Flows in You - Yiruma</a></li>
 <li><a href="./songs/Superstition.html"> Superstition - Stevie Wonder</a></li>
 <li><a href="./songs/Take on me.html"> Take on me - A-Ah</a></li>
