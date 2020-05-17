@@ -6,7 +6,7 @@ layout: default
 
 <p>Here's a step by step guide how to create your own visual music sheet.</p>
 
-<i>(If you wish to avoid installing Python, use the beta online version <a href="https://jmmelko.pythonanywhere.com/" target="_blank">Here</a> and skip to step 3)</i>
+<b>**(If you wish to avoid installing Python, use the beta online version <a href="https://jmmelko.pythonanywhere.com/" target="_blank">Here</a> and skip to step 3)**</b>
 <h2>Step 1 - Install Python</h2>
 <p>If you don't yet have Python 3 already installed on your computer you can download it by clicking <a href="https://www.python.org/downloads/" target="_blank">Here</a></p>
 
