@@ -71,7 +71,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/Last_Christmas.html"> Last Christmas - Wham!</a></li>
 <li><a href="./songs/Love_Like_You.html"> Love Like You - Rebecca Sugar</a></li>
 <li><a href="./songs/Piano-Man.html"> Piano Man - Billy Joel</a></li>
-<li><a href="./songs/Piano-Man.html"> Popcorn - Hot Butter</a></li>
+<li><a href="./songs/Popcorn.html"> Popcorn - Hot Butter</a></li>
 <li><a href="./songs/River-Flows-in-You.html"> River Flows in You - Yiruma</a></li>
 <li><a href="./songs/Superstition.html"> Superstition - Stevie Wonder</a></li>
 <li><a href="./songs/Take on me.html"> Take on me - A-Ah</a></li>
