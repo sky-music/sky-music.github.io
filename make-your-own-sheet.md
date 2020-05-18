@@ -6,7 +6,7 @@ layout: default
 
 <p>Here's a step by step guide how to create your own visual music sheet.</p>
 
-<b>**(If you wish to avoid installing Python, use the beta online version <a href="https://jmmelko.pythonanywhere.com/" target="_blank">Here</a> and skip to step 3)**</b>
+<b><p style="font-size:22px">(If you wish to avoid installing Python, use the beta online version <a href="https://jmmelko.pythonanywhere.com/" target="_blank">Here</a> and skip to step 3)</p></b>
 <h2>Step 1 - Install Python</h2>
 <p>If you don't yet have Python 3 already installed on your computer you can download it by clicking <a href="https://www.python.org/downloads/" target="_blank">Here</a></p>
 
@@ -48,7 +48,7 @@ python3 command_line_player.py
 </pre>
 
 <h2>Step 3 - Write your music</h2>
-We recommend typing out your notation in Notepad or similar before inputting into cmd/Terminal, as it's easier for you to fix any mistakes this way.
+<p style="font-size:24px">We recommend typing out your notation in Notepad or similar before inputting into cmd/Terminal, as it's easier for you to fix any mistakes this way.</p>
 
 <p>For the benefit of this tutorial we'll use the most recognised ABC1-5 method, however you may find other supported notations <a href="./assets/images/notations.png" target="_blank">Here</a>, replace the notation in this guide accordingly.</p>
 <p><img src="./assets/images/Chart.jpg"></p>
