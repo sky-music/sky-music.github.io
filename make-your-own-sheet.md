@@ -6,7 +6,7 @@ layout: default
 
 <p>Here's a step by step guide how to create your own visual music sheet.</p>
 
-<b><span style="font-size:4em;">(If you wish to avoid installing Python, use the beta online version <a href="https://jmmelko.pythonanywhere.com/" target="_blank">Here</a> and skip to step 3)</span></b>
+<b><span style="font-size:1.2em;">(If you wish to avoid installing Python, use the beta online version <a href="https://jmmelko.pythonanywhere.com/" target="_blank">Here</a> and skip to step 3)</span></b>
 <h2>Step 1 - Install Python</h2>
 <p>If you don't yet have Python 3 already installed on your computer you can download it by clicking <a href="https://www.python.org/downloads/" target="_blank">Here</a></p>
 
@@ -48,7 +48,7 @@ python3 command_line_player.py
 </pre>
 
 <h2>Step 3 - Write your music</h2>
-<span style="font-size:4em;">We recommend typing out your notation in Notepad or similar before inputting into cmd/Terminal, as it's easier for you to fix any mistakes this way.</span>
+<span style="font-size:1.2em;">We recommend typing out your notation in Notepad or similar before inputting into cmd/Terminal, as it's easier for you to fix any mistakes this way.</span>
 
 <p>For the benefit of this tutorial we'll use the most recognised ABC1-5 method, however you may find other supported notations <a href="./assets/images/notations.png" target="_blank">Here</a>, replace the notation in this guide accordingly.</p>
 <p><img src="./assets/images/Chart.jpg"></p>
@@ -64,7 +64,7 @@ If you're unfamilliar with this chart or how it it reads please check out the <a
 <p><img src="./assets/images/space.png"></p>
 <p><i>If using Jianpu notation please use 0 instead</i></p>
 <hr>
-<p>Use - for coloured notes, used to signify pressing buttons in a fast pace one after the other, for example "A3-B1-B3-B5-C3" will produce:</p>
+<p>Use - for coloured notes, used to signify pressing buttons in a fast pace one after the other from light to dark colour, for example "A3-B1-B3-B5-C3" will produce:</p>
 <p><img src="./assets/images/colourednotes.JPG"></p>
 <p><i>If using Jianpu notation please use ^ instead</i></p>
 <hr>
