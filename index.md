@@ -30,6 +30,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/Jesu-Joy-of-Mans-Desiring.html"> Jesu, Joy of Man's Desiring</a></li>
 <li><a href="./songs/Brahms Lullaby.html"> Lullaby</a></li>
 <li><a href="./songs/Ode to Joy.html"> Beethoven - Ode to Joy</a></li>
+<li><a href="./songs/Sonatine-in-C.html"> Sonatine in C</a></li>
 </ul> 
 </details>
 <details>
