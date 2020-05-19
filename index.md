@@ -51,6 +51,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/Shiny.html"> Moana – Shiny </a></li>
 <li><a href="./songs/Somewhere_Over_the_Rainbow.html"> Wizard of Oz – Somewhere Over the Rainbow</a></li>
 <li><a href="./songs/Test-Drive.html"> How to Train your Dragon – Test Drive</a></li>
+<li><a href="./songs/Tubular-Bells-Exorcist-Theme.html"> The Exorcist – Tubular Bells</a></li>
 <li><a href="./songs/The-Raiders-March-Indiana-Jones-Theme.html"> Indiana Jones – The Raiders March</a></li>
 </ul> 
 </details>
