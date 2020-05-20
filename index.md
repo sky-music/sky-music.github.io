@@ -100,7 +100,8 @@ Click a section to see a drop down list.
 
 <ul>   
 <li><a href="./songs/Dearly Beloved.html"> Kingdom Hearts – Dearly Beloved </a></li>
-<li><a href="./songs/Emils-Sacrifice-NIER.html">  NIER – Emil's Sacrifice </a></li>
+<li><a href="./songs/Emils-Sacrifice-NIER.html">  NieR – Emil's Sacrifice </a></li>
+<li><a href="./songs/Shadowlord-NieR.html">  NieR – Shadowlord </a></li>
 <li><a href="./songs/Korobeiniki-Tetris-Theme.html"> Korobeiniki - Tetris Theme.html</a></li>
 <li><a href="./songs/Pokemon-Center-Theme.html"> Pokemon Center Theme</a></li>
 <li><a href="./songs/Song_Of_Storms.html"> Legend of Zelda – Song of Storms</a></li>
