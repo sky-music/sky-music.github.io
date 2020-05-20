@@ -23,14 +23,14 @@ Click a section to see a drop down list.
  <summary><font size="5"><img src="./assets/images/Classical.png"> Classical</font></summary>
 
 <ul>
-<li><a href="./songs/Canon-in-C.html"> Canon in C</a></li>   
-<li><a href="./songs/Carol-of-the-Bells.html"> Carol of the Bells</a></li>
-<li><a href="./songs/Clair_de_Lune_-_Debussy.html"> Clair de Lune</a></li>
+<li><a href="./songs/Jesu-Joy-of-Mans-Desiring.html"> Bach - Jesu, Joy of Man's Desiring</a></li>
 <li><a href="./songs/Fur Elise.html"> Beethoven - Für Elise</a></li>
-<li><a href="./songs/Jesu-Joy-of-Mans-Desiring.html"> Jesu, Joy of Man's Desiring</a></li>
-<li><a href="./songs/Brahms Lullaby.html"> Lullaby</a></li>
 <li><a href="./songs/Ode to Joy.html"> Beethoven - Ode to Joy</a></li>
-<li><a href="./songs/Sonatine-in-C.html"> Sonatine in C</a></li>
+<li><a href="./songs/Brahms Lullaby.html"> Brahms - Lullaby</a></li>
+<li><a href="./songs/Sonatine-in-C.html"> Clementi - Sonatine in C</a></li>
+<li><a href="./songs/Clair_de_Lune_-_Debussy.html"> Debussy - Clair de Lune</a></li>
+<li><a href="./songs/Carol-of-the-Bells.html"> Leontovych - Carol of the Bells</a></li>
+<li><a href="./songs/Canon-in-C.html"> Pachelbel - Canon in C</a></li>   
 </ul> 
 </details>
 <details>
