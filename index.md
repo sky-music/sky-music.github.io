@@ -99,17 +99,17 @@ Click a section to see a drop down list.
  <summary><font size="5"><img src="./assets/images/VideoGames.png"> Videogames</font></summary>
 
 <ul>   
-<li><a href="./songs/Dearly Beloved.html"> Kingdom Hearts – Dearly Beloved </a></li>
 <li><a href="./songs/Build-that-wall-Bastion.html"> Bastion - Build That Wall (Zia's Theme)</a></li>
+<li><a href="./songs/Threshold.html"> Journey - Threshold </a></li>
+<li><a href="./songs/Dearly Beloved.html"> Kingdom Hearts – Dearly Beloved </a></li>
+<li><a href="./songs/Song_Of_Storms.html"> Legend of Zelda – Song of Storms</a></li>
+<li><a href="./songs/Zelda Lullaby.html"> Legend of Zelda - Zelda's Lullaby</a></li> 
+<li><a href="./songs/c418_sweden.html"> Minecraft – Sweden </a></li>
 <li><a href="./songs/Emils-Sacrifice-NIER.html">  NieR – Emil's Sacrifice </a></li>
 <li><a href="./songs/Shadowlord-NieR.html">  NieR – Shadowlord </a></li>
-<li><a href="./songs/Korobeiniki-Tetris-Theme.html"> Korobeiniki - Tetris Theme.html</a></li>
 <li><a href="./songs/Pokemon-Center-Theme.html"> Pokemon Center Theme</a></li>
-<li><a href="./songs/Song_Of_Storms.html"> Legend of Zelda – Song of Storms</a></li>
 <li><a href="./songs/Super Mario (simple version).html"> Super Mario NES Theme (simple version)</a></li>
 <li><a href="./songs/Super Mario.html"> Super Mario NES Theme (with chords)</a></li>
-<li><a href="./songs/c418_sweden.html"> Minecraft – Sweden </a></li>
-<li><a href="./songs/Threshold.html"> Journey - Threshold </a></li>
-<li><a href="./songs/Zelda Lullaby.html"> Zelda's Lullaby - Ocarina of Time</a></li> 
+<li><a href="./songs/Korobeiniki-Tetris-Theme.html"> Tetris Theme - Korobeiniki</a></li>
 </ul> 
 </details>
