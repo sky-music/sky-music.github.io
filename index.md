@@ -100,6 +100,7 @@ Click a section to see a drop down list.
 
 <ul>   
 <li><a href="./songs/Dearly Beloved.html"> Kingdom Hearts – Dearly Beloved </a></li>
+<li><a href="./songs/Build-that-wall-Bastion.html"> Bastion - Build That Wall (Zia's Theme)</a></li>
 <li><a href="./songs/Emils-Sacrifice-NIER.html">  NieR – Emil's Sacrifice </a></li>
 <li><a href="./songs/Shadowlord-NieR.html">  NieR – Shadowlord </a></li>
 <li><a href="./songs/Korobeiniki-Tetris-Theme.html"> Korobeiniki - Tetris Theme.html</a></li>
