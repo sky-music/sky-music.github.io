@@ -29,6 +29,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/Brahms Lullaby.html"> Brahms - Lullaby</a></li>
 <li><a href="./songs/Sonatine-in-C.html"> Clementi - Sonatine in C</a></li>
 <li><a href="./songs/Clair_de_Lune_-_Debussy.html"> Debussy - Clair de Lune</a></li>
+<li><a href="./songs/Salut-dAmour-Op-12.html"> Edgar - Salut d'Amour Op.12 (Love's Greeting)</a></li>
 <li><a href="./songs/Carol-of-the-Bells.html"> Leontovych - Carol of the Bells</a></li>
 <li><a href="./songs/Canon-in-C.html"> Pachelbel - Canon in C</a></li>   
 </ul> 
