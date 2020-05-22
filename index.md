@@ -38,22 +38,22 @@ Click a section to see a drop down list.
   <summary><font size="5"><img src="./assets/images/Movie.png"> Movies & TV Shows</font></summary>
 
 <ul> 
-<li><a href="./songs/A-Whole-New-World-Aladdin.html"> Aladdin – A Whole New World </a></li>
-<li><a href="./songs/Binary_Sunset_-_Star_Wars.html">  Star Wars – Binary Sunset</a></li>
-<li><a href="./songs/Davy_Jones_Theme.html"> Pirates of the Caribbean – Davy Jones Theme</a></li>
-<li><a href="./songs/Do-Re-Mi-Sound-of-Music.html"> The Sound of Music – Do-Re-Mi </a></li>
-<li><a href="./songs/Falling-Slowly.html"> Once - Falling Slowly </a></li>
+<li><a href="./songs/A-Whole-New-World-Aladdin.html"> Aladdin – **A Whole New World** </a></li>
+<li><a href="./songs/Tubular-Bells-Exorcist-Theme.html"> Exorcist – Tubular Bells</a></li>
 <li><a href="./songs/Godfather_Theme_Speak_Softly_Love.html"> Godfather – Speak Softly, Love </a></li>
 <li><a href="./songs/Harry_Potter_-_Hedwigs_Theme.html"> Harry Potter – Hedwig's Theme</a></li>
-<li><a href="./songs/Little_Boxes.html"> Weeds – Little Boxes</a></li>
-<li><a href="./songs/Married-Life-UP.html"> UP – Married Life </a></li>
-<li><a href="./songs/My-Heart-Will-Go-On-Titanic-Theme.html"> Titanic Theme – My Heart Will Go On</a></li>
-<li><a href="./songs/Rugrats_Theme.html"> Rugrats Theme</a></li>
-<li><a href="./songs/Shiny.html"> Moana – Shiny </a></li>
-<li><a href="./songs/Somewhere_Over_the_Rainbow.html"> Wizard of Oz – Somewhere Over the Rainbow</a></li>
 <li><a href="./songs/Test-Drive.html"> How to Train your Dragon – Test Drive</a></li>
-<li><a href="./songs/Tubular-Bells-Exorcist-Theme.html"> The Exorcist – Tubular Bells</a></li>
 <li><a href="./songs/The-Raiders-March-Indiana-Jones-Theme.html"> Indiana Jones – The Raiders March</a></li>
+<li><a href="./songs/Shiny.html"> Moana – Shiny </a></li>
+<li><a href="./songs/Falling-Slowly.html"> Once - Falling Slowly </a></li>
+<li><a href="./songs/Davy_Jones_Theme.html"> Pirates of the Caribbean – Davy Jones Theme</a></li>
+<li><a href="./songs/Rugrats_Theme.html"> Rugrats Theme</a></li>
+<li><a href="./songs/Do-Re-Mi-Sound-of-Music.html"> Sound of Music – Do-Re-Mi </a></li>
+<li><a href="./songs/Binary_Sunset_-_Star_Wars.html">  Star Wars – Binary Sunset</a></li>
+<li><a href="./songs/My-Heart-Will-Go-On-Titanic-Theme.html"> Titanic Theme – My Heart Will Go On</a></li>
+<li><a href="./songs/Married-Life-UP.html"> UP – Married Life </a></li>
+<li><a href="./songs/Little_Boxes.html"> Weeds – Little Boxes</a></li>
+<li><a href="./songs/Somewhere_Over_the_Rainbow.html"> Wizard of Oz – Somewhere Over the Rainbow</a></li>
 </ul> 
 </details>
 <details>
