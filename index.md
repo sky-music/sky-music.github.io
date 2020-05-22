@@ -45,6 +45,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/Harry_Potter_-_Hedwigs_Theme.html"> Harry Potter – Hedwig's Theme</a></li>
 <li><a href="./songs/Test-Drive.html"> How to Train your Dragon – Test Drive</a></li>
 <li><a href="./songs/The-Raiders-March-Indiana-Jones-Theme.html"> Indiana Jones – The Raiders March</a></li>
+<li><a href="./songs/Jurassic-Park-Theme.html"> Jurassic Park Theme</a></li>
 <li><a href="./songs/Shiny.html"> Moana – Shiny </a></li>
 <li><a href="./songs/Falling-Slowly.html"> Once - Falling Slowly </a></li>
 <li><a href="./songs/Davy_Jones_Theme.html"> Pirates of the Caribbean – Davy Jones Theme</a></li>
