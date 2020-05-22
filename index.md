@@ -38,7 +38,7 @@ Click a section to see a drop down list.
   <summary><font size="5"><img src="./assets/images/Movie.png"> Movies & TV Shows</font></summary>
 
 <ul> 
- <li><a href="./songs/A-Whole-New-World-Aladdin.html"> Aladdin – <strong>A Whole New World</strong> </a></li>
+ <li><a href="./songs/A-Whole-New-World-Aladdin.html"> Aladdin – A Whole New World </a></li>
 <li><a href="./songs/Tubular-Bells-Exorcist-Theme.html"> Exorcist – Tubular Bells</a></li>
 <li><a href="./songs/Godfather_Theme_Speak_Softly_Love.html"> Godfather – Speak Softly, Love </a></li>
 <li><a href="./songs/Harry_Potter_-_Hedwigs_Theme.html"> Harry Potter – Hedwig's Theme</a></li>
