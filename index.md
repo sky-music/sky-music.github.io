@@ -60,30 +60,30 @@ Click a section to see a drop down list.
  <summary><font size="5"><img src="./assets/images/MusicSheets.png"> Songs</font></summary>
 
 <ul>  
+<li><a href="./songs/Take on me.html"> A-Ah - Take on me</a></li>
+<li><a href="./songs/Lonely.html"> Akon – Lonely </a></li>
 <li><a href="./songs/Astronomia-Coffin-Dance.html"> Astronomia (Coffin Dance)</a></li>
+<li><a href="./songs/Eleanor Rigby.html"> Beatles, The – Eleanor Rigby</a></li>
+<li><a href="./songs/Hey Jude.html"> Beatles, The – Hey Jude </a></li>
+<li><a href="./songs/With a little help from my friends.html"> Beatles, The – With a little help from my friends </a></li>
+<li><a href="./songs/Yellow Submarine.html"> Beatles, The – Yellow Submarine </a></li>
+<li><a href="./songs/Yesterday.html"> Beatles, The – Yesterday </a></li>
+<li><a href="./songs/Piano-Man.html"> Billy Joel – Piano Man</a></li>
 <li><a href="./songs/Cant-Help-Falling-in-Love-Intro.html"> Elvis Presley – Can't Help Falling in Love (Intro) </a></li>
-<li><a href="./songs/Eleanor Rigby.html"> The Beatles – Eleanor Rigby</a></li>
 <li><a href="./songs/graduation_photo.html"> Graduation Photo</a></li>
 <li><a href="./songs/Hallelujah.html"> Hallelujah</a></li>
-<li><a href="./songs/Hey Jude.html"> The Beatles – Hey Jude </a></li>
+<li><a href="./songs/Kaze wo atsumete.html">  Happy End – Kaze wo atsumete</a></li>
+<li><a href="./songs/Popcorn.html"> Hot Butter – Popcorn </a></li>
+<li><a href="./songs/Young Dumb and Broke.html"> Khalid – Young Dumb & Broke </a></li>
+<li><a href="./songs/Love_Like_You.html"> Rebecca Sugar – Love Like You </a></li>
 <li><a href="./songs/Illusionary-Daytime.html"> Shirfine – Illusionary Daytime </a></li>
 <li><a href="./songs/illusionary_daytime_flute.html"> Shirfine – Illusionary Daytime Flute</a></li>
-<li><a href="./songs/Island in the Sun.html"> Weezer – Island in the Sun </a></li>
-<li><a href="./songs/Lonely.html"> Akon – Lonely </a></li>
-<li><a href="./songs/Kaze wo atsumete.html">  Happy End – Kaze wo atsumete</a></li>
-<li><a href="./songs/Kiss-the-Rain.html"> Yiruma – Kiss the Rain </a></li>
-<li><a href="./songs/Last_Christmas.html"> Wham! – Last Christmas </a></li>
-<li><a href="./songs/Love_Like_You.html"> Rebecca Sugar – Love Like You </a></li>
-<li><a href="./songs/Piano-Man.html"> Billy Joel – Piano Man</a></li>
-<li><a href="./songs/Popcorn.html"> Hot Butter – Popcorn </a></li>
-<li><a href="./songs/River-Flows-in-You.html"> Yiruma – River Flows in You</a></li>
 <li><a href="./songs/Superstition.html"> Stevie Wonder –  Superstition</a></li>
-<li><a href="./songs/Take on me.html"> Take on me - A-Ah</a></li>
-<li><a href="./songs/Yellow Submarine.html"> The Beatles – Yellow Submarine </a></li>
-<li><a href="./songs/Yesterday.html"> The Beatles – Yesterday </a></li>
+<li><a href="./songs/Island in the Sun.html"> Weezer – Island in the Sun </a></li>
+<li><a href="./songs/Last_Christmas.html"> Wham! – Last Christmas </a></li>
+<li><a href="./songs/Kiss-the-Rain.html"> Yiruma – Kiss the Rain </a></li>
+<li><a href="./songs/River-Flows-in-You.html"> Yiruma – River Flows in You</a></li>
 <li><a href="./songs/You-are-my-Sunshine.html"> You are my Sunshine</a></li>
-<li><a href="./songs/Young Dumb and Broke.html"> Khalid – Young Dumb & Broke </a></li>
-<li><a href="./songs/With a little help from my friends.html"> The Beatles – With a little help from my friends </a></li>
 </ul>
 </details>
 <details>
