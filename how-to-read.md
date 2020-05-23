@@ -23,10 +23,10 @@ Lastly, if you come across a blank space with a dot in the middle.
 
 <p>This signifies a pause in the song.</p>
 
-<p>Please note that all the sheets on this website are fan made and are the creators own interpretation. If you already know the song and it's rythm in your head it will help reading the music sheets here.</p>
+<p>Please note that all the sheets on this website are fan-made and are the creator's own interpretation. If you already know the song and its rhythm in your head, it will help reading the music sheets here.</p>
 
-If you notice any errors on a sheet or require any further assitance come and join our <a href="./discord.html">Discord</a>.
+If you notice any errors on a sheet or require any further assistance, come and join our <a href="./discord.html">Discord</a>.
 
  <h2>Demo</h2>
-  <p class="home-page"> We can recommend <a href="http://skysheetmusic.com">skysheetmusic.com</a> as piano simulator to practise songs.</p>
+  <p class="home-page"> We can recommend <a href="http://skysheetmusic.com">skysheetmusic.com</a> or <a href="https://sky-music.herokuapp.com">https://sky-music.herokuapp.com</a> as piano simulators to practise songs.</p>
   <iframe src="https://player.vimeo.com/video/358248560" width="640" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
