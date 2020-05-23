@@ -10,6 +10,8 @@ layout: default
 <h2>Step 1 - Install Python</h2>
 <p>If you don't yet have Python 3 already installed on your computer you can download it by clicking <a href="https://www.python.org/downloads/" target="_blank">Here</a></p>
 
+There's also <a href="https://sky.bloomexperiment.com/t/sky-music-icon-templates/746" target="_blank">these</a> blakn sheet templates if you prefer this method.
+
 <p>Once installed, open cmd (Command Prompt) on Windows, or Terminal on Mac, then copy and paste these commands:</p>
 <pre>
   <code>
