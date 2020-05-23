@@ -19,6 +19,7 @@ There's also <a href="https://sky.bloomexperiment.com/t/sky-music-icon-templates
 python3 -m pip install --upgrade pip
 python3 -m pip install --upgrade pillow
 pip install mido==1.2.9
+pip install pyyaml
   </code>
 </pre>
     
