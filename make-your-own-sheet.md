@@ -6,7 +6,8 @@ layout: default
 
 <p>Here's a step by step guide how to create your own visual music sheet.</p>
 
-<b><span style="font-size:1.2em;">(If you wish to avoid installing Python, use the beta online version <a href="https://jmmelko.pythonanywhere.com/" target="_blank">Here</a> and skip to step 3)</span></b>
+<p><b><span style="font-size:1.2em;">(If you wish to avoid installing Python, use the beta online version <a href="https://jmmelko.pythonanywhere.com/" target="_blank">Here</a> and skip to step 3)</span></b></p>
+
 There's also <a href="https://sky.bloomexperiment.com/t/sky-music-icon-templates/746" target="_blank">these</a> blank sheet templates if you prefer this method.
 
 <h2>Step 1 - Install Python</h2>
