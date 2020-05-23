@@ -10,12 +10,13 @@ Click a section to see a drop down list.
  <summary><font size="5"><img src="./assets/images/Anime.png"> Anime</font></summary>
   
 <ul> 
-<li><a href="./songs/Always_with_Me_-_Spirited_Away_-_Ghibli.html"> Studio Ghibli – Spirited Away - Always With Me </a></li>
-<li><a href="./songs/Dango_daikazoku.html"> Kyoto Animation - Dango Daikazoku </a></li>
-<li><a href="./songs/Fly-Me-to-the-Moon.html">  Neon Genesis Evangelion – Fly Me to the Moon </a></li>
-<li><a href="./songs/Hokage-Funeral.html"> Naruto – Hokage Funeral </a></li>
-<li><a href="./songs/Mitsuhas_Theme_Kimi_No_Na_wa.html"> Kimi No Na wa - Your Name - Mitsuha's Theme </a></li>
+
 <li><a href="./songs/To-Loves-End-Futari-No-Kimochi.html"> Inuyasha – To Love's End (Futari No Kimochi) </a></li>
+<li><a href="./songs/Mitsuhas_Theme_Kimi_No_Na_wa.html"> Kimi No Na wa - Your Name - Mitsuha's Theme </a></li>
+<li><a href="./songs/Dango_daikazoku.html"> Kyoto Animation - Dango Daikazoku </a></li>
+<li><a href="./songs/Hokage-Funeral.html"> Naruto – Hokage Funeral </a></li>
+<li><a href="./songs/Fly-Me-to-the-Moon.html">  Neon Genesis Evangelion – Fly Me to the Moon </a></li>
+<li><a href="./songs/Always_with_Me_-_Spirited_Away_-_Ghibli.html"> Spirited Away - Always With Me </a></li>
 <li><a href="./songs/sky光遇——穿越时空的思念.html"> 穿越时空的思念</a></li>
 </ul> 
 </details>
