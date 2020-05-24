@@ -85,6 +85,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/Superstition.html"> Stevie Wonder –  Superstition</a></li>
 <li><a href="./songs/Island in the Sun.html"> Weezer – Island in the Sun </a></li>
 <li><a href="./songs/Last_Christmas.html"> Wham! – Last Christmas </a></li>
+<li><a href="./songs/Translucent.html"> Yanaginagi –  Translucent</a></li>
 <li><a href="./songs/Kiss-the-Rain.html"> Yiruma – Kiss the Rain </a></li>
 <li><a href="./songs/River-Flows-in-You.html"> Yiruma – River Flows in You</a></li>
 <li><a href="./songs/You-are-my-Sunshine.html"> You are my Sunshine</a></li>
