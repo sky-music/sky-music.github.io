@@ -75,6 +75,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/With a little help from my friends.html"> Beatles, The – With a little help from my friends </a></li>
 <li><a href="./songs/Yellow Submarine.html"> Beatles, The – Yellow Submarine </a></li>
 <li><a href="./songs/Yesterday.html"> Beatles, The – Yesterday </a></li>
+<li><a href="./songs/Stand-By-Me-Bass.html"> Ben E. King - Stand By Me (Bassline) </a></li>
 <li><a href="./songs/Piano-Man.html"> Billy Joel – Piano Man</a></li>
 <li><a href="./songs/Cant-Help-Falling-in-Love-Intro.html"> Elvis Presley – Can't Help Falling in Love (Intro) </a></li>
 <li><a href="./songs/graduation_photo.html"> Graduation Photo</a></li>
