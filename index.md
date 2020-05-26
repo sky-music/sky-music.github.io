@@ -16,7 +16,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/Dango_daikazoku.html"> Kyoto Animation - Dango Daikazoku </a></li>
 <li><a href="./songs/Hokage-Funeral.html"> Naruto – Hokage Funeral </a></li>
 <li><a href="./songs/Fly-Me-to-the-Moon.html">  Neon Genesis Evangelion – Fly Me to the Moon </a></li>
-<li><a href="./songs/Always_with_Me_-_Spirited_Away_-_Ghibli.html"> Spirited Away - Always With Me </a></li>
+<li><a href="./songs/Always_with_Me-Spirited_Away.html"> Spirited Away - Always With Me </a></li>
 <li><a href="./songs/sky光遇——穿越时空的思念.html"> 穿越时空的思念</a></li>
 </ul> 
 </details>
