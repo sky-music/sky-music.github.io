@@ -94,6 +94,12 @@ Click a section to see a drop down list.
 <li><a href="./songs/Kiss-the-Rain.html"> Yiruma – Kiss the Rain </a></li>
 <li><a href="./songs/River-Flows-in-You.html"> Yiruma – River Flows in You</a></li>
 <li><a href="./songs/You-are-my-Sunshine.html"> You are my Sunshine</a></li>
+<li><a href="./songs/Tha_Mi_Sgith.html"> Tha Mi Sgith</a></li>
+<li><a href="./songs/Teru_no_UtaTherrus_Song.html"> Teru no UtaTherru's Song </a></li>
+<li><a href="./songs/Pocahontas_-_Colors_of_the_Wind.html"> Pocahontas - Colors of the Wind</a></li>
+<li><a href="./songs/Promise_Reprise_-_Silent_Hill_2.html"> Promise Reprise - Silent Hill 2 </a></li>
+<li><a href="./songs/Lost_Boy.html"> Lost Boy </a></li>
+<li><a href="./songs/Hoshi_no_Arika_-_Trails_in_the_Sky_FC.html"> Hoshi no Arika - Trails in the Sky FC </a></li>
 </ul>
 </details>
 <details>
