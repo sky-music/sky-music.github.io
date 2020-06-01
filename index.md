@@ -7,10 +7,10 @@ layout: default
 Click a section to see a drop down list.
 
 <details>
- <summary><font size="5"><img src="./assets/images/Anime.png"> Anime</font></summary>
+ <summary><font size="5"><img src="./assets/images/Anime.png"> Anime, Japanese films </font></summary>
   
 <ul> 
-
+<li><a href="./songs/Merry_Go_Round_of_Life.html"> Howl's Moving Castle - Merry Go Round of Life </a></li>
 <li><a href="./songs/To-Loves-End-Futari-No-Kimochi.html"> Inuyasha – To Love's End (Futari No Kimochi) </a></li>
 <li><a href="./songs/Mitsuhas_Theme_Kimi_No_Na_wa.html"> Kimi No Na wa - Your Name - Mitsuha's Theme </a></li>
 <li><a href="./songs/Dango_daikazoku.html"> Kyoto Animation - Dango Daikazoku </a></li>
