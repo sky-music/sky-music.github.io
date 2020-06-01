@@ -7,7 +7,7 @@ layout: default
 Click a section to see a drop down list.
 
 <details>
- <summary><font size="5"><img src="./assets/images/Anime.png"> Anime, Japanese films </font></summary>
+ <summary><font size="5"><img src="./assets/images/Anime.png"> Anime </font></summary>
   
 <ul> 
 <li><a href="./songs/Merry_Go_Round_of_Life.html"> Howl's Moving Castle - Merry Go Round of Life </a></li>
