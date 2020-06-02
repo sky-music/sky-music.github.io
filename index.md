@@ -20,6 +20,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/Always_with_Me-Spirited_Away.html"> Spirited Away - Always With Me </a></li>
 </ul> 
 </details>
+
 <details>
  <summary><font size="5"><img src="./assets/images/Classical.png"> Classical</font></summary>
 
@@ -36,6 +37,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/Gran-Vals.html"> Tárrega - Gran Vals (Nokia Ringtone)</a></li> 
 </ul> 
 </details>
+
 <details>
   <summary><font size="5"><img src="./assets/images/Movie.png"> Movies & TV Shows</font></summary>
 
