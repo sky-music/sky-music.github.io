@@ -42,7 +42,7 @@ Click a section to see a drop down list.
 <ul> 
 
 <li><a href="./songs/A-Whole-New-World-Aladdin.html"> Aladdin – A Whole New World </a></li>
-<li><a href="./songs/Leaves-from-the-Vine.html"> Avatar: The last Airbender - Leaves from the Vine (Little Soldier Boy) </a></li>
+<li><a href="./songs/Leaves-from-the-Vine.html"> Avatar: The last Airbender - Leaves from the Vine (Little Soldier Boy) </a </li>
 <li><a href="./songs/Beauty_And_The_Beast.html"> Beauty and the Beast </a></li>
 <li><a href="./songs/Tubular-Bells-Exorcist-Theme.html"> Exorcist – Tubular Bells</a></li>
 <li><a href="./songs/All_Is_Found.html"> Frozen 2 - All Is Found</a></li>
@@ -65,6 +65,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/Somewhere_Over_the_Rainbow.html"> Wizard of Oz – Somewhere Over the Rainbow</a></li>
 </ul> 
 </details>
+
 <details>
  <summary><font size="5"><img src="./assets/images/MusicSheets.png"> Songs</font></summary>
 
@@ -79,8 +80,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/Yesterday.html"> Beatles, The – Yesterday </a></li>
 <li><a href="./songs/Stand-By-Me-Bass.html"> Ben E. King - Stand By Me (Bassline) </a></li>
 <li><a href="./songs/Piano-Man.html"> Billy Joel – Piano Man</a></li>
- <li><a href="./songs/Say_So_-_Doja_Cat.html"> Doja Cat – Say So/a></li>
- 
+<li><a href="./songs/Say_So_-_Doja_Cat.html"> Doja Cat – Say So/a></li>
 <li><a href="./songs/Cant-Help-Falling-in-Love-Intro.html"> Elvis Presley – Can't Help Falling in Love (Intro) </a></li>
 <li><a href="./songs/graduation_photo.html"> Graduation Photo</a></li>
 <li><a href="./songs/Hallelujah.html"> Hallelujah</a></li>
