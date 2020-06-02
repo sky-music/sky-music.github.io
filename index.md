@@ -104,6 +104,7 @@ Click a section to see a drop down list.
 
 </ul>
 </details>
+
 <details>
   <summary><font size="5"><img src="./assets/images/Traditional.png"> Traditional</font></summary>
 
@@ -115,6 +116,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/Scarborough-Fair.html"> Scarborough Fair</a></li>
 </ul> 
 </details>
+
 <details>
  <summary><font size="5"><img src="./assets/images/VideoGames.png"> Videogames</font></summary>
 
