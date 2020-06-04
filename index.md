@@ -46,6 +46,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/A-Whole-New-World-Aladdin.html"> Aladdin – A Whole New World </a></li>
 <li><a href="./songs/Leaves-from-the-Vine.html"> Avatar: The last Airbender - Leaves from the Vine (Little Soldier Boy) </a> </li>
 <li><a href="./songs/Beauty_And_The_Beast.html"> Beauty and the Beast </a></li>
+<li><a href="./songs/Heart_and_Soul.html"> Big - Heart and Soul (Single/Duet) </a></li>
 <li><a href="./songs/Tubular-Bells-Exorcist-Theme.html"> Exorcist – Tubular Bells</a></li>
 <li><a href="./songs/All_Is_Found.html"> Frozen 2 - All Is Found</a></li>
 <li><a href="./songs/Godfather_Theme_Speak_Softly_Love.html"> Godfather – Speak Softly, Love </a></li>
