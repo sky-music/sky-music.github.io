@@ -18,6 +18,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/Hokage-Funeral.html"> Naruto – Hokage Funeral </a></li>
 <li><a href="./songs/Fly-Me-to-the-Moon.html">  Neon Genesis Evangelion – Fly Me to the Moon </a></li>
 <li><a href="./songs/Always_with_Me-Spirited_Away.html"> Spirited Away - Always With Me </a></li>
+<li><a href="./songs/Teru_no_UtaTherrus_Song.html"> Teru no UtaTherru's Song </a></li>
 </ul> 
 </details>
 
@@ -99,8 +100,6 @@ Click a section to see a drop down list.
 <li><a href="./songs/Illusionary-Daytime.html"> Shirfine – Illusionary Daytime </a></li>
 <li><a href="./songs/illusionary_daytime_flute.html"> Shirfine – Illusionary Daytime Flute</a></li>
 <li><a href="./songs/Superstition.html"> Stevie Wonder –  Superstition</a></li>
-<li><a href="./songs/Teru_no_UtaTherrus_Song.html"> Teru no UtaTherru's Song </a></li>
-<li><a href="./songs/Tha_Mi_Sgith.html"> Tha Mi Sgith</a></li>
 <li><a href="./songs/Island in the Sun.html"> Weezer – Island in the Sun </a></li>
 <li><a href="./songs/Last_Christmas.html"> Wham! – Last Christmas </a></li>
 <li><a href="./songs/Translucent.html"> Yanaginagi –  Translucent</a></li>
@@ -120,6 +119,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/Drunken-Sailor.html"> Drunken Sailor</a></li>
 <li><a href="./songs/Flohwalzer.html"> Flohwalzer</a></li>
 <li><a href="./songs/Scarborough-Fair.html"> Scarborough Fair</a></li>
+ <li><a href="./songs/Tha_Mi_Sgith.html"> Tha Mi Sgith</a></li>
 </ul> 
 </details>
 
