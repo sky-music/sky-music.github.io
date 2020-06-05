@@ -66,6 +66,8 @@ Click a section to see a drop down list.
 <li><a href="./songs/Married-Life-UP.html"> UP – Married Life </a></li>
 <li><a href="./songs/Little_Boxes.html"> Weeds – Little Boxes</a></li>
 <li><a href="./songs/Somewhere_Over_the_Rainbow.html"> Wizard of Oz – Somewhere Over the Rainbow</a></li>
+<li><a href="./songs/Song_of_the_Sea.html"> Song of the Sea – Lisa Hannigan – Song of the Sea</a></li>
+
 </ul> 
 </details>
 
