@@ -60,13 +60,14 @@ Click a section to see a drop down list.
 <li><a href="./songs/Davy_Jones_Theme.html"> Pirates of the Caribbean – Davy Jones Theme</a></li>
 <li><a href="./songs/Pocahontas_-_Colors_of_the_Wind.html"> Pocahontas - Colors of the Wind</a></li>
 <li><a href="./songs/Rugrats_Theme.html"> Rugrats Theme</a></li>
+<li><a href="./songs/Song_of_the_Sea.html"> Song of the Sea – Lisa Hannigan – Song of the Sea</a></li>
 <li><a href="./songs/Do-Re-Mi-Sound-of-Music.html"> Sound of Music – Do-Re-Mi </a></li>
 <li><a href="./songs/Binary_Sunset_-_Star_Wars.html">  Star Wars – Binary Sunset</a></li>
 <li><a href="./songs/My-Heart-Will-Go-On-Titanic-Theme.html"> Titanic Theme – My Heart Will Go On</a></li>
 <li><a href="./songs/Married-Life-UP.html"> UP – Married Life </a></li>
 <li><a href="./songs/Little_Boxes.html"> Weeds – Little Boxes</a></li>
 <li><a href="./songs/Somewhere_Over_the_Rainbow.html"> Wizard of Oz – Somewhere Over the Rainbow</a></li>
-<li><a href="./songs/Song_of_the_Sea.html"> Song of the Sea – Lisa Hannigan – Song of the Sea</a></li>
+
 
 </ul> 
 </details>
