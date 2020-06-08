@@ -15,6 +15,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/sky光遇——穿越时空的思念.html"> Inuyasha - 穿越时空的思念</a></li>
 <li><a href="./songs/Mitsuhas_Theme_Kimi_No_Na_wa.html"> Kimi No Na wa - Your Name - Mitsuha's Theme </a></li>
 <li><a href="./songs/Dango_daikazoku.html"> Kyoto Animation - Dango Daikazoku </a></li>
+ <li><a href="./songs/Mononoke_Hime_-_Joe_Hisaishi.html"> Mononoke Hime – Joe Hisaishi </a></li>
 <li><a href="./songs/Hokage-Funeral.html"> Naruto – Hokage Funeral </a></li>
 <li><a href="./songs/Fly-Me-to-the-Moon.html">  Neon Genesis Evangelion – Fly Me to the Moon </a></li>
 <li><a href="./songs/Always_with_Me-Spirited_Away.html"> Spirited Away - Always With Me </a></li>
@@ -57,6 +58,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/Jurassic-Park-Theme.html"> Jurassic Park Theme</a></li>
 <li><a href="./songs/Shiny.html"> Moana – Shiny </a></li>
 <li><a href="./songs/How-Far-Ill-Go.html"> Moana – How Far I'll Go </a></li>
+<li><a href="./songs/The_Office_Theme.html"> The Office - The Office Theme </a></li>
 <li><a href="./songs/Falling-Slowly.html"> Once - Falling Slowly </a></li>
 <li><a href="./songs/Davy_Jones_Theme.html"> Pirates of the Caribbean – Davy Jones Theme</a></li>
 <li><a href="./songs/Pocahontas_-_Colors_of_the_Wind.html"> Pocahontas - Colors of the Wind</a></li>
