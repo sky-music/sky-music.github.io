@@ -61,3 +61,53 @@ C3, C#3/Db3, D3, D#3/Eb3, E3, F3, F#3/Gb3, G3, G#3/Ab3, A3, A#3/Bb3, B3
 Chords CDEFGAB 
 
 Abbrev. chord name (C, F, Dm, Bdim, A+, Csus2, Dsus4, C6, Cmaj7, Dm11)
+
+***
+
+# Summary of output modes
+
+## HTML
+
+A webpage version of the song. Can be uploaded to a website such as https://sky-music.github.io :
+
+https://sky-music.github.io
+
+## Images (.png, .svg)
+
+The song is split across multiple PNG files. The program generates the song in SVG first, before converting into PNG.
+
+![Last Christmas|690x387](upload://iwUW88nYrzCUPBn8GDJnAQv09EW.png) 
+
+## ASCII
+
+Converts your song into another text notation. Supported output notations include:
+
+- Sky ABC1-5
+- English notation
+- Jianpu notation
+- Do re mi
+
+Here is an example of a song in English notation that has been converted to Sky notation:
+
+```text
+#Last Christmas
+#Original Artist(s): Wham!
+#Transcript: Tracey
+#Musical key: D
+
+
+#  #Last  #Christ -  #mas  #  #I  #gave  #you  #my  #heart  
+A1A3A5 B4 B4 B3 . A5 B4 B4 B5 B3 
+#but  #the  #ve -  #ry  #next  #day  
+A5 A5 A1A3B1B4 B4 B5 B3 
+#you  #gave  #it  #a -  #way  
+B3 B2 B3 B2 B1 
+#this  #year  #  #to  #save  #me  #from  #tears  
+A2A4B1B5 B4 . B1 B5 C1 B5 B4 
+#I'll  #give  #it  #to  #some -  #one  #spe -  #cial  
+B3 A2A5B2 B3 B3 B2 B3 B2 A5 
+```
+
+## MIDI 
+
+MIDI rendering is only intended for testing the melody, not for simulating rhythm.
