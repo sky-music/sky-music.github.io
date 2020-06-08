@@ -31,7 +31,7 @@ For the sake of an example let's extract this to your Desktop.
 <p>Open cmd on Windows, or Terminal on Mac, and enter the following command:</p>
 <pre>
   <code>
-cd Desktop/sky-python-music-sheet-maker-master/python
+cd Desktop/sky-python-music-sheet-maker/src/skymusic
   </code>
 </pre>
     
@@ -83,7 +83,7 @@ Use `#` to make comments above tabs
 DF#A    .    E2   .    E2        D2  .  A
 ```
 
-<img src="./assets/images/Repeat.JPG">
+<img src="./assets/images/Comments.PNG">
 
 <hr>
 <p>Tip 1: We usually find 8 boxes a row works best.</p>
