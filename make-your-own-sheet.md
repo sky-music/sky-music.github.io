@@ -76,7 +76,7 @@ If you're unfamilliar with this chart or how it it reads please check out the <a
 <img src="./assets/images/Repeat.JPG">
 <hr>
 
-Use `#` to make comments above tabs
+Use `#` to make comments below tabs
 
 ```text
 #    #    # Last # # Christ - # mas # # I
