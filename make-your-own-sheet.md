@@ -75,6 +75,17 @@ If you're unfamilliar with this chart or how it it reads please check out the <a
 <p>To indicate a repeat section, use * directly followed by a number, for example "C1C3 *2" will produce:</p>
 <img src="./assets/images/Repeat.JPG">
 <hr>
+
+Use `#` to make comments above tabs
+
+```text
+#    #    # Last # # Christ - # mas # # I
+DF#A    .    E2   .    E2        D2  .  A
+```
+
+<img src="./assets/images/Repeat.JPG">
+
+<hr>
 <p>Tip 1: We usually find 8 boxes a row works best.</p>
 Tip 2: Do not use a blank line as this will end the song. If you need a blank line in the song use . for blank notes.
 
