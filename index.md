@@ -66,6 +66,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/Song_of_the_Sea.html"> Song of the Sea – Lisa Hannigan – Song of the Sea</a></li>
 <li><a href="./songs/Do-Re-Mi-Sound-of-Music.html"> Sound of Music – Do-Re-Mi </a></li>
 <li><a href="./songs/Binary_Sunset_-_Star_Wars.html">  Star Wars – Binary Sunset</a></li>
+<li><a href="./songs/The_Office_Theme.html"> The Office - The Office Theme </a></li>
 <li><a href="./songs/My-Heart-Will-Go-On-Titanic-Theme.html"> Titanic Theme – My Heart Will Go On</a></li>
 <li><a href="./songs/Married-Life-UP.html"> UP – Married Life </a></li>
 <li><a href="./songs/Little_Boxes.html"> Weeds – Little Boxes</a></li>
