@@ -46,6 +46,7 @@ Click a section to see a drop down list.
 <ul> 
 
 <li><a href="./songs/A-Whole-New-World-Aladdin.html"> Aladdin – A Whole New World </a></li>
+<li><a href="./songs/Anastasia_-_Once_Upon_A_December.html"> Anastasia - Once Upon A December </a></li>
 <li><a href="./songs/Leaves-from-the-Vine.html"> Avatar: The last Airbender - Leaves from the Vine (Little Soldier Boy) </a> </li>
 <li><a href="./songs/Beauty_And_The_Beast.html"> Beauty and the Beast </a></li>
 <li><a href="./songs/Heart_and_Soul.html"> Big - Heart and Soul (Single/Duet) </a></li>
@@ -56,6 +57,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/Test-Drive.html"> How to Train your Dragon – Test Drive</a></li>
 <li><a href="./songs/The-Raiders-March-Indiana-Jones-Theme.html"> Indiana Jones – The Raiders March</a></li>
 <li><a href="./songs/Jurassic-Park-Theme.html"> Jurassic Park Theme</a></li>
+<li><a href="./songs/Breaking_of_the_Fellowship.html"> Lord of the Rings - Breaking of the Fellowship </a></li>
 <li><a href="./songs/Shiny.html"> Moana – Shiny </a></li>
 <li><a href="./songs/How-Far-Ill-Go.html"> Moana – How Far I'll Go </a></li>
 <li><a href="./songs/The_Office_Theme.html"> The Office - The Office Theme </a></li>
