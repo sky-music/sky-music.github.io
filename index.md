@@ -13,9 +13,10 @@ Click a section to see a drop down list.
 <li><a href="./songs/Merry_Go_Round_of_Life.html"> Howl's Moving Castle - Merry Go Round of Life </a></li>
 <li><a href="./songs/To-Loves-End-Futari-No-Kimochi.html"> Inuyasha – To Love's End (Futari No Kimochi) </a></li>
 <li><a href="./songs/sky光遇——穿越时空的思念.html"> Inuyasha - 穿越时空的思念</a></li>
+<li><a href="./songs/Kikis_Delivery_Service_-_A_Town.html"> Kiki's Delivery Service - A Town With An Ocean View </a></li>
 <li><a href="./songs/Mitsuhas_Theme_Kimi_No_Na_wa.html"> Kimi No Na wa - Your Name - Mitsuha's Theme </a></li>
 <li><a href="./songs/Dango_daikazoku.html"> Kyoto Animation - Dango Daikazoku </a></li>
- <li><a href="./songs/Mononoke_Hime_-_Joe_Hisaishi.html"> Mononoke Hime – Joe Hisaishi </a></li>
+ <li><a href="./songs/Mononoke_Hime_-_Joe_Hisaishi.html"> Mononoke Hime </a></li>
 <li><a href="./songs/Hokage-Funeral.html"> Naruto – Hokage Funeral </a></li>
 <li><a href="./songs/Fly-Me-to-the-Moon.html">  Neon Genesis Evangelion – Fly Me to the Moon </a></li>
 <li><a href="./songs/Always_with_Me-Spirited_Away.html"> Spirited Away - Always With Me </a></li>
@@ -45,8 +46,10 @@ Click a section to see a drop down list.
 
 <ul> 
 
+<li><a href="./songs/无羁_wuji_0.html"> 陈情令（chenqingling ）main theme 无羁(wuji) </a></li>
 <li><a href="./songs/A-Whole-New-World-Aladdin.html"> Aladdin – A Whole New World </a></li>
 <li><a href="./songs/Anastasia_-_Once_Upon_A_December.html"> Anastasia - Once Upon A December </a></li>
+<li><a href="./songs/Avatar_The_Last_Airbender_-_Avatars_Love.html"> Avatar: The last Airbender - Avatar's Love </a> </li>
 <li><a href="./songs/Leaves-from-the-Vine.html"> Avatar: The last Airbender - Leaves from the Vine (Little Soldier Boy) </a> </li>
 <li><a href="./songs/Beauty_And_The_Beast.html"> Beauty and the Beast </a></li>
 <li><a href="./songs/Heart_and_Soul.html"> Big - Heart and Soul (Single/Duet) </a></li>
@@ -142,6 +145,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/Shadowlord-NieR.html">  NieR – Shadowlord </a></li>
 <li><a href="./songs/Pokemon-Center-Theme.html"> Pokemon Center Theme</a></li>
 <li><a href="./songs/Promise_Reprise_-_Silent_Hill_2.html"> Silent Hill 2 - Promise Reprise </a></li>
+<li><a href="./songs/Stardew_Valley_-_Wind_can_be_still_Winter.html"> Stardew Valley - Wind can still be Winter </a></li>
 <li><a href="./songs/Super Mario (simple version).html"> Super Mario NES Theme (simple version)</a></li>
 <li><a href="./songs/Super Mario.html"> Super Mario NES Theme (with chords)</a></li>
 <li><a href="./songs/Korobeiniki-Tetris-Theme.html"> Tetris Theme - Korobeiniki</a></li>
