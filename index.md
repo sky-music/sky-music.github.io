@@ -42,7 +42,7 @@ Click a section to see a drop down list.
 </details>
 
 <details>
-  <summary><font size="5"><img src="./assets/images/Movie.png"> Movies & TV Shows</font></summary>
+  <summary><font size="5"><img src="./assets/images/Movie.png"> Movies, TV Shows & Dramas </font></summary>
 
 <ul> 
 
