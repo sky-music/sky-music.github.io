@@ -61,6 +61,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/The-Raiders-March-Indiana-Jones-Theme.html"> Indiana Jones – The Raiders March</a></li>
 <li><a href="./songs/Jurassic-Park-Theme.html"> Jurassic Park Theme</a></li>
 <li><a href="./songs/Breaking_of_the_Fellowship.html"> Lord of the Rings - Breaking of the Fellowship </a></li>
+<li><a href="./songs/MDZS_Wangxian_audio_drama_ver.html"> MDZS Wangxian (audio drama ver.) </a></li>
 <li><a href="./songs/Shiny.html"> Moana – Shiny </a></li>
 <li><a href="./songs/How-Far-Ill-Go.html"> Moana – How Far I'll Go </a></li>
 <li><a href="./songs/Falling-Slowly.html"> Once - Falling Slowly </a></li>
