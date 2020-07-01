@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"/>
 <title>Redemption Song</title>
-<script type="text/javascript" src="./js/sheetDarkModeScript.js"></script>
+<script type="text/javascript" src="/js/sheetDarkModeScript.js"></script>
 
 <script type="text/javascript">
 function showLogo(elementId) {
@@ -11,7 +11,7 @@ function showLogo(elementId) {
     url = window.location.href;
     const regex = /sky\-music\.github\.io/g;
     const found = url.match(regex);
-    if (not found) {
+    if (found) {
         navTable = document.getElementById(elementId);
         navTable.style.display = "inline";	
     }    
