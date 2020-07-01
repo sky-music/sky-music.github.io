@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"/>
 <title>Redemption Song</title>
-<script type="text/javascript" src="/js/sheetDarkModeScript.js"></script>
+<script type="text/javascript" src="./js/sheetDarkModeScript.js"></script>
 
 <script type="text/javascript">
 function showLogo(elementId) {
@@ -368,7 +368,7 @@ table.silent .ON-0.button {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: black;
+    background-color: #121212;
   }
   table {
     border-color: white;
@@ -379,6 +379,9 @@ table.silent .ON-0.button {
   table.broken .ON-0.button,
   table.silent .ON-0.button {
     stroke: black;
+  }
+  p, body, td, text.headers {
+  color: white;  
   }
 }
 
