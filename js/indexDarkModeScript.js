@@ -1,6 +1,6 @@
 window.addEventListener("load", function() {
 let sideBar = document.getElementById("sidebar")
-let toggleDarkModeBtn = "<div id='darkModeBtn' style='background-color:#121212; font-size:1.5em; height:2em;color:white;" +
+let toggleDarkModeBtn = "<div id='darkModeBtn' style='background-color:#121212; font-size:1.5em; height:2em;color:white; cursor:pointer;" +
     "border-radius:4px; display: flex; align-items: center; justify-content: center; margin-bottom:5px;'>Turn on dark mode 🌙</div>"
 sideBar.innerHTML = toggleDarkModeBtn + sideBar.innerHTML
 document.getElementById("darkModeBtn").addEventListener("click", function () {
@@ -10,7 +10,7 @@ document.getElementById("darkModeBtn").addEventListener("click", function () {
     if (contentWrapper.style.backgroundColor != "rgb(18, 18, 18)") {
         sidebar.style = "background: #121212; color: lightgray;"
         contentWrapper.style = "background: #121212; color: lightgray;"
-        darkModeBtn.innerHTML = "Turn on white mode ☀️"
+        darkModeBtn.innerHTML = "Turn on light mode ☀️"
         darkModeBtn.style.background = "#f2f2f2"
         darkModeBtn.style.color = "#121212"
         localStorage.setItem("darkMode", true)
