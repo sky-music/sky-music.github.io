@@ -1,3 +1,4 @@
+window.addEventListener("load", function() {
 let sideBar = document.getElementById("sidebar")
 let toggleDarkModeBtn = "<div id='darkModeBtn' style='background-color:#121212; font-size:1.5em; height:2em;color:white;" +
     "border-radius:4px; display: flex; align-items: center; justify-content: center; margin-bottom:5px;'>Turn on dark mode 🌙</div>"
@@ -23,3 +24,4 @@ document.getElementById("darkModeBtn").addEventListener("click", function () {
     }
 })
 if (localStorage.getItem("darkMode") == "true") document.getElementById("darkModeBtn").click()
+})
