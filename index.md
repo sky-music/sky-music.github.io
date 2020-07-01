@@ -90,6 +90,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/Take on me.html"> A-Ah - Take on me</a></li>
 <li><a href="./songs/Lonely.html"> Akon – Lonely </a></li>
 <li><a href="./songs/Astronomia-Coffin-Dance.html"> Astronomia (Coffin Dance)</a></li>
+<li><a href="./songs/Redemption_Song.html"> Bob Marley – Redemption Song</a></li>
 <li><a href="./songs/Eleanor Rigby.html"> Beatles, The – Eleanor Rigby</a></li>
 <li><a href="./songs/Hey Jude.html"> Beatles, The – Hey Jude </a></li>
 <li><a href="./songs/With a little help from my friends.html"> Beatles, The – With a little help from my friends </a></li>
