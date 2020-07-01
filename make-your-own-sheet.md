@@ -6,12 +6,12 @@ layout: default
 
 <p>Here's a step by step guide how to create your own visual music sheet.</p>
 
-<p><b><span style="font-size:1.2em;">(If you wish to avoid installing Python, use the online version <a href="https://jmmelko.pythonanywhere.com/" target="_blank">Here</a> and skip to step 3)</span></b></p>
+<p><b><span style="font-size:1.2em;">(If you wish to avoid installing Python, use the online version <a href="https://jmmelko.pythonanywhere.com/" target="_blank">here</a> and skip to step 3)</span></b></p>
 
 There's also <a href="https://sky.bloomexperiment.com/t/sky-music-icon-templates/746" target="_blank">these</a> blank sheet templates if you prefer this method.
 
 <h2>Step 1 - Install Python</h2>
-<p>If you don't yet have Python 3 already installed on your computer you can download it by clicking <a href="https://www.python.org/downloads/" target="_blank">Here</a></p>
+<p>If you don't yet have Python 3 already installed on your computer you can download it by clicking <a href="https://www.python.org/downloads/" target="_blank">here</a>.</p>
 
 <p>Once installed, open cmd (Command Prompt) on Windows, or Terminal on Mac. Then copy and paste these commands into the console:</p>
 <pre>
@@ -23,21 +23,21 @@ pip install pyyaml
   </code>
 </pre>
 
-Then, type the following command:
+<p>Then, type the following command:</p>
 <pre>
   <code>
 python3 --version
   </code>
 </pre>
 
-If the Python version is < 3.8, please type this additional command:
+<p>If the displayed Python version is < 3.8, please type this additional command:</p>
 <pre>
   <code>
 pip install importlib_resources
   </code>
 </pre>
 
-<p>On Windows, you can also install more complete versions of Python such as <a href="https://sourceforge.net/projects/winpython/">WinPython</a>, and under Windows or MacOS <a href="https://www.anaconda.com/products/individual">Anaconda</a>. In this case the *pip* commands must be typed in the console of the Spyder code editor. Only *mido* has to be installed (for generating midi files), and importlib_resources if the Python version is < 3.8</p>
+<p>On Windows, you can also install a more complete version of Python known as <a href="https://sourceforge.net/projects/winpython/">WinPython</a>, and under Windows or MacOS <a href="https://www.anaconda.com/products/individual">Anaconda</a>. In this case the <i>pip</i> commands must be typed in the console of the Spyder code editor. Only <i>mido/i> has to be installed (for generating Midi files), and <i>importlib_resources</i> only if the Python version is < 3.8.</p>
 
 <h2>Step 2 - Run Python Music Sheet Maker</h2>
 <p>Download the Sky Music Sheet Maker by clicking <a href="https://github.com/sky-music/sky-python-music-sheet-maker" target="_blank">Here</a>. Click on the green "Clone or Download" button, then choose "Download ZIP".</p>
