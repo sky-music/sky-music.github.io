@@ -1,20 +1,23 @@
 <!DOCTYPE html>
-<html xmlns:svg="http://www.w3.org/2000/svg" lang="en_US">
+<html xmlns:svg="http://www.w3.org/2000/svg" lang="fr_FR">
 <head>
 <meta charset="utf-8"/>
 <title>Redemption Song</title>
-<script style="text/javascript" language="javascript">
+<script type="text/javascript" src="./js/sheetDarkModeScript.js"></script>
+
+<script type="text/javascript">
 function showLogo(elementId) {
 
     url = window.location.href;
     const regex = /sky\-music\.github\.io/g;
     const found = url.match(regex);
-    if (found) {
+    if (not found) {
         navTable = document.getElementById(elementId);
         navTable.style.display = "inline";	
     }    
 }
-</script>
+
+window.addEventListener("load", function(){showLogo('navigation')}, false);</script>
 <style type="text/css">
 @media (prefers-reduced-motion: reduce) {
   html {
@@ -305,8 +308,7 @@ table.broken {
 
 /* <!-- Silent table  (HTML only)--> */
 table.silent {
-  border-color:#BBBBBB;
-  border-width:0;
+  border-color:transparent;
 }
 
 /* <!-- Lyrics table  (HTML only)--> */
@@ -382,7 +384,7 @@ table.silent .ON-0.button {
 
 </style>
 <meta charset="utf-8"/></head>
-<body onload="javascript:showLogo('navigation');">
+<body>
 <table id="navigation">
     <tr>
       <td>
@@ -394,9 +396,9 @@ table.silent .ON-0.button {
     </tr>
 </table>
 <h1>Redemption Song</h1>
-<p><b>Original artist(s): </b>Bob Marley</p>
-<p><b>Transcript writer: </b>jmmelko</p>
-<p><b>Musical key: </b>C</p>
+<p><b>Artiste(s) d'origine: </b>Bob Marley</p>
+<p><b>Transcripteur: </b>jmmelko</p>
+<p><b>Clef musicale: </b>C</p>
 <div id="transcript">
 
 <br />
