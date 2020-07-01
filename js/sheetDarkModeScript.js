@@ -12,9 +12,8 @@
             darkModeBtn.style.color = "#121212"
             let tables = document.getElementsByTagName("table")
             for (let i = 1; i < tables.length; i++) {
-                console.log(tables[i].classList)
                 if (!tables[i].classList.value.includes("silent") && !tables[i].classList.value.includes("voice") && !tables[i].classList.value.includes("repeat")) {
-                        tables[i].firstChild.style.backgroundColor = "#323232"
+                        tables[i].style.backgroundColor = "#323232"
                         tables[i].style = "border: solid 1.5px #666;"
                 }else{
                     tables[i].style.border = "solid 1.5px transparent"
@@ -30,11 +29,11 @@
             let tables = document.getElementsByTagName("table")
             for (let i = 1; i < tables.length; i++) {
                 if (tables[i].className != "voice") {
-                    tables[i].firstChild.style.backgroundColor = ""
+                    tables[i].style.backgroundColor = ""
                     tables[i].style = ""
                 }
             }
-            tables[0].style = "border: solid 1.5px #black;"
+            tables[0].style = "border: solid 1.5px black;"
             localStorage.setItem("darkMode", false)
         }
     })
