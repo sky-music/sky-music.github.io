@@ -131,7 +131,8 @@ Click a section to see a drop down list.
 <li><a href="./songs/Drunken-Sailor.html"> Drunken Sailor</a></li>
 <li><a href="./songs/Flohwalzer.html"> Flohwalzer</a></li>
 <li><a href="./songs/Scarborough-Fair.html"> Scarborough Fair</a></li>
- <li><a href="./songs/Tha_Mi_Sgith.html"> Tha Mi Sgith</a></li>
+<li><a href="./songs/Tha_Mi_Sgith.html"> Tha Mi Sgith</a></li>
+ <li><a href="./songs/Wedding_Marh.html"> Wedding March </a></li>
 </ul> 
 </details>
 
