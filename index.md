@@ -104,6 +104,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/Hallelujah.html"> Hallelujah</a></li>
 <li><a href="./songs/Kaze wo atsumete.html">  Happy End – Kaze wo atsumete</a></li>
 <li><a href="./songs/Popcorn.html"> Hot Butter – Popcorn </a></li>
+<li><a href="./songs/If_You're_Happy_and_You_Know_it.html"> If You're Happy and You Know It </a></li>
 <li><a href="./songs/Young Dumb and Broke.html"> Khalid – Young Dumb & Broke </a></li>
 <li><a href="./songs/Daydreaming.html"> Radiohead - Daydreaming </a></li>
 <li><a href="./songs/Love_Like_You.html"> Rebecca Sugar – Love Like You </a></li>
