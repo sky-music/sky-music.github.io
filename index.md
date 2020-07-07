@@ -63,6 +63,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/Test-Drive.html"> How to Train your Dragon – Test Drive</a></li>
 <li><a href="./songs/The-Raiders-March-Indiana-Jones-Theme.html"> Indiana Jones – The Raiders March</a></li>
 <li><a href="./songs/Jurassic-Park-Theme.html"> Jurassic Park Theme</a></li>
+<li><a href="./songs/Kung_Fu_Panda_-_Oogway_Ascends.html"> Kung Fu Panda - Oogway Ascends</a></li>
 <li><a href="./songs/Breaking_of_the_Fellowship.html"> Lord of the Rings - Breaking of the Fellowship </a></li>
 <li><a href="./songs/Shiny.html"> Moana – Shiny </a></li>
 <li><a href="./songs/How-Far-Ill-Go.html"> Moana – How Far I'll Go </a></li>
@@ -89,6 +90,7 @@ Click a section to see a drop down list.
 <ul>  
 <li><a href="./songs/Take on me.html"> A-Ah - Take on me</a></li>
 <li><a href="./songs/Lonely.html"> Akon – Lonely </a></li>
+<li><a href="./songs/thank_u_next.html"> Ariana Grande - thank u, next</a></li>
 <li><a href="./songs/Astronomia-Coffin-Dance.html"> Astronomia (Coffin Dance)</a></li>
 <li><a href="./songs/Redemption_Song.html"> Bob Marley – Redemption Song</a></li>
 <li><a href="./songs/Eleanor Rigby.html"> Beatles, The – Eleanor Rigby</a></li>
