@@ -22,11 +22,13 @@ window.addEventListener("load", function () {
                 for (let k = 0; k < 5; k++) {
                     let note = row.children[k]
                     if (note.children[0].classList[0] != "OFF") {
-                        let keyObj = {
-                            key: "Key" + noteNumber,
-                            time: timestamp
+                        if(!note.children[0].children[0].classList.value.includes("unhighlighted")){
+                            let keyObj = {
+                                key: "1Key" + noteNumber,
+                                time: timestamp
+                            }
+                            songNotes.push(keyObj)
                         }
-                        songNotes.push(keyObj)
                     }
                     noteNumber++
                 }
