@@ -14,7 +14,7 @@ window.addEventListener("load", function () {
         let bpmToMs = Math.floor(60000 / bpm)
         for (let i = 1; i < tables.length; i++) {
             let cell = tables[i].children[0]
-            timestamp += bpmToMs
+            if (cell.children.length > 2) timestamp += bpmToMs
             let noteNumber = 0
             for (let j = 0; j < 3; j++) {
                 if (cell.children.length < 3) break
