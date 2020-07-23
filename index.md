@@ -11,6 +11,7 @@ Click a section to see a drop down list.
   
 <ul> 
  <li><a href="./songs/Big_Fish_and_Begonia.html"> Big Fish and Begonia </a></li>
+ <li><a href="./songs/Lyras Song.html"> Fairy Tail - Lyras Song </a></li>
 <li><a href="./songs/Merry_Go_Round_of_Life.html"> Howl's Moving Castle - Merry Go Round of Life </a></li>
 <li><a href="./songs/To-Loves-End-Futari-No-Kimochi.html"> Inuyasha – To Love's End (Futari No Kimochi) </a></li>
 <li><a href="./songs/sky光遇——穿越时空的思念.html"> Inuyasha - 穿越时空的思念</a></li>
