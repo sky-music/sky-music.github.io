@@ -11,7 +11,7 @@ Click a section to see a drop down list.
   
 <ul> 
  <li><a href="./songs/Big_Fish_and_Begonia.html"> Big Fish and Begonia </a></li>
- <li><a href="./songs/A_Cruel_Angels_Thesis.html"> Evangelion - A Cruel Angel Thesis </a></li>
+ <li><a href="./songs/A_Cruel_Angels_Thesis.html"> Evangelion - A Cruel Angel's Thesis </a></li>
  <li><a href="./songs/Lyras Song.html"> Fairy Tail - Lyra's Song </a></li>
 <li><a href="./songs/Merry_Go_Round_of_Life.html"> Howl's Moving Castle - Merry Go Round of Life </a></li>
 <li><a href="./songs/To-Loves-End-Futari-No-Kimochi.html"> Inuyasha – To Love's End (Futari No Kimochi) </a></li>
