@@ -104,6 +104,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/Yesterday.html"> Beatles, The – Yesterday </a></li>
 <li><a href="./songs/Stand-By-Me-Bass.html"> Ben E. King - Stand By Me (Bassline) </a></li>
 <li><a href="./songs/Piano-Man.html"> Billy Joel – Piano Man</a></li>
+<li><a href="./songs/Hold_On.html"> Chord Overstreet - Hold On </a></li>
 <li><a href="./songs/Say_So_-_Doja_Cat.html"> Doja Cat – Say So</a></li>
 <li><a href="./songs/Cant-Help-Falling-in-Love-Intro.html"> Elvis Presley – Can't Help Falling in Love (Intro) </a></li>
 <li><a href="./songs/graduation_photo.html"> Graduation Photo</a></li>
@@ -139,7 +140,9 @@ Click a section to see a drop down list.
 <li><a href="./songs/American folk songs.html"> American folk songs</a></li>
 <li><a href="./songs/Drunken-Sailor.html"> Drunken Sailor</a></li>
 <li><a href="./songs/Flohwalzer.html"> Flohwalzer</a></li>
+<li><a href="./songs/Happy_Birthday.html"> Happy Birthday </a></li>
 <li><a href="./songs/Scarborough-Fair.html"> Scarborough Fair</a></li>
+<li><a href="./songs/State_Anthem_of_the_USSR.html"> Soviet Union National Anthem</a></li>
 <li><a href="./songs/Tha_Mi_Sgith.html"> Tha Mi Sgith</a></li>
  <li><a href="./songs/Wedding_March.html"> Wedding March </a></li>
 </ul> 
