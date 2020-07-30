@@ -156,7 +156,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/Build-that-wall-Bastion.html"> Bastion - Build That Wall (Zia's Theme)</a></li>
 <li><a href="./songs/Threshold.html"> Journey - Threshold </a></li>
 <li><a href="./songs/Dearly Beloved.html"> Kingdom Hearts – Dearly Beloved </a></li>
-<li><a herf="./songs/Klonoa_Title_Screen.html"> Klonoa Title Screen </a></li>
+<li><a href="./songs/Klonoa_Title_Screen.html"> Klonoa Title Screen </a></li>
 <li><a href="./songs/Song_Of_Storms.html"> Legend of Zelda – Song of Storms</a></li>
 <li><a href="./songs/Zelda Lullaby.html"> Legend of Zelda - Zelda's Lullaby</a></li> 
 <li><a href="./songs/c418_sweden.html"> Minecraft – Sweden </a></li>
