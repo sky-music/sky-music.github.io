@@ -74,7 +74,7 @@ python3 command_line_player.py
 <p><img src="./assets/images/Chart.jpg"></p>
 If you're unfamilliar with this chart or how it it reads please check out the <a href="./how-to-read.html">How to Read</a> page.
 <hr>
-<p>Seperate boxes by using a blank space, for example typing "B3 B4 B5" will produce:</p>
+<p>Separate boxes by using a blank space, for example typing "B3 B4 B5" will produce:</p>
 <p><img src="./assets/images/notespaces.png"></p>
 <hr>
 <p>Type letters with no space for a chord, for example typing "A1A3A5 B1B3B5" will produce:</p>
@@ -91,19 +91,29 @@ If you're unfamilliar with this chart or how it it reads please check out the <a
 <p>To indicate a repeat section, use * directly followed by a number, for example "C1C3 *2" will produce:</p>
 <img src="./assets/images/Repeat.JPG">
 <hr>
+<p>Add a line break (press enter in Python or in your text editor) to separate song lines with an horizontal divider.</p>
+<hr>
+<p>Use `#` to start a lyrics line. Type `#` again to split the lyrics and align words with the chords grid: </p>
 
-Use `#` to make comments below tabs
-
-```text
-#    #    # Last # # Christ - # mas # # I
-DF#A    .    E2   .    E2        D2  .  A
+```
+# #Last #Christ - #mas # #I #gave #you    #my #heart
+A1A3A5 B4 B4 B3 . C5 B4 B4 B5 B3
 ```
 
 <img src="./assets/images/Comments.PNG">
 
+<p>You can also use `#` to add a header (section title), and format it using HTML tags. For instance:
+
+```
+#<h1 style="color:red;">Section 1</h1>
+```
+
+will produce a section title in big, bold, red letters. This will work with HTML output files but be ignored in other formats.</p>
+<p>Use this with great caution as any error in these tags can break the whole HTML file. </p>
+
 <hr>
 <p>Tip 1: We usually find 8 boxes a row works best.</p>
-Tip 2: Do not use a blank line as this will end the song. If you need a blank line in the song use . for blank notes.
+Tip 2: In the Python command-line program do not press enter after a blank line as this will end the song. If you need a full blank line in the song use `.` for blank notes or enter a lyrics line with no text.
 
 <h2>Step 4 - Input your music!</h2>
 With your music typed out, now simply copy and paste all of your notes into cmd/terminal after you've followed Step 2.
@@ -136,9 +146,4 @@ All we ask is that you quality check your sheet before submitting, as others wil
 If you need any support or would like to ask questions you can join our <a href="./discord.html">Discord</a> server by clicking <a href="./discord.html">Here</a>
 
 [Link to site repository](https://github.com/sky-music/sky-music.github.io)
-
-
-
-
-
 
