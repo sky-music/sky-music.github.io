@@ -102,7 +102,7 @@ A1A3A5 B4 B4 B3 . C5 B4 B4 B5 B3`
 
 <p>You can also use `#` to add a header (section title), and format it using HTML tags. For instance:
 
-`#<h1 style="color:red;">Section 1</h1>`
+```#<h1 style="color:red;">Section 1</h1>```
 
 will produce a section title in big, bold, red letters. This will work with HTML output files but be ignored in other formats.</p>
 <p>Use this with great caution as any error in these tags can break the whole HTML file. </p>
