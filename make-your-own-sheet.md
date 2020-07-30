@@ -95,18 +95,18 @@ If you're unfamilliar with this chart or how it it reads please check out the <a
 <hr>
 <p>Use `#` to start a lyrics line. Type `#` again to split the lyrics and align words with the chords grid: </p>
 
-```
+<code>
 # #Last #Christ - #mas # #I #gave #you    #my #heart
 A1A3A5 B4 B4 B3 . C5 B4 B4 B5 B3
-```
+</code>
 
 <img src="./assets/images/Comments.PNG">
 
 <p>You can also use `#` to add a header (section title), and format it using HTML tags. For instance:
 
-```html
+<code>
 #<h1 style="color:red;">Section 1</h1>
-```
+</code>
 
 will produce a section title in big, bold, red letters. This will work with HTML output files but be ignored in other formats.</p>
 <p>Use this with great caution as any error in these tags can break the whole HTML file. </p>
