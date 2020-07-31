@@ -4,7 +4,7 @@ window.addEventListener("load", function () {
     downloadButton.style = "background-color:#121212; font-size:1.3em; height:1.5em;color:white; width:100%" +
         "border-radius:4px; display: flex; align-items: center; justify-content: center; cursor:pointer; margin-bottom:5px; padding:5px;"
     downloadButton.id = "downloadButton"
-    downloadButton.innerHTML = "Download Sky-JSON recording"
+    downloadButton.innerHTML = "Download song recording"
     let toolTip = `
       After the download:
       1/ go to https://sky-music.herokuapp.com
