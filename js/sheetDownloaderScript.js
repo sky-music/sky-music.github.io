@@ -6,10 +6,10 @@ window.addEventListener("load", function () {
     downloadButton.id = "downloadButton"
     downloadButton.innerHTML = "Download Sky-JSON recording"
     let toolTip = `
-      After the download:&#013;&#010;
-      1/ go to https://sky-music.herokuapp.com&#013;&#010;
-      2/ Press 'manage recordings'&#013;&#010;
-      3/ Import the text file&#013;&#010;
+      After the download:
+      1/ go to https://sky-music.herokuapp.com
+      2/ Press 'manage recordings'
+      3/ Import the text file
       4/ Listen to your song being played!
     `
     downloadButton.setAttribute("title", toolTip)
