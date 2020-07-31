@@ -93,7 +93,7 @@ If you're unfamilliar with this chart or how it it reads please check out the <a
 <hr>
 <p>Add a line break (press enter in Python or in your text editor) to separate song lines with an horizontal divider.</p>
 <hr>
-<p>Use `#` to start a lyrics line. Type `#` again to split the lyrics and align words with the chords grid: </p>
+<p>Use '#' to start a lyrics line. Type '#' again to split the lyrics and align words with the chords grid: </p>
 
 <pre>
  # #Last #Christ - #mas # #I #gave #you    #my #heart
@@ -102,18 +102,14 @@ A1A3A5 B4 B4 B3 . C5 B4 B4 B5 B3
 
 <img src="./assets/images/Comments.PNG">
 
-<p>You can also use `#` to add a header (section title), and format it using HTML tags. For instance:
-
-<code>
-#&lt;h1 style="color:red;"&gt;Section 1&lt;/h1&gt;
-</code>
-
-will produce a section title in big, bold, red letters. This will work with HTML output files but be ignored in other formats.</p>
+<p>You can also use '#' to add a header (section title), and format it using HTML tags. For instance:
+<code>#&lt;h1 style="color:red;"&gt;Section 1&lt;/h1&gt;</code>
+ will produce a section title in big, bold, red letters. This will work with HTML output files but be ignored in other formats.</p>
 <p>Use this with great caution as any error in these tags can break the whole HTML file. </p>
 
 <hr>
 <p>Tip 1: We usually find 8 boxes a row works best for a 16:9 aspect ratio (widescreen). Use line breaks to divide your song in rows.</p>
-Tip 2: In the Python command-line program do not press enter after a blank line as this will end the song. If you need a full blank line in the song use `.` for blank notes or enter a lyrics line with no text.
+Tip 2: In the Python command-line program do not press enter after a blank line as this will end the song. If you need a full blank line in the song use '.' for blank notes or enter a lyrics line with no text.
 
 <h2>Step 4 - Input your music!</h2>
 With your music typed out, now simply copy and paste all of your notes into cmd/terminal after you've followed Step 2.
@@ -145,7 +141,7 @@ All we ask is that you quality check your sheet before submitting, as others wil
 <h2>Going further: understanding input and output file formats</h2>
 
 <p>If you intend to use the visual sheets outside our website, you can export them to different file formats. PNG is recommended for quick sharing of songs to friends, but cannot be edited or stretched out. TXT formats are useful for sharing song notes.
-Finally, the Sky-JSON recordings (text format) can be fed into the Sky Studio App (Android) or the SkyMusic website <a bref="http://sky-music.herokuapp.com"</a>/<a href="https://play.google.com/store/apps/details?id=com.herokuapp.sky_music.twa">app</a>.
+Finally, the Sky-JSON recordings (text format) can be fed into the Sky Studio App (Android) or the SkyMusic website <a href="http://sky-music.herokuapp.com"</a>/<a href="https://play.google.com/store/apps/details?id=com.herokuapp.sky_music.twa">app</a>.
 </p>
 <p>
 For input, besides text, the Visual Sheet Maker also accepts HTML Visual Sheets (only for sheets generated after July, 2020 1st). This way, you can generate a new version of a sheet if you have lost the song notes.
