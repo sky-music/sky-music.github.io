@@ -96,7 +96,7 @@ If you're unfamilliar with this chart or how it it reads please check out the <a
 <p>Use `#` to start a lyrics line. Type `#` again to split the lyrics and align words with the chords grid: </p>
 
 <code>
-# #Last #Christ - #mas # #I #gave #you    #my #heart
+\# #Last #Christ - #mas # #I #gave #you    #my #heart
 A1A3A5 B4 B4 B3 . C5 B4 B4 B5 B3
 </code>
 
@@ -144,6 +144,5 @@ All we ask is that you quality check your sheet before submitting, as others wil
 
 
 If you need any support or would like to ask questions you can join our <a href="./discord.html">Discord</a> server by clicking <a href="./discord.html">Here</a>
-
-[Link to site repository](https://github.com/sky-music/sky-music.github.io)
+<a bref="https://github.com/sky-music/sky-music.github.io"> Link to site repository</a>
 
