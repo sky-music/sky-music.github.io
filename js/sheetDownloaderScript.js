@@ -5,6 +5,8 @@ window.addEventListener("load", function () {
         "border-radius:4px; display: flex; align-items: center; justify-content: center; cursor:pointer; margin-bottom:5px; padding:5px;"
     downloadButton.id = "downloadButton"
     downloadButton.innerHTML = "Download sheet"
+    downloadButton.setAttribute("title, "After the download: 1/ go to https://sky-music.herokuapp.com 2/ Import the text file")
+
     downloadButton.addEventListener("click", function () {
         let tables = document.getElementsByTagName("table")
         let songNotes = []
