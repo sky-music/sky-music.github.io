@@ -35,7 +35,7 @@ window.addEventListener("load", function () {
             }
         }
 
-        let helpText = "Save this file and go to https://sky-music.herokuapp.com/ to import it and hear your song being played!"
+        let helpText = "Go to https://sky-music.herokuapp.com/, press 'manage recordings' and import the text file, and listen to your song being played!"
 
         let exportObj = {
             name: songName,
