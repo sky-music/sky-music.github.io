@@ -37,7 +37,7 @@ pip install importlib_resources
   </code>
 </pre>
 
-<p>On Windows, you can also install a more complete version of Python known as <a href="https://sourceforge.net/projects/winpython/">WinPython</a>, and under Windows or MacOS <a href="https://www.anaconda.com/products/individual">Anaconda</a>. In this case the <i>pip</i> commands must be typed in the console of the Spyder code editor. Only <i>mido/i> has to be installed (for generating Midi files), and <i>importlib_resources</i> only if the Python version is < 3.8.</p>
+<p>On Windows, you can also install a more complete version of Python known as <a href="https://sourceforge.net/projects/winpython/">WinPython</a>, and under Windows or MacOS <a href="https://www.anaconda.com/products/individual">Anaconda</a>. In this case the <i>pip</i> commands must be typed in the console of the Spyder code editor. Only <i>mido</i> has to be installed (for generating Midi files), and <i>importlib_resources</i> only if the Python version is < 3.8.</p>
 
 <h2>Step 2 - Run Python Music Sheet Maker</h2>
 <p>Download the Sky Music Sheet Maker by clicking <a href="https://github.com/sky-music/sky-python-music-sheet-maker" target="_blank">Here</a>. Click on the green "Clone or Download" button, then choose "Download ZIP".</p>
