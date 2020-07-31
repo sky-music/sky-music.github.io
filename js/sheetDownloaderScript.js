@@ -34,12 +34,16 @@ window.addEventListener("load", function () {
                 }
             }
         }
+
+        let helpText = "Save this file and go to https://sky-music.herokuapp.com/ to import it and hear your song being played!"
+
         let exportObj = {
             name: songName,
             bpm: bpm,
             bitsPerPage: 16,
             pitchLevel: 0,
             songNotes: songNotes,
+            helpText: helpText
         }
         let exportArray = [exportObj]
         download(exportArray, songName)
