@@ -42,8 +42,8 @@ window.addEventListener("load", function () {
             bpm: bpm,
             bitsPerPage: 16,
             pitchLevel: 0,
-            songNotes: songNotes,
-            helpText: helpText
+            helpText: helpText,
+            songNotes: songNotes
         }
         let exportArray = [exportObj]
         download(exportArray, songName)
