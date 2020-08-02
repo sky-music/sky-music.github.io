@@ -6,7 +6,7 @@ layout: default
 
 <p>Here's a step by step guide how to create your own visual music sheet.</p>
 
-<p><b><span style="font-size:1.2em;">(If you wish to avoid installing Python, use the online version <a href="https://jmmelko.pythonanywhere.com/" target="_blank">here</a> and skip to step 3)</span></b></p>
+<p><b><span style="font-size:1.2em;">If you wish to avoid installing Python, use the website version <a href="https://jmmelko.pythonanywhere.com/" target="_blank">here</a> or the <a href="https://discord.gg/thatskygame">Discord Bot version</a> by typing `!song` and skip to step 3.</span></b></p>
 
 There's also <a href="https://sky.bloomexperiment.com/t/sky-music-icon-templates/746" target="_blank">these</a> blank sheet templates if you prefer this method.
 
