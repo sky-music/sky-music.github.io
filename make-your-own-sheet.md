@@ -141,7 +141,7 @@ All we ask is that you quality check your sheet before submitting, as others wil
 <h2>Going further: understanding input and output file formats</h2>
 
 <p>If you intend to use the visual sheets outside our website, you can export them to different file formats. PNG is recommended for quick sharing of songs to friends, but cannot be edited or stretched out. TXT formats are useful for sharing song notes.
-Finally, the Sky-JSON recordings (text format) can be fed into the Sky Studio App (Android) or the SkyMusic website <a href="http://sky-music.herokuapp.com"</a>/<a href="https://play.google.com/store/apps/details?id=com.herokuapp.sky_music.twa">app</a>.
+Finally, the Sky-JSON recordings (text format) can be fed into the Sky Studio App (Android) or the SkyMusic website <a href="http://sky-music.herokuapp.com"></a> or the Android <a href="https://play.google.com/store/apps/details?id=com.herokuapp.sky_music.twa">app</a>.
 </p>
 <p>
 For input, besides text, the Visual Sheet Maker also accepts HTML Visual Sheets (only for sheets generated after July, 2020 1st). This way, you can generate a new version of a sheet if you have lost the song notes.
