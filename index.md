@@ -26,7 +26,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/Always_with_Me-Spirited_Away.html"> Spirited Away - Always With Me </a></li>
 <li><a href="./songs/Teru_no_UtaTherrus_Song.html"> Teru no UtaTherru's Song </a></li>
  <li><a href="./songs/Tokyo_Ghoul_-_Unravel.html"> Tokyo Ghoul - Unravel </a></li>
- <li><a href=".songs/The_Loneliest_Girl.html"> Carole and Tuesday - The Loneliest Girl </a></li>
+ <li><a href="./songs/The_Loneliest_Girl.html"> Carole and Tuesday - The Loneliest Girl </a></li>
 </ul> 
 </details>
 
