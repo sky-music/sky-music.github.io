@@ -167,6 +167,8 @@ Click a section to see a drop down list.
 <li><a href="./songs/Emils-Sacrifice-NIER.html">  NieR – Emil's Sacrifice </a></li>
 <li><a href="./songs/Shadowlord-NieR.html">  NieR – Shadowlord </a></li>
 <li><a href="./songs/Pokemon-Center-Theme.html"> Pokemon Center Theme</a></li>
+<li><a href="./songs/O_Mia_Cara_Addio_Easy.html"> Portal 2 - O Mia Cara, Addio (Easy-lyrics)</a></li>
+<li><a href="./songs/O_Mia_Cara_Addio_Hard.html"> Portal 2 - O Mia Cara, Addio (Hard)</a></li>
 <li><a href="./songs/Promise_Reprise_-_Silent_Hill_2.html"> Silent Hill 2 - Promise (Reprise) </a></li>
 <li><a href="./songs/Stardew_Valley_-_Wind_can_be_Still_Winter.html"> Stardew Valley - Wind can be still Winter </a></li>
 <li><a href="./songs/Super Mario (simple version).html"> Super Mario NES Theme (simple version)</a></li>
