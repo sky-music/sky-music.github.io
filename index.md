@@ -61,6 +61,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/Leaves-from-the-Vine.html"> Avatar: The last Airbender - Leaves from the Vine (Little Soldier Boy) </a> </li>
 <li><a href="./songs/Beauty_And_The_Beast.html"> Beauty and the Beast </a></li>
 <li><a href="./songs/Heart_and_Soul.html"> Big - Heart and Soul (Single/Duet) </a></li>
+<li><a href="./songs/Remember_Me_Coco.html> Coco - Remember Me </a></li>
 <li><a href="./songs/Tubular-Bells-Exorcist-Theme.html"> Exorcist – Tubular Bells</a></li>
 <li><a href="./songs/All_Is_Found.html"> Frozen 2 - All Is Found</a></li>
 <li><a href="./songs/Godfather_Theme_Speak_Softly_Love.html"> Godfather – Speak Softly, Love </a></li>
@@ -115,6 +116,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/Popcorn.html"> Hot Butter – Popcorn </a></li>
 <li><a href="./songs/If_You're_Happy_and_You_Know_it.html"> If You're Happy and You Know It </a></li>
 <li><a href="./songs/Young Dumb and Broke.html"> Khalid – Young Dumb & Broke </a></li>
+ <li><a href="./songs/Summertime.html"> Maggie x Nyan - Summertime </a></li>
 <li><a href="./songs/Alone0.html"> Marshmello - Alone </a> </li>
 <li><a href="./songs/Daydreaming.html"> Radiohead - Daydreaming </a></li>
 <li><a href="./songs/Love_Like_You.html"> Rebecca Sugar – Love Like You </a></li>
@@ -157,6 +159,7 @@ Click a section to see a drop down list.
 
 <ul>   
 <li><a href="./songs/Build-that-wall-Bastion.html"> Bastion - Build That Wall (Zia's Theme)</a></li>
+ <li><a href="./songs/Cosmo_Canyon.htm'"> Final Fantasy VII - Cosmo Canyon </a></li>
 <li><a href="./songs/Threshold.html"> Journey - Threshold </a></li>
  <li><a href="./songs/Kahoot_Lobby_Theme.html"> Kahoot Lobby Theme </a></li>
 <li><a href="./songs/Dearly Beloved.html"> Kingdom Hearts – Dearly Beloved </a></li>
