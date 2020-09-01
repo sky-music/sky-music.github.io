@@ -151,6 +151,7 @@ Click a section to see a drop down list.
 <li><a href="./songs/Tha_Mi_Sgith.html"> Tha Mi Sgith</a></li>
 <li><a href="./songs/The_Skye_Boat_Song.html"> The Skye Boat Song </a></li>
 <li><a href="./songs/Wedding_March.html"> Wedding March </a></li>
+<li><a href="./songs/We_Wish_You_A_Merry_Christmas.html"> We wish you a merry Christmas</a></li>
 </ul> 
 </details>
 
