@@ -47,12 +47,20 @@ pip install importlib_resources
 
 For the sake of an example let's extract this to your Desktop.
 
-<p>Open cmd on Windows, or Terminal on Mac, and enter the following command:</p>
+<p>Open Terminal on Mac or Linux, and enter the following command:</p>
 <pre>
   <code>
-cd Desktop/sky-python-music-sheet-maker/src/skymusic
+cd ~/Desktop/sky-python-music-sheet-maker/src/skymusic
   </code>
 </pre>
+
+<p>On Windows, paths are a bit different:</p>
+<pre>
+  <code>
+cd %systemdrive%%homepath%\Desktop\sky-python-music-sheet-maker\src\skymusic
+  </code>
+</pre>
+
     
 <i>(If you wish to store the folder elsewhere or change it's name, please change this command accordingly afterwards).</i>
 
