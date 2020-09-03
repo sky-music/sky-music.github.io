@@ -40,6 +40,8 @@ pip install importlib_resources
 
 <p>On Windows, you can also install a more complete version of Python known as <a href="https://sourceforge.net/projects/winpython/">WinPython</a>, and under Windows or MacOS <a href="https://www.anaconda.com/products/individual">Anaconda</a>. In this case the <i>pip</i> commands must be typed in the console of the Spyder code editor. Only <i>mido</i> has to be installed (for generating Midi files), and <i>importlib_resources</i> only if the Python version is < 3.8.</p>
 
+<p>On Apple's iOS, you can use <a href="http://omz-software.com/pythonista/">Pythonista</a>. On Android, you can try <a href="https://play.google.com/store/apps/details?id=ru.iiec.pydroid3&hl=en_US">Pydroid 3</a>.
+
 <h2>Step 2 - Run Python Music Sheet Maker</h2>
 <p>Download the Sky Music Sheet Maker by clicking <a href="https://github.com/sky-music/sky-python-music-sheet-maker" target="_blank">Here</a>. Click on the green "Clone or Download" button, then choose "Download ZIP".</p>
 
@@ -54,19 +56,14 @@ cd Desktop/sky-python-music-sheet-maker/src/skymusic
     
 <i>(If you wish to store the folder elsewhere or change it's name, please change this command accordingly afterwards).</i>
 
-<p>While still in cmd on Windows, enter:</p>
-<pre>
-  <code>
-command_line_player.py
-  </code>
-</pre>
-
-<p>OR while still in terminal on Mac, enter:</p>
+<p>In the console (cmd.exe on Windows, Terminal on MacOS), enter:</p>
 <pre>
   <code>
 python3 command_line_player.py
   </code>
 </pre>
+
+<p>If nothing happens or you get an error, there's probably something wrong with your Python installation. Write down the error and contact us by Discord.</p>
 
 <h2>Step 3 - Write your music</h2>
 <span style="font-size:1.2em;">We recommend typing out your notation in Notepad or similar before inputting into cmd/Terminal, as it's easier for you to fix any mistakes this way.</span>
