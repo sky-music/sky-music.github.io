@@ -95,6 +95,7 @@ cd /d %homedrive%%homepath%\Desktop\sky-python-music-sheet-maker\src\skymusic
 <p>Install our program and all required Python packages in one step by doing:</p>
  <pre>
   <code>
+pip install setuptools
 pip install .
   </code>
 </pre>
