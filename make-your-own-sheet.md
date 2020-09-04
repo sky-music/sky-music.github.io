@@ -10,9 +10,9 @@ layout: default
 
 There's also <a href="https://sky.bloomexperiment.com/t/sky-music-icon-templates/746" target="_blank">these</a> blank sheet templates if you prefer this method.
 
-<h2>Step 1 - <a href="install-python.html">Install Python</a></h2>
+<h2>Step 1 - <a href="./install-python.html">Install Python</a></h2>
 
-<p>We have a <a href="install-python.html">dedicated page</a> for this step.</p>
+<p>We have a <a href="./install-python.html">dedicated page</a> for this step.</p>
 
 <h2>Step 2 - Run Python Music Sheet Maker</h2>
 <p>Download the Sky Music Sheet Maker by clicking <a href="https://github.com/sky-music/sky-python-music-sheet-maker" target="_blank">Here</a>. Click on the green "Clone or Download" button, then choose "Download ZIP".</p>
