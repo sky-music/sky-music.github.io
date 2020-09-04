@@ -26,7 +26,7 @@ cd ~/Desktop/sky-python-music-sheet-maker/src/skymusic
   </code>
 </pre>
 
-<p>On Windows, paths are a bit different:</p>
+<p>On Windows, open a console prompt (cmd.exe) and type:</p>
 <pre>
   <code>
 cd /d %homedrive%%homepath%\Desktop\sky-python-music-sheet-maker\src\skymusic
