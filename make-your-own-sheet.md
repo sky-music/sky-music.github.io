@@ -39,7 +39,14 @@ cd /d %homedrive%%homepath%\Desktop\sky-python-music-sheet-maker\src\skymusic
 <p>In the console (cmd.exe on Windows, Terminal on MacOS), enter:</p>
 <pre>
   <code>
-python3 command_line_player.py
+python command_line_player.py
+  </code>
+</pre>
+
+<p>If you have installed our program using pip, simply type instead:</p>
+<pre>
+  <code>
+skymusic
   </code>
 </pre>
 
