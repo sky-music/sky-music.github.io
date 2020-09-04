@@ -18,8 +18,8 @@ python3 --version
 </pre>
 
 <ol>
-<li>If both commands work and return a version number > 3.7, then Python 3 is correctly installed on your computer and you can start <a href="./make-your-own-sheet.html">making your own music sheet !</a></li>
-<li>If both commands return a version number < 3.7, then you'll need to update your Python distribution</li>
+<li>If both commands work and return a version number >= 3.6, then Python 3 is correctly installed on your computer and you can start <a href="./make-your-own-sheet.html">making your own music sheet !</a></li>
+<li>If both commands return a version number < 3.6, then you'll need to update your Python distribution</li>
 <li>If both command work but return different version numbers, then in the following use the command name that returns the highest version number. Particularly if `python`returns `2.x.x`</li>
 </ol>
 
