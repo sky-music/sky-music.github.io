@@ -10,37 +10,9 @@ layout: default
 
 There's also <a href="https://sky.bloomexperiment.com/t/sky-music-icon-templates/746" target="_blank">these</a> blank sheet templates if you prefer this method.
 
-<h2>Step 1 - Install Python</h2>
-<p>If you don't yet have Python 3 already installed on your computer you can download it by clicking <a href="https://www.python.org/downloads/" target="_blank">here</a>.
-Unless you have a good reason for doing otherwise, you should download the "Windows x86-64 executable installer". Don't forget to check the box "Add Python to environment variables".</p>
+<h2>Step 1 - <a href="install-python.html">Install Python</a></h2>
 
-<p>Once installed, open cmd (Command Prompt) on Windows, or Terminal on Mac. Then copy and paste these commands into the console:</p>
-<pre>
-  <code>
-python3 -m pip install --upgrade pip
-python3 -m pip install --upgrade pillow
-pip install mido==1.2.9
-pip install pyyaml
-  </code>
-</pre>
-
-<p>Then, type the following command:</p>
-<pre>
-  <code>
-python3 --version
-  </code>
-</pre>
-
-<p>If the displayed Python version is < 3.8, please type this additional command:</p>
-<pre>
-  <code>
-pip install importlib_resources
-  </code>
-</pre>
-
-<p>On Windows, you can also install a more complete version of Python known as <a href="https://sourceforge.net/projects/winpython/">WinPython</a>, and under Windows or MacOS <a href="https://www.anaconda.com/products/individual">Anaconda</a>. In this case the <i>pip</i> commands must be typed in the console of the Spyder code editor. Only <i>mido</i> has to be installed (for generating Midi files), and <i>importlib_resources</i> only if the Python version is < 3.8.</p>
-
-<p>On Apple's iOS, you can use <a href="http://omz-software.com/pythonista/">Pythonista</a>. On Android, you can try <a href="https://play.google.com/store/apps/details?id=ru.iiec.pydroid3&hl=en_US">Pydroid 3</a>.
+<p>We have a <a href="install-python.html">dedicated page</a> for this step.</p>
 
 <h2>Step 2 - Run Python Music Sheet Maker</h2>
 <p>Download the Sky Music Sheet Maker by clicking <a href="https://github.com/sky-music/sky-python-music-sheet-maker" target="_blank">Here</a>. Click on the green "Clone or Download" button, then choose "Download ZIP".</p>
