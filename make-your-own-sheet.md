@@ -34,7 +34,7 @@ cd /d %homedrive%%homepath%\Desktop\sky-python-music-sheet-maker\src\skymusic
 </pre>
 
     
-<i>(If you wish to store the folder elsewhere or change it's name, please change this command accordingly afterwards).</i>
+<i>(If you wish to store the folder elsewhere or change its name, please change the path in the above command accordingly).</i>
 
 <p>Still in the console, enter:</p>
 <pre>
