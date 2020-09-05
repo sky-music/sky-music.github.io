@@ -34,7 +34,7 @@ On Apple's iOS, you can use [Pythonista](http://omz-software.com/pythonista/). O
 
 Once Python has been installed, you have two options:
 
-1. Install our program once and for all, inside your Python distribution. This is a no-brainer option, if you don’t care about tweaking the code and future updates. To do this, <a href="#pipinstall">jump here.
+1. Install our program once and for all, inside your Python distribution. This is a no-brainer option, if you don’t care about tweaking the code and future updates. To do this, <a href="#pipinstall">jump here.</a>
 2. Let our program rest on a separate folder. This is useful to easily update the code by overwriting with the last downloaded version. To do this, read further on. 
 
 
