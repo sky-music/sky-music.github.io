@@ -8,13 +8,13 @@ Here's a step by step guide how to create your own visual music sheet.
 
 ## Without Python
 
-**<span style="font-size:1.2em;)If you do not want to customize the program, and you are not interested in getting the latest version, you have several options:**
+**If you do not want to customize the program, and you are not interested in getting the latest version, you have several options:**
 
 1. Use the [website version](https://jmmelko.pythonanywhere.com/)
 2. Use the Discord Bot version by typing `!song` in the [official tcg forum](https://discord.gg/thatskygame)
 3. Download a binary executable:
 
-	- (./binaries/SkyMusicSheetMaker_MacOS.zip)For MacOS</a>
+	- [For MacOS](./binaries/SkyMusicSheetMaker_MacOS.zip)
 	- For Windows (to be done)
 
 *Please note that support is not provided for executables, so if the program crashes you are encouraged to try another option*
@@ -22,7 +22,7 @@ Then you can skip go (#write-your-music) learn how to type notes and to read mus
 
 ## Using Python
 
-You will need Python >= 3.6 and a few addition packages. We have a (./install-python.html)dedicated page</a> to explain how to install Python.
+You will need Python >= 3.6 and a few addition packages. We have a [dedicated page](./install-python.html) to explain how to install Python.
 
 Download the Sky Music Sheet Maker by clicking [Here](https://github.com/sky-music/sky-python-music-sheet-maker"). Click on the green "Clone or Download" button, then choose "Download ZIP".
 
@@ -57,27 +57,44 @@ Input song files must be put in test_songs, 2 levels above the program, or insid
  *We recommend typing out your notation in Notepad or similar before inputting into cmd/Terminal, as it's easier for you to fix any mistakes this way.*
 
 For the benefit of this tutorial we'll use the most recognised ABC1-5 method, however you may find other supported notations [Here](./assets/images/notations.png), replace the notation in this guide accordingly.
+
 <img src="./assets/images/Chart.jpg)
+
 If you're unfamilliar with this chart or how it it reads please check out the [How to Read](./how-to-read.html) page.
+
 _____________
+
 Separate boxes by using a blank space, for example typing "B3 B4 B5" will produce:
+
 <img src="./assets/images/notespaces.png)
+
 _____________
+
 Type letters with no space for a chord, for example typing "A1A3A5 B1B3B5" will produce:
+
 <img src="./assets/images/chords.png)
+
 _____________
+
 Use . for blank notes, used to signify a pause in the song, for example typing "B4 . B5" will produce:
+
 <img src="./assets/images/space.png)
+
 *If using Jianpu notation please use 0 instead*
+
 _____________
+
 Use - for coloured notes, used to signify pressing buttons in a fast pace one after the other from light to dark colour, for example "A3-B1-B3-B5-C3" will produce:
-<img src="./assets/images/colourednotes.JPG)
+
+<img src="./assets/images/colourednotes.JPG>
+
 *If using Jianpu notation please use ^ instead*
 
 _____________
 
 To indicate a repeat section, use * directly followed by a number, for example "C1C3 *2" will produce:
-<img src="./assets/images/Repeat.JPG)
+
+<img src="./assets/images/Repeat.JPG>
 
 _____________
 
@@ -90,7 +107,7 @@ Use '#' to start a lyrics line. Type '#' again to split the lyrics and align wor
     # #Last #Christ - #mas # #I #gave #you    #my #heart
     A1A3A5 B4 B4 B3 . C5 B4 B4 B5 B3
 
-<img src="./assets/images/Comments.PNG)
+<img src="./assets/images/Comments.PNG>
 
 You can also use '#' to add a header (section title), and format it using HTML tags. For instance:
 
@@ -103,6 +120,7 @@ Tip 1: We usually find 8 boxes a row works best for a 16:9 aspect ratio (widescr
 Tip 2: In the Python command-line program do not press enter after a blank line as this will end the song. If you need a full blank line in the song use '.' for blank notes or enter a lyrics line with no text.
 
 ## Step 4 - Input your music!
+
 With your music typed out, now simply copy and paste all of your notes into cmd/terminal after you've followed Step 2.
 To end the song, press 'Enter' for a new line, then press 'Enter' again on the blank line.
 
@@ -111,6 +129,7 @@ You'll now be asked to input a recommended key (leave blank if unsure), the song
 Your song will be saved in html format to the /songs_out/ folder where you saved the sky-python-music-sheet-maker folder.
 
 ## Finished Example
+
 Let's look at the intro to [Can't help falling in love with you](./songs/Cant-Help-Falling-in-Love-Intro.html) by Elvis Presley.
 Following the guide above, in CMD or Terminal we input:
 
@@ -120,7 +139,8 @@ Following the guide above, in CMD or Terminal we input:
     A3A5B5 . A2A5B4 . A1A3B3 . . .
 
 And out comes:
-<img src="./assets/images/finishedexample.JPG)
+
+<img src="./assets/images/finishedexample.JPG>
 
 ## We would love to have your song on this website!
 Join our (./discord.html)Discord</a> and send us the file so we can upload it here! We can also embed an accompanying video if you have one hosted somewhere.
