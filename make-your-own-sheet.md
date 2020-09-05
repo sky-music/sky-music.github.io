@@ -20,13 +20,12 @@ layout: default
 </ol>
 
 <p><i>Please note that support is not provided for executables, so if the program crashes you are encouraged to try another option</i></p>
-<p>Then you can skip to Step 3 to learn how to type notes and to read music sheets.</p>
+<p>Then you can skip go <a href="#write-your-music">learn how to type notes and to read music sheets.</a></p>
 
-<h2>Step 1 - <a href="./install-python.html">Install Python</a></h2>
+<h2>Using Python</h2>
 
-<p>You will need Python >= 3.6 and a few addition packages. We have a <a href="./install-python.html">dedicated page</a> for this step.</p>
+<p>You will need Python >= 3.6 and a few addition packages. We have a <a href="./install-python.html">dedicated page</a> to explain how to install Python.</p>
 
-<h2>Step 2 - Run Python Music Sheet Maker</h2>
 <p>Download the Sky Music Sheet Maker by clicking <a href="https://github.com/sky-music/sky-python-music-sheet-maker" target="_blank">Here</a>. Click on the green "Clone or Download" button, then choose "Download ZIP".</p>
 
 For the sake of an example let's extract this to your Desktop.
@@ -44,7 +43,6 @@ cd ~/Desktop/sky-python-music-sheet-maker/src/skymusic
 cd /d %homedrive%%homepath%\Desktop\sky-python-music-sheet-maker\src\skymusic
   </code>
 </pre>
-
     
 <i>(If you wish to store the folder elsewhere or change its name, please change the path in the above command accordingly).</i>
 
@@ -64,7 +62,11 @@ skymusic
 
 <p>If nothing happens or you get an error, there's probably something wrong with your Python installation. Write down the error and contact us by Discord.</p>
 
-<h2>Step 3 - Write your music</h2>
+<h2 id="where-files-are-stored">Where files are stored</h2>
+
+Input song files must be put in test_songs, 2 levels above the program, or inside your home user directory, inside 'skymusic'
+
+<h2 id="write-your-music">Write your music</h2>
 <span style="font-size:1.2em;">We recommend typing out your notation in Notepad or similar before inputting into cmd/Terminal, as it's easier for you to fix any mistakes this way.</span>
 
 <p>For the benefit of this tutorial we'll use the most recognised ABC1-5 method, however you may find other supported notations <a href="./assets/images/notations.png" target="_blank">Here</a>, replace the notation in this guide accordingly.</p>
