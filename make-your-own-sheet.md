@@ -86,7 +86,7 @@ _____________
 
 Use - for coloured notes, used to signify pressing buttons in a fast pace one after the other from light to dark colour, for example "A3-B1-B3-B5-C3" will produce:
 
-<img src="./assets/images/colourednotes.JPG>
+<img src="./assets/images/colourednotes.JPG">
 
 *If using Jianpu notation please use ^ instead*
 
@@ -94,7 +94,7 @@ _____________
 
 To indicate a repeat section, use * directly followed by a number, for example "C1C3 *2" will produce:
 
-<img src="./assets/images/Repeat.JPG>
+<img src="./assets/images/Repeat.JPG">
 
 _____________
 
@@ -107,7 +107,7 @@ Use '#' to start a lyrics line. Type '#' again to split the lyrics and align wor
     # #Last #Christ - #mas # #I #gave #you    #my #heart
     A1A3A5 B4 B4 B3 . C5 B4 B4 B5 B3
 
-<img src="./assets/images/Comments.PNG>
+<img src="./assets/images/Comments.PNG">
 
 You can also use '#' to add a header (section title), and format it using HTML tags. For instance:
 
@@ -140,7 +140,7 @@ Following the guide above, in CMD or Terminal we input:
 
 And out comes:
 
-<img src="./assets/images/finishedexample.JPG>
+<img src="./assets/images/finishedexample.JPG">
 
 ## We would love to have your song on this website!
 Join our (./discord.html)Discord</a> and send us the file so we can upload it here! We can also embed an accompanying video if you have one hosted somewhere.
