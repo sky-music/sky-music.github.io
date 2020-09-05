@@ -12,12 +12,15 @@ layout: default
 <ol>
 <li>Use the <a href="https://jmmelko.pythonanywhere.com/" target="_blank">website version</a></li>
   <li>Use the Discord Bot version by typing <code>!song</code> in the <a href="https://discord.gg/thatskygame">official tcg forum</a></li>
-<li>Download an executable:</li>
+<li>Download a binary executable:</li>
   <ul>
     <li><a href="./binaries/SkyMusicSheetMaker_MacOS.zip">For MacOS</a></li>
     <li>For Windows (to be done)</li>
   </ul>
 </ol>
+
+<p><i>Please note that support is not provided for executables, so if the program crashes you are encouraged to try another option</i></p>
+<p>Then you can skip to Step 3 to learn how to type notes and to read music sheets.</p>
 
 <h2>Step 1 - <a href="./install-python.html">Install Python</a></h2>
 
