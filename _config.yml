@@ -5,7 +5,6 @@ google_analytics:
 theme: jekyll-theme-architect
 plugins:
   - jekyll-seo-tag
-
 markdown: kramdown
 kramdown:
   syntax_highlighter_opts:
