@@ -10,10 +10,8 @@ First of all, let's check that Python is not already installed on your computer
 
 Open a Windows console (cmd.exe) or a MacOS Terminal window (Terminal.app), and type:
 
-```
-python --version
-python3 --version
-```
+    python --version
+    python3 --version
 
 
 1. If both commands work and return a version number >= 3.6, then Python 3 is correctly installed on your computer and you can start [making your own music sheet !](./make-your-own-sheet.html)
@@ -40,58 +38,48 @@ Once Python has been installed, you have two options:
 
 If you have installed the basic Python distribution, open a console window (cmd.exe or Terminal.app) and copy-paste these commands into the console (you can skip this step if you have WinPython, Anaconda, Pythonista, or Pydroid):
 
-```
-python -m pip install --upgrade pip
-python -m pip install --upgrade pillow
-pip install pyyaml
-```
+    python -m pip install --upgrade pip
+    python -m pip install --upgrade pillow
+    pip install pyyaml
 
 If you want to export your song in MIDI format, you have to install an additional package:
 
-```
-pip install mido==1.2.9
-```
+    pip install mido==1.2.9
 
 Finally, check your Python version by typing the following:
 
-```
-python --version
-```
+    python --version
 
 If the displayed Python version is < 3.8, please install this additional package:
 
-```
-pip install importlib_resources
-``` 
-  
+    pip install importlib_resources
+
 *Using pip on Pythonista for iOS is a bit tricky, as it requires installing stash beforehand, so please contact us for assistance.*
 
 ## Install the Music Sheet Maker in your Python distribution (optional)
 
 This installation method is the simplest, but  editing or updating the code will be a bit longer. In a console, navigate to the folder where you unzipped the Music Sheet Maker code, for instance:
 
-```
-cd ~/Desktop/sky-python-music-sheet-maker/src/skymusic
-```
+    cd ~/Desktop/sky-python-music-sheet-maker/src/skymusic
+
 
 On Windows, paths are a bit different:
   
-```
-cd /d %homedrive%%homepath%\Desktop\sky-python-music-sheet-maker\src\skymusic
-```
+
+    cd /d %homedrive%%homepath%\Desktop\sky-python-music-sheet-maker\src\skymusic
+
   
 (If you wish to store the folder elsewhere or change it's name, please change this command accordingly afterwards).
 
 Install our program and all required Python packages in one step by doing:
 
-```
-pip install .
-```
+
+    pip install .
+
 
 The program can be now launched from any location simply by typing `skymusic` !
 
 If you got an error with the last command, retry after doing first:
 
-```
-pip install setuptools
-```
+
+    pip install setuptools
