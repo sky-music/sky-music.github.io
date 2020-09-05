@@ -56,9 +56,9 @@ Input song files must be put in test_songs, 2 levels above the program, or insid
 
  *We recommend typing out your notation in Notepad or similar before inputting into cmd/Terminal, as it's easier for you to fix any mistakes this way.*
 
-For the benefit of this tutorial we'll use the most recognised ABC1-5 method, however you may find other supported notations [Here](./assets/images/notations.png), replace the notation in this guide accordingly.
+For the benefit of this tutorial we'll use the most recognised ABC1-5 method, however you may find other supported notations [Here](./assets/images/notations.png">, replace the notation in this guide accordingly.
 
-<img src="./assets/images/Chart.jpg)
+<img src="./assets/images/Chart.jpg">
 
 If you're unfamilliar with this chart or how it it reads please check out the [How to Read](./how-to-read.html) page.
 
@@ -66,19 +66,19 @@ _____________
 
 Separate boxes by using a blank space, for example typing "B3 B4 B5" will produce:
 
-<img src="./assets/images/notespaces.png)
+<img src="./assets/images/notespaces.png">
 
 _____________
 
 Type letters with no space for a chord, for example typing "A1A3A5 B1B3B5" will produce:
 
-<img src="./assets/images/chords.png)
+<img src="./assets/images/chords.png">
 
 _____________
 
 Use . for blank notes, used to signify a pause in the song, for example typing "B4 . B5" will produce:
 
-<img src="./assets/images/space.png)
+<img src="./assets/images/space.png">
 
 *If using Jianpu notation please use 0 instead*
 
