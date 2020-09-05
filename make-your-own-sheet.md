@@ -6,12 +6,12 @@ layout: default
 
 <p>Here's a step by step guide how to create your own visual music sheet.</p>
 
-<h2>Step 1 - Without Python</h2>
+<h2>Without Python</h2>
 
 <p><b><span style="font-size:1.2em;">If you do not want to customize the program, and you are not interested in getting the latest version, you have several options:</b></p>
 <ol>
-<li>Use the <a href="https://jmmelko.pythonanywhere.com/" target="_blank">website version here</a></li>
-<li>Use the <a href="https://discord.gg/thatskygame">Discord Bot version</a> by typing `!song` in the official tcg forum</li>
+<li>Use the <a href="https://jmmelko.pythonanywhere.com/" target="_blank">website version</a></li>
+  <li>Use the Discord Bot version by typing <code>!song</code> in the <a href="https://discord.gg/thatskygame">official tcg forum</a></li>
 <li>Download an executable:</li>
   <ul>
     <li><a href="./binaries/SkyMusicSheetMaker_MacOS.zip">For MacOS</a></li>
