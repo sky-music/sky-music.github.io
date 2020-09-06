@@ -8,18 +8,21 @@ permalink: /index2.html
 <p>If you would like to <a href="./make-your-own-sheet.html">create your own music sheet</a> please check the links in side bar for a tutorial, amongst other useful links.</p>
 Click a section to see a drop down list.
 
-<h1>Index of all collections /</h1>
+
+{% for coll in site.collections %}
+<details>
+  <summary><font size="5"><img src="{{ coll.directory | escape }}/logo.png"> {{ coll.name }} </font></summary>
   <ul>
-    {% for coll in site.collections %}
-      {% for file in coll.files %}
-        <li><a href="{{ site.baseurl | escape }}{{ file.path | escape }}">{{ file.path | escape }}</a> </li>
-      {% endfor %}
-    {% endfor %}
+  {% for file in coll.files %}
+    <li><a href="{{ coll.directory | escape }}{{ file.path | escape }}">{{ file.basename }}</a> </li>
+  {% endfor %}
   </ul>
+{% endfor %}
+
 
 <h1>Index of all HTML files in /</h1>
   <ul>
-    {% for url in site.html_files %}
+    {% for url in site.html_pages %}
     <li><a href="{{ site.baseurl | escape }}{{ url.path | escape }}">{{ url.path | escape }}</a> </li>
     {% endfor %}
   </ul>
