@@ -11,5 +11,8 @@ kramdown:
     disable: true
 collections_dir: songs
 collections:
+  - anime
   - classical
+  - movies
   - traditional
+  - videogames
