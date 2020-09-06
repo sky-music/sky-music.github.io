@@ -1,5 +1,7 @@
 ---
 layout: default
+title: "index 2"
+permalink: /index2.html
 ---
 
 <p>A collection of fan made visual music sheets/tablature for songs to learn in <a href="https://thatskygame.com/">Sky: Children of the Light!</a></p>
