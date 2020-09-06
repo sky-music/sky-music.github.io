@@ -161,9 +161,10 @@ Click a section to see a drop down list.
 
 <ul>   
 <li><a href="./songs/Build-that-wall-Bastion.html"> Bastion - Build That Wall (Zia's Theme)</a></li>
- <li><a href="./songs/Cosmo_Canyon.html"> Final Fantasy VII - Cosmo Canyon </a></li>
+<li><a href="./songs/Cosmo_Canyon.html"> Final Fantasy VII - Cosmo Canyon </a></li>
 <li><a href="./songs/Threshold.html"> Journey - Threshold </a></li>
- <li><a href="./songs/Kahoot_Lobby_Theme.html"> Kahoot Lobby Theme </a></li>
+<li><a href="./songs/Kahoot_Lobby_Theme.html"> Kahoot Lobby Theme </a></li>
+<li><a href="./songs/Kahoot_Theme_0.html"> Kahoot Main Theme </a></li>
 <li><a href="./songs/Dearly Beloved.html"> Kingdom Hearts – Dearly Beloved </a></li>
 <li><a href="./songs/Klonoa_Title_Screen.html"> Klonoa Title Screen </a></li>
 <li><a href="./songs/Song_Of_Storms.html"> Legend of Zelda – Song of Storms</a></li>
