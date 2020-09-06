@@ -10,24 +10,24 @@ Click a section to see a drop down list.
  <summary><font size="5"><img src="./assets/images/Anime.png"> Anime </font></summary>
   
 <ul> 
- <li><a href="./songs/_anime/Big_Fish_and_Begonia.html"> Big Fish and Begonia </a></li>
- <li><a href="./songs/_anime/A_Cruel_Angels_Thesis.html"> Evangelion - A Cruel Angel's Thesis </a></li>
- <li><a href="./songs/_anime/A_Cruel_Angels_Thesis_Hard.html"> Evangelion - A Cruel Angel's Thesis (hard)</a></li>
- <li><a href="./songs/_anime/Lyras Song.html"> Fairy Tail - Lyra's Song </a></li>
-<li><a href="./songs/_anime/Merry_Go_Round_of_Life.html"> Howl's Moving Castle - Merry Go Round of Life </a></li>
-<li><a href="./songs/_anime/To-Loves-End-Futari-No-Kimochi.html"> Inuyasha – To Love's End (Futari No Kimochi) </a></li>
-<li><a href="./songs/_anime/sky光遇——穿越时空的思念.html"> Inuyasha - 穿越时空的思念</a></li>
-<li><a href="./songs/_anime/Kikis_Delivery_Service_-_A_Town.html"> Kiki's Delivery Service - A Town With An Ocean View </a></li>
-<li><a href="./songs/_anime/Mitsuhas_Theme_Kimi_No_Na_wa.html"> Kimi No Na wa - Your Name - Mitsuha's Theme </a></li>
-<li><a href="./songs/_anime/Dango_daikazoku.html"> Kyoto Animation - Dango Daikazoku </a></li>
- <li><a href="./songs/_anime/MDZS_Wangxian_audio_drama_ver.html"> MDZS Wangxian (audio drama ver.) </a></li>
- <li><a href="./songs/_anime/Mononoke_Hime_-_Joe_Hisaishi.html"> Mononoke Hime </a></li>
-<li><a href="./songs/_anime/Hokage-Funeral.html"> Naruto – Hokage Funeral </a></li>
-<li><a href="./songs/_anime/Fly-Me-to-the-Moon.html">  Neon Genesis Evangelion – Fly Me to the Moon </a></li>
-<li><a href="./songs/_anime/Always_with_Me-Spirited_Away.html"> Spirited Away - Always With Me </a></li>
-<li><a href="./songs/_anime/Teru_no_UtaTherrus_Song.html"> Teru no UtaTherru's Song </a></li>
- <li><a href="./songs/_anime/Tokyo_Ghoul_-_Unravel.html"> Tokyo Ghoul - Unravel </a></li>
-<li><a href="./songs/_anime/The_Loneliest_Girl.html"> Carole & Tuesday - The Loneliest Girl </a></li>
+ <li><a href="./songs/anime/Big_Fish_and_Begonia.html"> Big Fish and Begonia </a></li>
+ <li><a href="./songs/anime/A_Cruel_Angels_Thesis.html"> Evangelion - A Cruel Angel's Thesis </a></li>
+ <li><a href="./songs/anime/A_Cruel_Angels_Thesis_Hard.html"> Evangelion - A Cruel Angel's Thesis (hard)</a></li>
+ <li><a href="./songs/anime/Lyras Song.html"> Fairy Tail - Lyra's Song </a></li>
+<li><a href="./songs/anime/Merry_Go_Round_of_Life.html"> Howl's Moving Castle - Merry Go Round of Life </a></li>
+<li><a href="./songs/anime/To-Loves-End-Futari-No-Kimochi.html"> Inuyasha – To Love's End (Futari No Kimochi) </a></li>
+<li><a href="./songs/anime/sky光遇——穿越时空的思念.html"> Inuyasha - 穿越时空的思念</a></li>
+<li><a href="./songs/anime/Kikis_Delivery_Service_-_A_Town.html"> Kiki's Delivery Service - A Town With An Ocean View </a></li>
+<li><a href="./songs/anime/Mitsuhas_Theme_Kimi_No_Na_wa.html"> Kimi No Na wa - Your Name - Mitsuha's Theme </a></li>
+<li><a href="./songs/anime/Dango_daikazoku.html"> Kyoto Animation - Dango Daikazoku </a></li>
+ <li><a href="./songs/anime/MDZS_Wangxian_audio_drama_ver.html"> MDZS Wangxian (audio drama ver.) </a></li>
+ <li><a href="./songs/anime/Mononoke_Hime_-_Joe_Hisaishi.html"> Mononoke Hime </a></li>
+<li><a href="./songs/anime/Hokage-Funeral.html"> Naruto – Hokage Funeral </a></li>
+<li><a href="./songs/anime/Fly-Me-to-the-Moon.html">  Neon Genesis Evangelion – Fly Me to the Moon </a></li>
+<li><a href="./songs/anime/Always_with_Me-Spirited_Away.html"> Spirited Away - Always With Me </a></li>
+<li><a href="./songs/anime/Teru_no_UtaTherrus_Song.html"> Teru no UtaTherru's Song </a></li>
+ <li><a href="./songs/anime/Tokyo_Ghoul_-_Unravel.html"> Tokyo Ghoul - Unravel </a></li>
+<li><a href="./songs/anime/The_Loneliest_Girl.html"> Carole & Tuesday - The Loneliest Girl </a></li>
 </ul>
 </details>
 
