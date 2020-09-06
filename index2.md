@@ -9,11 +9,10 @@ permalink: /index2.html
 Click a section to see a drop down list.
 
 
-{% assign static_files = site.static_files %}
-
 {% for coll in site.collections %}
+{% assign  %}
 <details>
-  <summary><font size="5"><img src="{{ site.baseurl | escape }}/assets/images/collections/{{ coll.label }}/{{ coll.label }}.png"> {{ coll.label }} </font></summary>
+  <summary><font size="5"><img src="{{ site.baseurl | escape }}/assets/images/categories/{{ coll.label }}/{{ coll.label }}.png"> {{ coll.label }} </font></summary>
   <ul>
   {% for file in coll.files %}
     <li><a href="/songs/{{ file.path | escape }}">{{ file.basename }}</a> </li>
