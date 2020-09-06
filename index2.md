@@ -11,10 +11,10 @@ Click a section to see a drop down list.
 
 {% for coll in site.collections %}
 <details>
-  <summary><font size="5"><img src="{{ site.baseurl | escape }}/assets/images/collections/{{ coll.name }}/{{ coll.name }}.png"> {{ coll.name }} </font></summary>
+  <summary><font size="5"><img src="{{ site.baseurl | escape }}/assets/images/collections/{{ coll.label }}/{{ coll.label }}.png"> {{ coll.label }} </font></summary>
   <ul>
   {% for file in coll.files %}
-    <li><a href="{{ coll.directory | escape }}{{ file.path | escape }}">{{ file.basename }}</a> </li>
+    <li><a href="/songs/{{ file.path | escape }}">{{ file.basename }}</a> </li>
   {% endfor %}
   </ul>
 </details>
