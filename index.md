@@ -7,7 +7,7 @@ layout: default
 Click a section to see a drop down list.
 
 <details>
- <summary><font size="5"><img src="./assets/images/categories/anime.png"> Anime </font></summary>
+ <summary><font size="5"><img src="./assets/images/categories/anime/anime.png"> Anime </font></summary>
   
 <ul> 
  <li><a href="./songs/anime/Big_Fish_and_Begonia.html"> Big Fish and Begonia </a></li>
@@ -32,7 +32,7 @@ Click a section to see a drop down list.
 </details>
 
 <details>
- <summary><font size="5"><img src="./assets/images/categories/classical.png"> Classical</font></summary>
+ <summary><font size="5"><img src="./assets/images/categories/classical/classical.png"> Classical</font></summary>
 
 <ul>
 <li><a href="./songs/Jesu-Joy-of-Mans-Desiring.html"> Bach - Jesu, Joy of Man's Desiring</a></li>
@@ -50,7 +50,7 @@ Click a section to see a drop down list.
 </details>
 
 <details>
-  <summary><font size="5"><img src="./assets/images/categories/movies.png"> Movies, TV Shows & Dramas </font></summary>
+  <summary><font size="5"><img src="./assets/images/categories/movies/movies.png"> Movies, TV Shows & Dramas </font></summary>
 
 <ul> 
 
@@ -91,7 +91,7 @@ Click a section to see a drop down list.
 </details>
 
 <details>
- <summary><font size="5"><img src="./assets/images/categories/popular.png"> Popular</font></summary>
+ <summary><font size="5"><img src="./assets/images/categories/popular/popular.png"> Popular</font></summary>
 
 <ul>  
 <li><a href="./songs/Take on me.html"> A-Ah - Take on me</a></li>
@@ -139,7 +139,7 @@ Click a section to see a drop down list.
 </details>
 
 <details>
-  <summary><font size="5"><img src="./assets/images/categories/traditional.png"> Traditional</font></summary>
+  <summary><font size="5"><img src="./assets/images/categories/traditional/traditional.png"> Traditional</font></summary>
 
 <ul>   
 <li><a href="./songs/Amazing Grace.html"> Amazing Grace (John Newton)</a></li>
@@ -157,7 +157,7 @@ Click a section to see a drop down list.
 </details>
 
 <details>
- <summary><font size="5"><img src="./assets/images/categories/videogames.png"> Video games</font></summary>
+ <summary><font size="5"><img src="./assets/images/categories/videogames/videogames.png"> Video games</font></summary>
 
 <ul>   
 <li><a href="./songs/Build-that-wall-Bastion.html"> Bastion - Build That Wall (Zia's Theme)</a></li>
