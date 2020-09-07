@@ -17,7 +17,7 @@ Click a section to see a drop down list.
   <ul>
   {% for file in static_files %}
      {% if file.path contains coll_dir %}
-    <li><a href="/songs/{{ file.path | escape }}">{{ file.basename }}</a> </li>
+    <li><a href="/songs/{{ file.path | escape }}">{{ file.basename | replace: "_", " " | replace: "-", " "}}</a> </li>
   {% endif %}
 {% endfor %}
   </ul>
