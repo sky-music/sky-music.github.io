@@ -10,7 +10,7 @@ Click a section to see a drop down list.
 
 
 {% for coll in site.collections %}
-{% assign  %}
+{% if coll.label != 'posts' %}
 <details>
   <summary><font size="5"><img src="{{ site.baseurl | escape }}/assets/images/categories/{{ coll.label }}/{{ coll.label }}.png"> {{ coll.label }} </font></summary>
   <ul>
@@ -19,6 +19,7 @@ Click a section to see a drop down list.
   {% endfor %}
   </ul>
 </details>
+{% endif %}
 {% endfor %}
 
 
