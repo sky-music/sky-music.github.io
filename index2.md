@@ -10,6 +10,7 @@ Click a section to see a drop down list.
 
 {% assign static_files = site.static_files | where: 'extname', '.html' %}
 {% for coll in site.collections %}
+{{ ('songs/'+coll.label) }}
 {% if coll.label != 'posts' %}
 <details>
   <summary><font size="5"><img src="{{ site.baseurl | escape }}/assets/images/categories/{{ coll.label }}/{{ coll.label }}.png"> {{ coll.label }} </font></summary>
