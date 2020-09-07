@@ -8,7 +8,7 @@ permalink: /index2.html
 <p>If you would like to <a href="./make-your-own-sheet.html">create your own music sheet</a> please check the links in side bar for a tutorial, amongst other useful links.</p>
 Click a section to see a drop down list.
 
-{% assign static_files = site.static_files | where 'extname', '.html' %}
+{% assign static_files = site.static_files | where: 'extname', '.html' %}
 {% for coll in site.collections %}
 {{ coll.directory }}
 {{ coll.relative_directory }}
