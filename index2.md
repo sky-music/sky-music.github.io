@@ -15,7 +15,7 @@ Click a section to see a drop down list.
   <summary><font size="5"><img src="{{ site.baseurl | escape }}/assets/images/categories/{{ coll.label }}/{{ coll.label }}.png"> {{ coll.label }} </font></summary>
   <ul>
   {% for file in static_files %}
-     {% if file.path contains 'songs/'+coll.label %}
+     {% if file.path contains ('songs/'+coll.label) %}
     <li><a href="/songs/{{ file.path | escape }}">{{ file.basename }}</a> </li>
   {% endif %}
 {% endfor %}
