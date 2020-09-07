@@ -10,13 +10,13 @@ Click a section to see a drop down list.
 
 {% assign static_files = site.static_files | where: 'extname', '.html' %}
 {% for coll in site.collections %}
-{{ ('songs/'+coll.label) }}
+{{ 'songs/' | append: coll.label }}
 {% if coll.label != 'posts' %}
 <details>
   <summary><font size="5"><img src="{{ site.baseurl | escape }}/assets/images/categories/{{ coll.label }}/{{ coll.label }}.png"> {{ coll.label }} </font></summary>
   <ul>
   {% for file in static_files %}
-     {% if file.path contains ('songs/'+coll.label) %}
+     {% if file.path contains 'songs/' | append: coll.label %}
     <li><a href="/songs/{{ file.path | escape }}">{{ file.basename }}</a> </li>
   {% endif %}
 {% endfor %}
