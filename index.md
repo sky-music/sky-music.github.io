@@ -147,7 +147,7 @@ Click a section to see a drop down list.
 <li><a href="/songs/traditional/Various__American folk songs.html"> American folk songs</a></li>
 <li><a href="/songs/traditional/Whall__Drunken-Sailor.html"> Drunken Sailor</a></li>
 <li><a href="/songs/traditional/Unknown_(Although_jokingly_attributed_to_Ferdinand_Loh)__Flohwalzer.html"> Flohwalzer</a></li>
-<li><a href="/songs/traditional/Patty_&_Mildred_Hill()__Happy_Birthday.html"> Happy Birthday </a></li>
+<li><a href="/songs/traditional/Patty_&_Mildred_Hill__Happy_Birthday.html"> Happy Birthday </a></li>
 <li><a href="/songs/traditional/Scarborough-Fair.html"> Scarborough Fair</a></li>
 <li><a href="/songs/traditional/Alexander_Alexandrov__State_Anthem_of_the_USSR.html"> Soviet Union National Anthem</a></li>
 <li><a href="/songs/traditional/Traditional_Scottish__Tha_Mi_Sgith.html"> Tha Mi Sgith</a></li>
