@@ -176,8 +176,8 @@ Click a section to see a drop down list.
 <li><a href="/songs/videogames/O_Mia_Cara_Addio_Easy.html"> Portal 2 - O Mia Cara, Addio (Easy-lyrics)</a></li>
 <li><a href="/songs/videogames/O_Mia_Cara_Addio_Hard.html"> Portal 2 - O Mia Cara, Addio (Hard)</a></li>
 <li><a href="/songs/videogames/Promise_Reprise_-_Silent_Hill_2.html"> Silent Hill 2 - Promise (Reprise) </a></li>
-<li><a href="/songs/videogames/Super_Mario_Galaxy_-_Comet_Observatory.html"> Super Mario Galaxy - Comet Observatory.html </a></li>
 <li><a href="/songs/videogames/Stardew_Valley_-_Wind_can_be_Still_Winter.html"> Stardew Valley - Wind can be still Winter </a></li>
+<li><a href="/songs/videogames/Super_Mario_Galaxy_-_Comet_Observatory.html"> Super Mario Galaxy - Comet Observatory </a></li>
 <li><a href="/songs/videogames/Super Mario (simple version).html"> Super Mario NES Theme (simple version)</a></li>
 <li><a href="/songs/videogames/Super Mario.html"> Super Mario NES Theme (with chords)</a></li>
 <li><a href="/songs/videogames/Korobeiniki-Tetris-Theme.html"> Tetris Theme - Korobeiniki</a></li>
