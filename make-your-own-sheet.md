@@ -50,13 +50,13 @@ If nothing happens or you get an error, there's probably something wrong with yo
 
 ## Where files are stored
 
-Input song files must be put in ‘test_songs’. This directory is placed 2 levels above the command_line_player.py script if you made a manual installation, or inside your home user directory, in 'Documets/skymusic/'.
+Input song files must be put in ‘test_songs’. This directory is placed 2 levels above the command_line_player.py script if you made a manual installation, or inside your home user directory, in a folder named 'skymusic/'.
 Music sheets will be written in ’songs_out’.
 A preferences file can be put at the same level than the songs directory, using YAML format.
 
 ## Write your music
 <a name="write-your-music"></a>
- *We recommend typing out your notation in Notepad or similar before inputting into cmd/Terminal, as it's easier for you to fix any mistakes this way.*
+*We recommend typing out your notation in Notepad or similar before inputting into cmd/Terminal, as it's easier for you to fix any mistakes this way.*
 
 For the benefit of this tutorial we'll use the most recognised ABC1-5 method, however you may find other supported notations [Here](./assets/images/notations.png), replace the notation in this guide accordingly.
 
