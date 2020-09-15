@@ -52,7 +52,11 @@ If nothing happens or you get an error, there's probably something wrong with yo
 
 Input song files must be put in ‘test_songs’. This directory is placed 2 levels above the command_line_player.py script if you made a manual installation, or inside your home user directory, in a folder named 'skymusic/'.
 Music sheets will be written in ’songs_out’.
-A preferences file can be put at the same level than the songs directory, using YAML format.
+If you want to use different folders, launch the program this way:
+
+    python command_line_player.py --in_dir <path/to/input/dir/> --out_dir <path/to/output/dir>
+
+A preferences file can be put at the same level than the songs directory, using YAML format (see the example furnished with the code to understand its syntax).
 
 ## Write your music
 <a name="write-your-music"></a>
