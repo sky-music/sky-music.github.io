@@ -64,9 +64,10 @@ For the benefit of this tutorial we'll use the most recognised ABC1-5 method, ho
 
 *Note that for musical notations supporting octaves (such as English, Jianpu, and doremi), the starting octave is 1, by convention.
 Typing a note name without octave (e.g. F) implicitely assumes that it belongs to the starting octave (e.g. F1).
+But to indicate that a note belongs to the next octave you will have to write it explicitly (e.g. F2).
 So the full range of the piano writes C1-C3.
 This convention is different from SkyStudio's which assumes that the piano range is C4-C6.
-Nevertheless, since the absolute range actually depends on the instrument, so it's just a matter of convention.*
+Nevertheless, since the absolute range actually depends on the instrument (piano, harp, flute, bass, etc), it's just a matter of convention (nobody's right or wrong).*
 
 ![chart](/assets/images/Chart.jpg)
 
