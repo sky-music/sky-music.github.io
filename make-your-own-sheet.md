@@ -24,7 +24,7 @@ Then you can skip [here](#write-your-music) to learn how to type notes and to re
 
 You will need Python >= 3.6 and a few addition packages. We have a [dedicated page](/install-python.html) to explain how to install Python.
 
-Download the Sky Music Sheet Maker by clicking [Here](https://github.com/sky-music/sky-python-music-sheet-maker"). Click on the green "Clone or Download" button, then choose "Download ZIP".
+Download the Sky Music Sheet Maker by clicking [Here](https://github.com/sky-music/sky-python-music-sheet-maker). Click on the green "Code" button, then choose "Download ZIP".
 
 For the sake of an example let's extract this to your Desktop.
 
