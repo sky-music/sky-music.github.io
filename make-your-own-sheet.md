@@ -58,7 +58,15 @@ A preferences file can be put at the same level than the songs directory, using 
 <a name="write-your-music"></a>
 *We recommend typing out your notation in Notepad or similar before inputting into cmd/Terminal, as it's easier for you to fix any mistakes this way.*
 
-For the benefit of this tutorial we'll use the most recognised ABC1-5 method, however you may find other supported notations [Here](./assets/images/notations.png), replace the notation in this guide accordingly.
+For the benefit of this tutorial we'll use the most recognised ABC1-5 method, however the program supports several notations:
+
+![notations](/assets/images/notations.png)
+
+*Note that for musical notations supporting octaves (such as English, Jianpu, and doremi), the starting octave is 1, by convention.
+Typing a note name without octave (e.g. F) implicitely assumes that it belongs to the starting octave (e.g. F1).
+So the full range of the piano writes C1-C3.
+This convention is different from SkyStudio's which assumes that the piano range is C4-C6.
+Nevertheless, since the absolute range actually depends on the instrument, so it's just a matter of convention.*
 
 ![chart](/assets/images/Chart.jpg)
 
@@ -88,7 +96,7 @@ _____________
 
 Use - for coloured notes, used to signify pressing buttons in a fast pace one after the other from light to dark colour, for example "A3-B1-B3-B5-C3" will produce:
 
-![colourednotes](./assets/images/colourednotes.JPG)
+![colourednotes](/assets/images/colourednotes.JPG)
 
 *If using Jianpu notation please use ^ instead*
 
@@ -115,7 +123,7 @@ You can also use '#' to add a header (section title), and format it using HTML t
 
      <h1 style="color:red;>Section 1</h1>
  
- will produce a section title in big, bold, red letters. This will work with HTML output files but be ignored in other formats.
+will produce a section title in big, bold, red letters. This will work with HTML output files but be ignored in other formats.
 Use this with great caution as any error in these tags can break the whole HTML file. 
 
 Tip 1: We usually find 8 boxes a row works best for a 16:9 aspect ratio (widescreen). Use line breaks to divide your song in rows.
