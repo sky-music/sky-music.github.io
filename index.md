@@ -15,11 +15,9 @@ Click a section to see a drop down list.
 <details>
   <summary><font size="5"><img src="{{ site.baseurl | escape }}/assets/images/categories/{{ coll.label }}/{{ coll.label }}.png"> {{ coll.label | capitalize }} </font></summary>
   <ul>
-  {% for file in static_files %}
-     {% if file.path contains coll_dir %}
-    <li><a href="{{ file.path | escape }}">{{ file.basename | replace: "__", " - " | replace: "_", " "}}</a> </li>
-  {% endif %}
-{% endfor %}
+  {% for file in static_files %}{% if file.path contains coll_dir %}
+    <li><a href="{{ file.path | escape }}">{{ file.basename | replace: "__", " - " | replace: "_", " "}}</a></li>
+  {% endif %}{% endfor %}
   </ul>
 </details>
 {% endif %}
