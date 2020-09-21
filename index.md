@@ -22,6 +22,7 @@ permalink: /index.html
 {% endif %}
 {% endfor %}
 
+<p>&nbsp;</p>
 <p>Have you found a song with a single typo mistake? You can ask for correction,
 provided that you send us an annotated screenshot to indicate where the typo is, and a reference video or sound file with the time code (hh:mm:ss) at which the note is played.
 If the song contains many errors, you are encouraged to <a href="./make-your-own-sheet.html">submit your own version.</a></p>
