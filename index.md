@@ -6,10 +6,6 @@ permalink: /index.html
 
 <p>A collection of fan made visual music sheets/tablature for songs to learn in <a href="https://thatskygame.com/">Sky: Children of the Light!</a></p>
 <p>If you would like to <a href="./make-your-own-sheet.html">create your own music sheet</a> please check the links in side bar for a tutorial, amongst other useful links.</p>
-<p>If you have found a song with a single error, you can ask for correction,
-provided that you send us a screenshot to indicate where the error is, and a reference video or sound file with the time code at which the note is played.
-If the song contains many errors, you are encouraged to submit your own version.</p>
-
 <p>Click a section to see a drop down list.</p>
 {% assign static_files = site.static_files | where: 'extname', '.html' %}
 {% for coll in site.collections %}
@@ -25,5 +21,10 @@ If the song contains many errors, you are encouraged to submit your own version.
 </details>
 {% endif %}
 {% endfor %}
+
+<p>Have you found a song with a single typo mistake? You can ask for correction,
+provided that you send us an annotated screenshot to indicate where the typo is, and a reference video or sound file with the time code (hh:mm:ss) at which the note is played.
+If the song contains many errors, you are encouraged to <a href="./make-your-own-sheet.html">submit your own version.</a></p>
+
 
 
