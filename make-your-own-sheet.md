@@ -18,6 +18,7 @@ Here's a step by step guide how to create your own visual music sheet.
 	- [For Windows](/binaries/SkyMusicSheetMaker_x64.zip)
 
 *Please note that support is not provided for executables, so if the program crashes on your machine you are encouraged to try another option.*
+
 Then you can skip [here](#write-your-music) to learn how to type notes and to read music sheets.
 
 ## Using Python
