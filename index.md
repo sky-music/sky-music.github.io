@@ -12,7 +12,7 @@ permalink: /index.html
 {% assign coll_dir = 'songs/' | append: coll.label %}
 {% if coll.label != 'posts' %}
 <details>
-  <summary><font size="5"><img src="{{ site.baseurl | escape }}/assets/images/categories/{{ coll.label | replace: "_", " "}}/{{ coll.label }}.png"> {{ coll.label | capitalize }} </font></summary>
+  <summary><font size="5"><img src="{{ site.baseurl | escape }}/assets/images/categories/{{ coll.label }}/{{ coll.label }}.png"> {{ coll.label | capitalize | replace: "_", " " }} </font></summary>
   <ul>
   {% for file in static_files %}{% if file.path contains coll_dir %}
     <li><a href="{{ file.path | escape }}">{{ file.basename | replace: "__", " - " | replace: "_", " "}}</a></li>
