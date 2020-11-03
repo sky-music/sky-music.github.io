@@ -1,8 +1,23 @@
 window.addEventListener("load", function () {
     let body = document.getElementsByTagName("body")[0]
     let downloadButton = document.createElement("div")
-    downloadButton.style = "background-color:#121212; font-size:1.3em; height:1.5em;color:white; width:100%" +
+    let downloadPdf = document.createElement("div")
+    let style = "background-color:#121212; font-size:1.3em; height:1.5em;color:white; width:100%" +
         "border-radius:4px; display: flex; align-items: center; justify-content: center; cursor:pointer; margin-bottom:5px; padding:5px;"
+
+    downloadButton.style = style
+    downloadPdf.style = style
+    downloadPdf.innerHTML = "Print / Save as PDF"
+    downloadPdf.addEventListener("click", function () {
+        let iframe = document.querySelector("iframe")
+        let container = this.parentElement
+        if (iframe !== null) iframe.style.display = "none"
+        container.style.display = "none"
+        window.print()
+        if (iframe !== null) iframe.style.display = "block"
+        container.style.display = "block"
+    })
+    downloadPdf.id = "downloadPdf"
     downloadButton.id = "downloadButton"
     downloadButton.innerHTML = "Download song recording"
     let toolTip = `
@@ -30,7 +45,7 @@ window.addEventListener("load", function () {
                 for (let k = 0; k < 5; k++) {
                     let note = row.children[k]
                     if (note.children[0].classList[0] != "OFF") {
-                        if(!note.children[0].children[0].classList.value.includes("unhighlighted")){
+                        if (!note.children[0].children[0].classList.value.includes("unhighlighted")) {
                             let keyObj = {
                                 key: "1Key" + noteNumber,
                                 time: timestamp
@@ -69,17 +84,21 @@ window.addEventListener("load", function () {
     let container = document.createElement("div")
     container.id = "scriptContainer"
     container.style = "position:absolute; right: 8px; top:8px; width:30%;"
-    if(document.getElementById("scriptContainer") == null){
+    if (document.getElementById("scriptContainer") == null) {
         body.appendChild(container)
-    }else{
+    } else {
         container = document.getElementById("scriptContainer")
-        if (body.style.backgroundColor != "rgb(18, 18, 18)"){
+        if (body.style.backgroundColor != "rgb(18, 18, 18)") {
             downloadButton.style.background = "#121212"
             downloadButton.style.color = "lightgray"
-        }else{
+            downloadPdf.style.background = "#121212"
+            downloadPdf.style.color = "lightgray"
+        } else {
             downloadButton.style.background = "#f2f2f2"
             downloadButton.style.color = "#121212"
+            downloadPdf.style.background = "#f2f2f2"
+            downloadPdf.style.color = "#121212"
         }
     }
-    container.appendChild(downloadButton)
+    container.append(downloadButton, downloadPdf)
 })
