@@ -19,7 +19,7 @@ window.addEventListener("load", function () {
     })
     downloadPdf.id = "downloadPdf"
     downloadButton.id = "downloadButton"
-    downloadButton.innerHTML = "Download song recording"
+    downloadButton.innerHTML = "Download song JSON"
     let toolTip = `
       After the download:
       1/ go to https://sky-music.herokuapp.com
