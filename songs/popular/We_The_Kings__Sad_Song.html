@@ -3,21 +3,9 @@
 <head>
 <meta charset="utf-8"/>
 <title>Sad Song</title>
+<script type="text/javascript" src="/js/navigationTableScript.js"></script>
 <script type="text/javascript" src="/js/sheetDarkModeScript.js"></script>
-
-<script type="text/javascript">
-function showLogo(elementId) {
-
-    url = window.location.href;
-    const regex = /sky\-music\.github\.io/g;
-    const found = url.match(regex);
-    if (found) {
-        navTable = document.getElementById(elementId);
-        navTable.style.display = "inline";	
-    }    
-}
-
-window.addEventListener("load", function(){showLogo('navigation')}, false);</script>
+<script type="text/javascript" src="/js/sheetDownloaderScript.js"></script>
 <style type="text/css">
 @media (prefers-reduced-motion: reduce) {
   html {
@@ -388,17 +376,7 @@ table.silent .ON-0.button {
 </style>
 <meta charset="utf-8"/></head>
 <body>
-      <table id="navigation">
-    <tr>
-      <td>
-        <a href="/index.html"><img src="/assets/images/sky-music-logo-sheets.png" width="100" height="100" /></a>
-      </td>
-      <td>
-        <h1><a href="/index.html">Sky Music</a></h1>
-      </td>
-    </tr>
-  </table>
-<h1>Sad Song</h1>
+    <h1>Sad Song</h1>
 <p><b>Original artist(s): </b>We The Kings</p>
 <p><b>Transcript writer: </b>iara</p>
 <p><b>Musical key: </b>C</p>
