@@ -10,7 +10,7 @@ Here's a step by step guide how to create your own visual music sheet.
 
 **If you do not want to customize the program, and are not interested in getting the latest version, you have several options:**
 
-1. Use the [website version](https://jmmelko.pythonanywhere.com/)
+1. Use the [website version](https://jmmelko.eu.pythonanywhere.com/)
 2. Use the Discord Bot version by typing `!song` in the [official tcg forum](https://discord.gg/thatskygame)
 3. Download a binary executable:
 
