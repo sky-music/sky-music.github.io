@@ -22,7 +22,7 @@ window.addEventListener("load", function () {
             }
             let tables = document.getElementsByTagName("table")
             for (let i = 1; i < tables.length; i++) {
-                if (!tables[i].classList.value.includes("silent") && !tables[i].classList.value.includes("voice") && !tables[i].classList.value.includes("repeat")) {
+                if (!tables[i].classList.value.includes("silent") && !tables[i].classList.value.includes("voice") && !tables[i].classList.value.includes("repeat") && !tables[i].classList.value.includes("num")) {
                     tables[i].style.backgroundColor = "#323232"
                     tables[i].style = "border: solid 1.5px #666;"
                 } else {
