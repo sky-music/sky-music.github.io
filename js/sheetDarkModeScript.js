@@ -29,6 +29,15 @@ window.addEventListener("load", function () {
                     tables[i].style.border = "solid 1.5px transparent"
                 }
             }
+            let divs = document.getElementsByTagName("div")
+            for (let i = 1; i < divs.length; i++) {
+                if (divs[i].classList.value.includes("instr") && !divs[i].classList.value.includes("silent") && !divs[i].classList.value.includes("voice")) {
+                    divs[i].style.backgroundColor = "#323232"
+                    divs[i].style = "border: solid 1.5px #666;"
+                } else {
+                    divs[i].style.border = "solid 1.5px transparent"
+                }
+            }
             tables[0].style = "border: solid 1.5px #666;"
             localStorage.setItem("darkMode", true)
         } else {
