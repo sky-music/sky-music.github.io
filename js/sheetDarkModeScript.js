@@ -58,6 +58,13 @@ window.addEventListener("load", function () {
                     tables[i].style = ""
                 }
             }
+            let divs = document.getElementsByTagName("div")
+            for (let i = 1; i < divs.length; i++) {
+                if (divs[i].className != "voice") {
+                    divs[i].style.backgroundColor = ""
+                    divs[i].style = ""
+                }
+            }
             tables[0].style = "border: solid 1.5px black;"
             localStorage.setItem("darkMode", false)
         }
