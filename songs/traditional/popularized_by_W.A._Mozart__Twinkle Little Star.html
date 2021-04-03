@@ -2,63 +2,53 @@
 <html xmlns:svg="http://www.w3.org/2000/svg">
 <head> 
 <script type="text/javascript" src="/js/navigationTableScript.js"></script>
-<script type="text/javascript" src="/js/sheetDarkModeScript.js"></script>
 <script type="text/javascript" src="/js/sheetDownloaderScript.js"></script>
 <title>Twinkle Little Star</title>
 <style type="text/css">
 html {
   scroll-behavior: smooth;
 }
-
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
   }
 }
-
 /* <!-- Define the em unit--> */
 body {
   font-family: "Avenir", Arial, sans-serif;
   font-size: 12pt;
 }
-
 /* <!-- Song title --> */
 h1, svg text.title {
     font-family: "Avenir", Arial, sans-serif;
 	font-size: 1.3em;
 	font: bold;
 }
-
 /* <!-- Song headers (HTML only) --> */
 p, svg text.headers {
     font-family: "Avenir", Arial, sans-serif;
 	font-size: 0.8em;
 	line-height: 50%;
 }
-
 .root, .diamond, .circle {
   transform: scale(1.0);
   -ms-transform: scale(1.0);
   -webkit-transform: scale(1.0);
 }
-
 /* <!-- Alignment of SVG (HTML only) --> */
 /* <!-- Seems to have no effect ? --> */
 .root svg {
   display: inline-block;
   vertical-align: middle;
 }
-
 .diamond svg {
   display: inline-block;
   vertical-align: middle;
 }
-
 .circle svg {
   display: inline-block;
   vertical-align: middle;
 }
-
 /* <!-- Sky chord chart: a table with rounded edges (HTML only) --> */
 table {
   margin-top: 0px;
@@ -72,16 +62,13 @@ table {
   border-width: 1px;
   border-color: black;
   border-spacing: 0 auto;
-
 }
-
 /* <!-- Sky chord chart: a table with rounded edges (SVG only) --> */
 svg rect.harp {
   fill:white;
   stroke-width:1;
   stroke:black;
 }
-
 
 /* <!-- The font size affects the note size! (HTML only)--> */
 td {
@@ -90,33 +77,28 @@ td {
   margin: 0px;
   font-size: 1em;
 }
-
 /* <!-- Makes the table disappear in case of broken chord  (HTML only)--> */
 table.broken {
   border-color: white;
   border-width: 0;
 }
-
 /* <!-- Makes the table disappear in case of broken chord  (SVG only)--> */
 svg.broken rect{
   fill:none;
   stroke-width:0;
   stroke:white;
 }
-
 /* <!-- Silent table  (HTML only)--> */
 table.silent {
   border-color:#BBBBBB;
   border-width:0;
 }
-
 /* <!-- Silent table  (HTML only)--> */
 svg.silent rect {
   stroke: grey;
   stroke-width:0;
   fill:none;
 }
-
 table.voice {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -126,7 +108,6 @@ table.voice {
   border-radius: 0px;
   border-width: 0px;
 }
-
 table.voice td {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -135,7 +116,6 @@ table.voice td {
   width: 7.5em;
   text-align: center;
 }
-
 /* <!-- Sky voice (SVG only) --> */
 svg text.voice {
   font-family: "Avenir", Arial, sans-serif;
@@ -144,7 +124,6 @@ svg text.voice {
   fill:black;
   dominant-baseline: middle;
 }
-
 /* <!-- Invisible table to contain the repetition mark --> */
 table.repeat {
   margin: 0px;
@@ -153,7 +132,6 @@ table.repeat {
   border-width: 0px;
   font-size: 0.9em;
 }
-
 /* <!-- Bottom-left corner repetition mark --> */
 svg.repeat text.repeat {
   stroke: none;
@@ -162,7 +140,6 @@ svg.repeat text.repeat {
   font-size: 0.9em;
   font-family: "Avenir", Arial, sans-serif;
 }
-
 
 /* <!-- Horizontal line --> */
 hr {
@@ -174,12 +151,10 @@ hr {
   margin-top: 0px;
   margin-bottom: 4px;
 }
-
 svg line.divide {
 	stroke: grey;
 	stroke-width: 1.0px;
 }
-
 
 /* <!-- TODO: Check if this has no effect ??? --> */
 /*
@@ -188,24 +163,20 @@ path.instrument-button{
 	opacity:0.4;
 }
  */
-
 /* <!-- TODO: Check if this has no effect ??? --> */
 #transcript {
   margin: 0 0;
 }
-
 /* <!-- This has no effect since it is overidden --> */
 /*
 .ON-0 {
   fill: lightcoral;
   opacity: 1.0;
 }*/
-
 /*
 <svg class="root button-0" xmlns="https://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg>
  */
-
 
 /* <!-- Small buttons showing notes positions --> */
 svg.button-0 .OFF.icon,
@@ -218,7 +189,6 @@ svg.button-4 .OFF.icon {
   fill: rgb(194,240,194);
   opacity: 1;
 }
-
 /* <!-- Small buttons showing notes positions --> */
 svg.button-5 .OFF.icon,
 svg.button-6 .OFF.icon,
@@ -230,7 +200,6 @@ svg.button-9 .OFF.icon {
   fill: rgb(179,236,255);
   opacity: 1;
 }
-
 /* <!-- Small buttons showing notes positions --> */
 svg.button-10 .OFF.icon,
 svg.button-11 .OFF.icon,
@@ -242,7 +211,6 @@ svg.button-14 .OFF.icon {
   fill: rgb(255,185,223);
   opacity: 1;
 }
-
 /* <!-- Note background when the chord is or is silent --> */
 table.broken .ON-0.instrument-button,
 table.silent .ON-0.instrument-button {
@@ -250,7 +218,6 @@ table.silent .ON-0.instrument-button {
   stroke: white;
   fill: none;
 }
-
 /* <!-- Small note buttons when the chord is broken --> */
 table.broken .OFF.icon,
 svg.broken .OFF.icon {
@@ -258,7 +225,6 @@ svg.broken .OFF.icon {
   stroke: white;
   fill: none;
 }
-
 /* <!-- Small note buttons when the chord is silent --> */
 table.silent .OFF.icon,
 svg.silent .OFF.icon {
@@ -266,7 +232,6 @@ svg.silent .OFF.icon {
   stroke: white;
   fill: none;
 }
-
 /* <!-- Middle note button when the chord is silent --> */
 table.silent svg.button-7 .OFF.icon,
 svg.silent svg.button-7 .OFF.icon,
@@ -276,7 +241,6 @@ svg.silent.button-7 .OFF.icon {
   fill: #BBBBBB;
   opacity: 1;
 }
-
 /* <!-- Red question mark when table is broken --> */
 table.broken text,
 svg.broken text {
@@ -287,14 +251,12 @@ svg.broken text {
   stroke:red;
 }
 
-
 /* <!-- Note decoration (circle, diamond) --> */
 .ON-0.icon {
   stroke-width: 5;
   stroke: white;
   fill: none;
 }
-
 /* <!-- Note background color in first row --> */
 svg.button-0 path.ON-0,
 svg.button-1 path.ON-0,
@@ -304,7 +266,6 @@ svg.button-4 path.ON-0 {
   fill: limegreen;
   opacity: 1.0;
 }
-
 /* <!-- Note background color in second row --> */
 svg.button-5 path.ON-0,
 svg.button-6 path.ON-0,
@@ -314,7 +275,6 @@ svg.button-9 path.ON-0 {
   fill: deepskyblue;
   opacity: 1.0;
 }
-
 /* <!-- Note background color in third row --> */
 svg.button-10 path.ON-0,
 svg.button-11 path.ON-0,
@@ -324,7 +284,6 @@ svg.button-14 path.ON-0 {
   fill: deeppink;
   opacity: 1.0;
 }
-
 /* <!-- Element background color for icons in ../elements
 Set to none to have a transparent SVG, and a transparent PNG with alpha layer (RGBA) later
 Set to white to make the background white in RGB mode, and the PNG background white when converted to RGB
@@ -332,90 +291,74 @@ Set to white to make the background white in RGB mode, and the PNG background wh
 svg rect.harp-background {
 	fill:white;
 }
-
 svg rect.note-background {
 	fill:white;
 }
-
 /* <!-- Below the styles for buttons in a quaver --> */
 .ON-7 {
   fill: rgb(68,1,84);
   opacity: 1.0;
 }
-
 .ON-7.icon {
   stroke-width: 3;
   stroke: white;
   fill: none;
 }
-
 .ON-6 {
   fill: rgb(68,57,130);
   opacity: 1.0;
 }
-
 .ON-6.icon {
   stroke-width: 3;
   stroke: white;
   fill: none;
 }
-
 .ON-5 {
   fill: rgb(48,103,141);
   opacity: 1.0;
 }
-
 .ON-5.icon {
   stroke-width: 3;
   stroke: white;
   fill: none;
 }
 
-
 .ON-4 {
   fill: rgb(32,144,140);
   opacity: 1.0;
 }
-
 .ON-4.icon {
   stroke-width: 3;
   stroke: white;
   fill: none;
 }
-
 .ON-3 {
   fill: rgb(53,183,120);
   opacity: 1.0;
 }
-
 .ON-3.icon {
   stroke-width: 3;
   stroke: white;
   fill: none;
 }
-
 .ON-2 {
   fill: rgb(144,214,67);
   opacity: 1.0;
 }
-
 .ON-2.icon {
   stroke-width: 3;
   stroke: white;
   fill: none;
 }
-
 .ON-1 {
   fill: rgb(253,231,36);
   opacity: 1.0;
 }
-
 .ON-1.icon {
   stroke-width: 3;
   stroke: white;
   fill: none;
 }
-
 /* <!-- Button styles if chord has en broken --> */
 /* <!-- TODO: Check if this has no effect ??? --> */
 /*
@@ -423,14 +366,11 @@ svg rect.note-background {
   fill: red;
   stroke: red;
 }
-
 .diamond.silent {
   fill: red;
   stroke: red;
 }
  */
-
-
 
 </style>
 <meta charset="utf-8"/></head>
@@ -441,7 +381,6 @@ svg rect.note-background {
 <p> <b>Transcript:</b> mimizan </p>
 <p> <b>Musical key:</b> C4 </p>
 <div id="transcript">
-
 <hr />
 <table class="harp harp-0 "><tr><td>
 <svg x="0" y="0" class="root button-0" width="1em" height="1em" viewBox="0 0 91 91">

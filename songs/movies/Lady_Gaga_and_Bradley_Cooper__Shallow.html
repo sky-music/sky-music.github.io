@@ -5,41 +5,33 @@
 <meta name="date.created" content="2021-02-27 05:23:27.130479"/>
 <title>Shallow</title>
 <script type="text/javascript" src="/js/navigationTableScript.js"></script>
-<script type="text/javascript" src="/js/sheetDarkModeScript.js"></script>
 <style type="text/css">
 @media (prefers-reduced-motion: reduce)
 {
 	html { scroll-behavior: auto; }
 }
-
 html { scroll-behavior: smooth; }
-
 /* <!-- Navigation table (HTML only) --> */
 #navigation { border: none; }
-
 /* <!-- Song table (HTML only) --> */
 #transcript { margin: 0 0; }
-
 /* <!-- Defines the em unit (HTML only) --> */
 body
 {
 	font-family: "Noto Sans", "Noto Sans CJK JP", "Noto Sans CJK KR", "Noto Sans CJK SC", "Noto Sans CJK TC", "Avenir", "Arial", "sans-serif";
 	font-size: 12pt;
 }
-
 h1
 {
 	font-size: 1.3em;
 	font: bold;
 }
-
 .line
 {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 }
-
 .instr
 {
 	margin-left: 0.5rem;
@@ -49,19 +41,16 @@ h1
 	display: grid;
 	width: fit-content;
 }
-
 .instr.harp
 {
 	grid-template-columns: repeat(5, 1.3em);
 	grid-template-rows: repeat(3, 1.4em);
 }
-
 .instr.drum
 {
 	grid-template-columns: repeat(4, 1.3em);
 	grid-template-rows: repeat(2, 1.4em);
 }
-
 .lyrics
 {
 	margin-left: 0.5rem;
@@ -71,20 +60,17 @@ h1
 	font-size: 0.8em;
 	text-align: center;
 }
-
 .header
 {
 	font-size: 0.8em;
 	line-height: 50%;
 }
-
 .repeat, .num
 {
 	font-size: 0.8em;
 	align-self: flex-end;
 	margin: 2px;
 }
-
 .num
 {
 	font-size: 0.8em;
@@ -92,19 +78,16 @@ h1
 	align-self: flex-end;
 	padding-left: 2em;
 }
-
 .broken
 {
 	color: red;
 	font-weight: bold;
 }
-
 .instr.silent, .instr.broken
 {
 	border-width: 0;
 	background-color: transparent;
 }
-
 .r1, .r2, .r3, [class^="q"]
 {
 	border-radius: 4px;
@@ -114,9 +97,7 @@ h1
 	justify-self: center;
 	align-self: center;
 }
-
 d1, d2, d3, silence { background-position: 50% }
-
 .r1 { background-color: limegreen; }
 .r2 { background-color: deepskyblue; }
 .r3 { background-color: deeppink; }
@@ -136,14 +117,12 @@ d2 { background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/
 d3 { background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' width='1rem' height='1rem' viewBox='0 0 123.40601 123.40601'%3E%3Ccircle stroke='none' fill='rgb(255,185,223)' cx='61.5' cy='61.5' r='14'%3E%3C/circle%3E%3C/svg%3E"); }
 dn { background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' width='1rem' height='1rem' viewBox='0 0 123.40601 123.40601'%3E%3Ccircle stroke='none' fill='rgb(167,167,167)' cx='61.5' cy='61.5' r='14'%3E%3C/circle%3E%3C/svg%3E"); }
 silence { background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' width='1rem' height='1rem' viewBox='0 0 123.40601 123.40601'%3E%3Ccircle stroke='none' fill='rgb(167,167,167)' cx='61.5' cy='61.5' r='28'%3E%3C/circle%3E%3C/svg%3E"); }
-
 @media (prefers-color-scheme: dark)
 {
 	body { background-color: #121212; }
 	.instr.harp { border-color: white; }
 	p, body, td, text.headers { color: white; }
 }
-
 </style></head>
 <body>
 <h1>Shallow</h1>
@@ -156,7 +135,6 @@ silence { background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3
 #$Original artist(s): Lady Gaga and Bradley Cooper
 #$Arranger, Transcriber: allikoifish
 #$Musical key: G
-
 B1 A3B3 C2 B4 B2 B4C2 . B3B5 
 #Intro # # # # # # 
 A4 B3 C1 C2 B3 A4 C3 C2 

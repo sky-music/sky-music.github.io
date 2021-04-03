@@ -5,7 +5,6 @@
 <meta name="date.created" content="2021-02-16 06:40:02.992896"/>
 <title>Someone Like You</title>
 <script type="text/javascript" src="/js/navigationTableScript.js"></script>
-<script type="text/javascript" src="/js/sheetDarkModeScript.js"></script>
 <script type="text/javascript" src="/js/sheetDownloaderScript.js"></script>
 <style type="text/css">
 @media (prefers-reduced-motion: reduce) {
@@ -13,20 +12,17 @@
     scroll-behavior: auto;
   }
 }
-
 /* <!-- Song title --> */
 h1, svg text.title {
     font-family: "Noto Sans", "Noto Sans CJK JP", "Noto Sans CJK KR", "Noto Sans CJK SC", "Noto Sans CJK TC", "Avenir", Arial, sans-serif;
     font-size: 1.3em;
     font: bold;
 }
-
 .root, .diamond, .circle {
   transform: scale(1.0);
   -ms-transform: scale(1.0);
   -webkit-transform: scale(1.0);
 }
-
 /* <!-- Small buttons showing notes positions for Harp --> */
 [class*="harp"] svg.button-0 .OFF.icon,
 [class*="harp"] svg.button-1 .OFF.icon,
@@ -38,7 +34,6 @@ h1, svg text.title {
   fill: rgb(194,240,194);
   opacity: 1;
 }
-
 /* <!-- Small buttons showing notes positions for Harp --> */
 [class*="harp"] svg.button-5 .OFF.icon,
 [class*="harp"] svg.button-6 .OFF.icon,
@@ -50,7 +45,6 @@ h1, svg text.title {
   fill: rgb(179,236,255);
   opacity: 1;
 }
-
 /* <!-- Small buttons showing notes positions for Harp --> */
 [class*="harp"] svg.button-10 .OFF.icon,
 [class*="harp"] svg.button-11 .OFF.icon,
@@ -62,7 +56,6 @@ h1, svg text.title {
   fill: rgb(255,185,223);
   opacity: 1;
 }
-
 /* <!-- Small buttons showing notes positions for Drum --> */
 [class*="drum"] svg.button-0 .OFF.icon,
 [class*="drum"] svg.button-1 .OFF.icon,
@@ -73,7 +66,6 @@ h1, svg text.title {
   fill: rgb(194,240,194);
   opacity: 1;
 }
-
 /* <!-- Small buttons showing notes positions for Drum --> */
 [class*="drum"] svg.button-4 .OFF.icon,
 [class*="drum"] svg.button-5 .OFF.icon,
@@ -84,21 +76,18 @@ h1, svg text.title {
   fill: rgb(179,236,255);
   opacity: 1;
 }
-
 /* <!-- Small note buttons when the instrument is broken --> */
 [class*="broken"] .broken.icon {
   stroke-width: 0;
   stroke: white;
   fill: none;
 }
-
 /* <!-- Small note buttons when the instrument is silent --> */
 [class*="silent"] .silent.icon {
   stroke-width: 0;
   stroke: white;
   fill: none;
 }
-
 
 /* <!-- Red question mark when table is broken --> */
 [class*="broken"] text {
@@ -108,14 +97,12 @@ h1, svg text.title {
   stroke-width:0.05em;
   stroke:red;
 }
-
 /* <!-- Note decoration (circle, diamond) --> */
 .ON-0.icon {
   stroke-width: 5;
   stroke: white;
   fill: none;
 }
-
 /* <!-- Note background color in first row --> */
 svg.button-0 path.ON-0,
 svg.button-1 path.ON-0,
@@ -125,7 +112,6 @@ svg.button-4 path.ON-0 {
   fill: limegreen;
   opacity: 1.0;
 }
-
 /* <!-- Note background color in second row --> */
 svg.button-5 path.ON-0,
 svg.button-6 path.ON-0,
@@ -135,7 +121,6 @@ svg.button-9 path.ON-0 {
   fill: deepskyblue;
   opacity: 1.0;
 }
-
 /* <!-- Note background color in third row --> */
 svg.button-10 path.ON-0,
 svg.button-11 path.ON-0,
@@ -145,7 +130,6 @@ svg.button-14 path.ON-0 {
   fill: deeppink;
   opacity: 1.0;
 }
-
 /* <!-- Element background color for icons in ../elements
 Set to none to have a transparent SVG, and a transparent PNG with alpha layer (RGBA) later
 Set to white to make the background white in RGB mode, and the PNG background white when converted to RGB
@@ -153,99 +137,81 @@ Set to white to make the background white in RGB mode, and the PNG background wh
 svg rect.harp-background {
   fill:white;
 }
-
 svg rect.note-background {
   fill:white;
 }
-
 /* <!-- Below the styles for buttons in a quaver --> */
 .ON-7 {
   fill: rgb(68,1,84);
   opacity: 1.0;
 }
-
 .ON-7.icon {
   stroke-width: 3;
   stroke: white;
   fill: none;
 }
-
 .ON-6 {
   fill: rgb(68,57,130);
   opacity: 1.0;
 }
-
 .ON-6.icon {
   stroke-width: 3;
   stroke: white;
   fill: none;
 }
-
 .ON-5 {
   fill: rgb(48,103,141);
   opacity: 1.0;
 }
-
 .ON-5.icon {
   stroke-width: 3;
   stroke: white;
   fill: none;
 }
-
 .ON-4 {
   fill: rgb(32,144,140);
   opacity: 1.0;
 }
-
 .ON-4.icon {
   stroke-width: 3;
   stroke: white;
   fill: none;
 }
-
 .ON-3 {
   fill: rgb(53,183,120);
   opacity: 1.0;
 }
-
 .ON-3.icon {
   stroke-width: 3;
   stroke: white;
   fill: none;
 }
-
 .ON-2 {
   fill: rgb(144,214,67);
   opacity: 1.0;
 }
-
 .ON-2.icon {
   stroke-width: 3;
   stroke: white;
   fill: none;
 }
-
 .ON-1 {
   fill: rgb(253,231,36);
   opacity: 1.0;
 }
-
 .ON-1.icon {
   stroke-width: 3;
   stroke: white;
   fill: none;
 }
-
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
   }
 }
-
 html {
   scroll-behavior: smooth;
 }
-
 /* <!-- Navigation table (HTML only) --> */
 #navigation {
   border: none;
@@ -254,13 +220,11 @@ html {
 #transcript {
   margin: 0 0;
 }
-
 /* <!-- Defines the em unit (HTML only) --> */
 body {
   font-family: "Noto Sans", "Noto Sans CJK JP", "Noto Sans CJK KR", "Noto Sans CJK SC", "Noto Sans CJK TC", "Avenir", Arial, sans-serif;
   font-size: 12pt;
 }
-
 /* <!-- Song headers (HTML only) --> */
 p, svg text.headers {
     font-family: "Noto Sans", "Noto Sans CJK JP", "Noto Sans CJK KR", "Noto Sans CJK SC", "Noto Sans CJK TC", "Avenir", Arial, sans-serif;
@@ -268,15 +232,12 @@ p, svg text.headers {
     line-height: 50%;
 }
 
-
-
 /* <!-- Alignment of svg (HTML only) --> */
 /* <!-- Seems to have no effect ? --> */
 .root svg, .diamond svg, .circle svg {
   display: inline-block;
   vertical-align: middle;
 }
-
 /* <!-- Sky instrument chart: a table with rounded edges (HTML only) --> */
 table {
   margin-top: 0px;
@@ -291,7 +252,6 @@ table {
   border-color: black;
   border-spacing: 0 auto;
 }
-
 /* <!-- WARNING: The td font size affects the note size! (HTML only)--> */
 td {
   padding-top: 0px;
@@ -299,18 +259,15 @@ td {
   margin: 0px;
   font-size: 1.0em;
 }
-
 /* <!-- Makes the table disappear in case of broken instrument  (HTML only)--> */
 table.broken {
   border-color: white;
   border-width: 0;
 }
-
 /* <!-- Silent table  (HTML only)--> */
 table.silent {
   border-color:transparent;
 }
-
 /* <!-- Middle note button when the instrument is silent --> */
 table.harp.silent svg.button-7 .silent.icon {
   stroke-width: 0;
@@ -318,7 +275,6 @@ table.harp.silent svg.button-7 .silent.icon {
   fill: #BBBBBB;
   opacity: 1;
 }
-
 /* <!-- Middle note button when the instrument is silent --> */
 table.drum.silent svg.button-5 .silent.icon {
   stroke-width: 0;
@@ -326,7 +282,6 @@ table.drum.silent svg.button-5 .silent.icon {
   fill: #BBBBBB;
   opacity: 1;
 }
-
 /* <!-- Lyrics table  (HTML only)--> */
 table.voice {
   margin-top: 0px;
@@ -337,7 +292,6 @@ table.voice {
   border-radius: 0px;
   border-width: 0px;
 }
-
 /* <!-- Lyrics table column (HTML only)--> */
 table.voice td {
   padding-top: 0px;
@@ -347,7 +301,6 @@ table.voice td {
   width: 7.5em;
   text-align: center;
 }
-
 /* <!-- Invisible table to contain the repetition mark (HTML only) --> */
 table.repeat {
   margin: 0px;
@@ -356,7 +309,6 @@ table.repeat {
   border-width: 0px;
   font-size: 0.9em;
 }
-
 /* <!-- Horizontal line (HTML only) --> */
 hr {
   height: 2px;
@@ -367,24 +319,20 @@ hr {
   margin-top: 0px;
   margin-bottom: 4px;
 }
-
 table.num {
 	border: 0;	
 	margin: 0;
 }
-
 table.num td {
 	font-size: 0.8em;
 	width: 1.9em;
 	text-align: right;	
 }
-
 /* <!-- Note width (HTML only)--> */
 table svg[class*="button-"] {
   width: 1em;
   height: 1em;
 }
-
 /* <!-- Note background when the instrument is or is silent (HTML only) --> */
 table.broken .ON-0.button,
 table.silent .ON-0.button {
@@ -392,7 +340,6 @@ table.silent .ON-0.button {
   stroke: white;
   fill: none;
 }
-
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #121212;
@@ -411,7 +358,6 @@ table.silent .ON-0.button {
   color: white;  
   }
 }
-
 </style></head>
 <body>
 <h1>Someone Like You</h1>
@@ -424,7 +370,6 @@ table.silent .ON-0.button {
 #$Original artist(s): Adele
 #$Arranger, Transcriber: allikoifish
 #$Musical key: A
-
 B3 B5 C2 B5 B3 B5 C2 B5 
 B2 B5 C2 B5 B2 B5 C2 B5 
 B1 B5 C3 B5 B1 B5 C3 B5 
@@ -556,7 +501,6 @@ A1B1 . . . . . A5 A4
 <tr><td><svg x="0" y="0" class="OFF button-5" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-6" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-7" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="circle button-9" viewBox="0 0 91 91"><path class="button ON-0" d="M90.7 76.5c0 7.8-6.3 14.2-14.2 14.2H14.2C6.3 90.7 0 84.4 0 76.5V14.2C0 6.3 6.3 0 14.2 0h62.3c7.8 0 14.2 6.3 14.2 14.2V76.5z"/><circle cx="45.4" cy="45.4" r="25.5" class="icon ON-0"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <hr /><table class="num"><tr><td>1</td></tr></table>
 <table class="harp harp-8">
 <tr><td><svg x="0" y="0" class="OFF button-0" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-1" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-2" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-3" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-4" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
@@ -591,7 +535,6 @@ A1B1 . . . . . A5 A4
 <tr><td><svg x="0" y="0" class="OFF button-5" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-6" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-7" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="circle button-9" viewBox="0 0 91 91"><path class="button ON-0" d="M90.7 76.5c0 7.8-6.3 14.2-14.2 14.2H14.2C6.3 90.7 0 84.4 0 76.5V14.2C0 6.3 6.3 0 14.2 0h62.3c7.8 0 14.2 6.3 14.2 14.2V76.5z"/><circle cx="45.4" cy="45.4" r="25.5" class="icon ON-0"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <hr /><table class="num"><tr><td>2</td></tr></table>
 <table class="harp harp-16">
 <tr><td><svg x="0" y="0" class="OFF button-0" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-1" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-2" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-3" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-4" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
@@ -625,7 +568,6 @@ A1B1 . . . . . A5 A4
 <tr><td><svg x="0" y="0" class="OFF button-0" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-1" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-2" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-3" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-4" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-5" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-6" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-7" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="circle button-9" viewBox="0 0 91 91"><path class="button ON-0" d="M90.7 76.5c0 7.8-6.3 14.2-14.2 14.2H14.2C6.3 90.7 0 84.4 0 76.5V14.2C0 6.3 6.3 0 14.2 0h62.3c7.8 0 14.2 6.3 14.2 14.2V76.5z"/><circle cx="45.4" cy="45.4" r="25.5" class="icon ON-0"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
-
 
 <hr /><table class="num"><tr><td>3</td></tr></table>
 <table class="harp harp-24">
@@ -664,7 +606,6 @@ A1B1 . . . . . A5 A4
 <tr><td><svg x="0" y="0" class="OFF silent button-5" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-6" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF button-7" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF silent button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
@@ -673,7 +614,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td>I</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>5</td></tr></table>
 <table class="harp harp-39 silent">
@@ -710,7 +650,6 @@ A1B1 . . . . . A5 A4
 </svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td>heard</td></tr></table>
@@ -720,7 +659,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td>that</td></tr></table>
 <table class="voice"><tr><td>you've</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>7</td></tr></table>
 <table class="harp harp-55 silent">
@@ -757,7 +695,6 @@ A1B1 . . . . . A5 A4
 </svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
@@ -767,7 +704,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td>that</td></tr></table>
 <table class="voice"><tr><td>you</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>9</td></tr></table>
 <table class="harp harp-71 silent">
@@ -804,7 +740,6 @@ A1B1 . . . . . A5 A4
 </svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
@@ -814,7 +749,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td>and</td></tr></table>
 <table class="voice"><tr><td>you're</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>11</td></tr></table>
 <table class="harp harp-87 silent">
@@ -851,7 +785,6 @@ A1B1 . . . . . A5 A4
 </svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
@@ -861,7 +794,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td>-</td></tr></table>
 <table class="voice"><tr><td>-</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>13</td></tr></table>
 <table class="harp harp-103 silent">
@@ -899,7 +831,6 @@ A1B1 . . . . . A5 A4
 </svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
@@ -909,7 +840,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td>that</td></tr></table>
 <table class="voice"><tr><td>your</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>15</td></tr></table>
 <table class="harp harp-119">
@@ -947,7 +877,6 @@ A1B1 . . . . . A5 A4
 </svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td>dreams</td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
@@ -957,7 +886,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td>Guess</td></tr></table>
 <table class="voice"><tr><td>she</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>17</td></tr></table>
 <table class="harp harp-135">
@@ -995,7 +923,6 @@ A1B1 . . . . . A5 A4
 <tr><td><svg x="0" y="0" class="circle button-5" viewBox="0 0 91 91"><path class="button ON-0" d="M90.7 76.5c0 7.8-6.3 14.2-14.2 14.2H14.2C6.3 90.7 0 84.4 0 76.5V14.2C0 6.3 6.3 0 14.2 0h62.3c7.8 0 14.2 6.3 14.2 14.2V76.5z"/><circle cx="45.4" cy="45.4" r="25.5" class="icon ON-0"/></svg></td><td><svg x="0" y="0" class="OFF button-6" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-7" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td>gave</td></tr></table>
 <table class="voice"><tr><td>you</td></tr></table>
@@ -1005,7 +932,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td>I</td></tr></table>
 <table class="voice"><tr><td>did</td></tr></table>
 <table class="voice"><tr><td>n't</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>19</td></tr></table>
 <table class="harp harp-151">
@@ -1042,7 +968,6 @@ A1B1 . . . . . A5 A4
 <tr><td><svg x="0" y="0" class="OFF silent button-5" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-6" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF button-7" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF silent button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td>give</td></tr></table>
 <table class="voice"><tr><td>to</td></tr></table>
@@ -1051,7 +976,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
-
 
 <hr /><table class="num"><tr><td>21</td></tr></table>
 <table class="harp harp-166">
@@ -1089,7 +1013,6 @@ A1B1 . . . . . A5 A4
 <tr><td><svg x="0" y="0" class="OFF button-5" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-6" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-7" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="diamond button-11" viewBox="0 0 91 91"><path class="button ON-0" d="M90.7 76.5c0 7.8-6.3 14.2-14.2 14.2H14.2C6.3 90.7 0 84.4 0 76.5V14.2C0 6.3 6.3 0 14.2 0h62.3c7.8 0 14.2 6.3 14.2 14.2V76.5z"/><rect x="22.6" y="22.7" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 45.3002 109.5842)" width="45.4" height="45.4" class="icon ON-0"/> </svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td>Old</td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
@@ -1099,7 +1022,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td>are</td></tr></table>
 <table class="voice"><tr><td>you</td></tr></table>
 <table class="voice"><tr><td>so</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>23</td></tr></table>
 <table class="harp harp-182 silent">
@@ -1135,7 +1057,6 @@ A1B1 . . . . . A5 A4
 <tr><td><svg x="0" y="0" class="OFF button-5" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-6" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-7" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="circle button-9" viewBox="0 0 91 91"><path class="button ON-0" d="M90.7 76.5c0 7.8-6.3 14.2-14.2 14.2H14.2C6.3 90.7 0 84.4 0 76.5V14.2C0 6.3 6.3 0 14.2 0h62.3c7.8 0 14.2 6.3 14.2 14.2V76.5z"/><circle cx="45.4" cy="45.4" r="25.5" class="icon ON-0"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td>shy</td></tr></table>
@@ -1145,7 +1066,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td>Ain't</td></tr></table>
 <table class="voice"><tr><td>like</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>25</td></tr></table>
 <table class="harp harp-198">
@@ -1182,7 +1102,6 @@ A1B1 . . . . . A5 A4
 <tr><td><svg x="0" y="0" class="circle button-5" viewBox="0 0 91 91"><path class="button ON-0" d="M90.7 76.5c0 7.8-6.3 14.2-14.2 14.2H14.2C6.3 90.7 0 84.4 0 76.5V14.2C0 6.3 6.3 0 14.2 0h62.3c7.8 0 14.2 6.3 14.2 14.2V76.5z"/><circle cx="45.4" cy="45.4" r="25.5" class="icon ON-0"/></svg></td><td><svg x="0" y="0" class="OFF button-6" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-7" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td>you</td></tr></table>
 <table class="voice"><tr><td>to</td></tr></table>
@@ -1192,7 +1111,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td>or</td></tr></table>
 <table class="voice"><tr><td>-</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>27</td></tr></table>
 <table class="harp harp-214">
@@ -1231,7 +1149,6 @@ A1B1 . . . . . A5 A4
 <tr><td><svg x="0" y="0" class="OFF button-5" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-6" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-7" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="diamond button-8" viewBox="0 0 91 91"><path class="button ON-0" d="M90.7 76.5c0 7.8-6.3 14.2-14.2 14.2H14.2C6.3 90.7 0 84.4 0 76.5V14.2C0 6.3 6.3 0 14.2 0h62.3c7.8 0 14.2 6.3 14.2 14.2V76.5z"/><rect x="22.6" y="22.7" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 45.3002 109.5842)" width="45.4" height="45.4" class="icon ON-0"/> </svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td>hide</td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
@@ -1241,7 +1158,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td>-</td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td>I</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>29</td></tr></table>
 <table class="harp harp-230">
@@ -1278,7 +1194,6 @@ A1B1 . . . . . A5 A4
 </svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td>hate</td></tr></table>
 <table class="voice"><tr><td>to</td></tr></table>
@@ -1288,7 +1203,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td>out</td></tr></table>
 <table class="voice"><tr><td>of</td></tr></table>
 <table class="voice"><tr><td>the</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>31</td></tr></table>
 <table class="harp harp-246">
@@ -1328,7 +1242,6 @@ A1B1 . . . . . A5 A4
 </svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td>blue</td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
@@ -1338,7 +1251,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td>ted</td></tr></table>
 <table class="voice"><tr><td>but</td></tr></table>
 <table class="voice"><tr><td>I</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>33</td></tr></table>
 <table class="harp harp-262 silent">
@@ -1376,7 +1288,6 @@ A1B1 . . . . . A5 A4
 <tr><td><svg x="0" y="0" class="OFF silent button-5" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-6" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF button-7" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF silent button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
@@ -1385,7 +1296,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td>stay</td></tr></table>
 <table class="voice"><tr><td>a</td></tr></table>
 <table class="voice"><tr><td>way</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>35</td></tr></table>
 <table class="harp harp-277 silent">
@@ -1426,7 +1336,6 @@ A1B1 . . . . . A5 A4
 </svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td>I</td></tr></table>
@@ -1436,7 +1345,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td>it</td></tr></table>
 <table class="voice"><tr><td>I</td></tr></table>
 <table class="voice"><tr><td>had</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>37</td></tr></table>
 <table class="harp harp-293">
@@ -1472,7 +1380,6 @@ A1B1 . . . . . A5 A4
 <tr><td><svg x="0" y="0" class="OFF button-5" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-6" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-7" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="diamond button-8" viewBox="0 0 91 91"><path class="button ON-0" d="M90.7 76.5c0 7.8-6.3 14.2-14.2 14.2H14.2C6.3 90.7 0 84.4 0 76.5V14.2C0 6.3 6.3 0 14.2 0h62.3c7.8 0 14.2 6.3 14.2 14.2V76.5z"/><rect x="22.6" y="22.7" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 45.3002 109.5842)" width="45.4" height="45.4" class="icon ON-0"/> </svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td>hoped</td></tr></table>
 <table class="voice"><tr><td>you'd</td></tr></table>
@@ -1482,7 +1389,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td>and</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>39</td></tr></table>
 <table class="harp harp-309">
@@ -1523,7 +1429,6 @@ A1B1 . . . . . A5 A4
 </svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="circle button-9" viewBox="0 0 91 91"><path class="button ON-0" d="M90.7 76.5c0 7.8-6.3 14.2-14.2 14.2H14.2C6.3 90.7 0 84.4 0 76.5V14.2C0 6.3 6.3 0 14.2 0h62.3c7.8 0 14.2 6.3 14.2 14.2V76.5z"/><circle cx="45.4" cy="45.4" r="25.5" class="icon ON-0"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td>that</td></tr></table>
 <table class="voice"><tr><td>you'd</td></tr></table>
@@ -1533,7 +1438,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td>ed</td></tr></table>
 <table class="voice"><tr><td>that</td></tr></table>
 <table class="voice"><tr><td>for</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>41</td></tr></table>
 <table class="harp harp-325">
@@ -1575,7 +1479,6 @@ A1B1 . . . . . A5 A4
 </svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td>me</td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
@@ -1585,7 +1488,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td>it</td></tr></table>
 <table class="voice"><tr><td>is</td></tr></table>
 <table class="voice"><tr><td>n't</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>43</td></tr></table>
 <table class="harp harp-341">
@@ -1622,7 +1524,6 @@ A1B1 . . . . . A5 A4
 <tr><td><svg x="0" y="0" class="OFF silent button-5" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-6" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF button-7" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF silent button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td>o</td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
@@ -1631,7 +1532,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
-
 
 <hr /><table class="num"><tr><td>45</td></tr></table>
 <table class="harp harp-356">
@@ -1675,7 +1575,6 @@ A1B1 . . . . . A5 A4
 <tr><td><svg x="0" y="0" class="OFF silent button-5" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-6" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF button-7" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF silent button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td>Nev</td></tr></table>
@@ -1684,7 +1583,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td>I'll</td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td>find</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>47</td></tr></table>
 <table class="harp harp-371 silent">
@@ -1721,7 +1619,6 @@ A1B1 . . . . . A5 A4
 </svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
@@ -1731,7 +1628,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td>one</td></tr></table>
 <table class="voice"><tr><td>like</td></tr></table>
 <table class="voice"><tr><td>-</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>49</td></tr></table>
 <table class="harp harp-387">
@@ -1771,7 +1667,6 @@ A1B1 . . . . . A5 A4
 <tr><td><svg x="0" y="0" class="OFF button-5" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-6" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-7" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td>you</td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
@@ -1780,7 +1675,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
-
 
 <hr /><table class="num"><tr><td>51</td></tr></table>
 <table class="harp harp-402">
@@ -1819,7 +1713,6 @@ A1B1 . . . . . A5 A4
 <tr><td><svg x="0" y="0" class="OFF button-5" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-6" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-7" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td>-</td></tr></table>
 <table class="voice"><tr><td>-</td></tr></table>
@@ -1828,7 +1721,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td>I</td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td>wish</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>53</td></tr></table>
 <table class="harp harp-417">
@@ -1867,7 +1759,6 @@ A1B1 . . . . . A5 A4
 <tr><td><svg x="0" y="0" class="OFF button-5" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="diamond button-6" viewBox="0 0 91 91"><path class="button ON-0" d="M90.7 76.5c0 7.8-6.3 14.2-14.2 14.2H14.2C6.3 90.7 0 84.4 0 76.5V14.2C0 6.3 6.3 0 14.2 0h62.3c7.8 0 14.2 6.3 14.2 14.2V76.5z"/><rect x="22.6" y="22.7" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 45.3002 109.5842)" width="45.4" height="45.4" class="icon ON-0"/> </svg></td><td><svg x="0" y="0" class="OFF button-7" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td>noth</td></tr></table>
 <table class="voice"><tr><td>ing</td></tr></table>
@@ -1877,7 +1768,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td>the</td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td>best</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>55</td></tr></table>
 <table class="harp harp-433">
@@ -1914,7 +1804,6 @@ A1B1 . . . . . A5 A4
 <tr><td><svg x="0" y="0" class="circle button-5" viewBox="0 0 91 91"><path class="button ON-0" d="M90.7 76.5c0 7.8-6.3 14.2-14.2 14.2H14.2C6.3 90.7 0 84.4 0 76.5V14.2C0 6.3 6.3 0 14.2 0h62.3c7.8 0 14.2 6.3 14.2 14.2V76.5z"/><circle cx="45.4" cy="45.4" r="25.5" class="icon ON-0"/></svg></td><td><svg x="0" y="0" class="OFF button-6" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-7" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
@@ -1924,7 +1813,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td>for</td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td>-</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>57</td></tr></table>
 <table class="harp harp-449">
@@ -1964,7 +1852,6 @@ A1B1 . . . . . A5 A4
 <tr><td><svg x="0" y="0" class="OFF button-5" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-6" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-7" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td>you</td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
@@ -1973,7 +1860,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
-
 
 <hr /><table class="num"><tr><td>59</td></tr></table>
 <table class="harp harp-464">
@@ -2014,7 +1900,6 @@ A1B1 . . . . . A5 A4
 <tr><td><svg x="0" y="0" class="OFF silent button-5" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-6" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF button-7" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF silent button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td>two</td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
@@ -2023,7 +1908,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td>Don't</td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td>for</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>61</td></tr></table>
 <table class="harp harp-479">
@@ -2063,7 +1947,6 @@ A1B1 . . . . . A5 A4
 <tr><td><svg x="0" y="0" class="OFF silent button-5" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-6" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF button-7" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF silent button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td>get</td></tr></table>
 <table class="voice"><tr><td>me</td></tr></table>
@@ -2072,7 +1955,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td>I</td></tr></table>
 <table class="voice"><tr><td>beg</td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
-
 
 <hr /><table class="num"><tr><td>63</td></tr></table>
 <table class="harp harp-494 silent">
@@ -2109,7 +1991,6 @@ A1B1 . . . . . A5 A4
 </svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
@@ -2119,7 +2000,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td>-</td></tr></table>
 <table class="voice"><tr><td>re</td></tr></table>
 <table class="voice"><tr><td>-</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>65</td></tr></table>
 <table class="harp harp-510">
@@ -2156,7 +2036,6 @@ A1B1 . . . . . A5 A4
 <tr><td><svg x="0" y="0" class="OFF silent button-5" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-6" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF button-7" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF silent button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td>mem</td></tr></table>
 <table class="voice"><tr><td>ber</td></tr></table>
@@ -2165,7 +2044,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td>you</td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
-
 
 <hr /><table class="num"><tr><td>67</td></tr></table>
 <table class="harp harp-525">
@@ -2207,7 +2085,6 @@ A1B1 . . . . . A5 A4
 </svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td>said</td></tr></table>
 <table class="voice"><tr><td>-</td></tr></table>
@@ -2217,7 +2094,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td>times</td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td>it</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>69</td></tr></table>
 <table class="harp harp-541">
@@ -2256,7 +2132,6 @@ A1B1 . . . . . A5 A4
 <tr><td><svg x="0" y="0" class="OFF button-5" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-6" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-7" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td>lasts</td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
@@ -2266,7 +2141,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td>but</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>71</td></tr></table>
 <table class="harp harp-557">
@@ -2302,7 +2176,6 @@ A1B1 . . . . . A5 A4
 <tr><td><svg x="0" y="0" class="circle button-5" viewBox="0 0 91 91"><path class="button ON-0" d="M90.7 76.5c0 7.8-6.3 14.2-14.2 14.2H14.2C6.3 90.7 0 84.4 0 76.5V14.2C0 6.3 6.3 0 14.2 0h62.3c7.8 0 14.2 6.3 14.2 14.2V76.5z"/><circle cx="45.4" cy="45.4" r="25.5" class="icon ON-0"/></svg></td><td><svg x="0" y="0" class="OFF button-6" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-7" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td>some</td></tr></table>
 <table class="voice"><tr><td>times</td></tr></table>
@@ -2312,7 +2185,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td>in</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>73</td></tr></table>
 <table class="harp harp-573">
@@ -2350,7 +2222,6 @@ A1B1 . . . . . A5 A4
 <tr><td><svg x="0" y="0" class="OFF button-5" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-6" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-7" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td>stead</td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
@@ -2359,7 +2230,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
-
 
 <hr /><table class="num"><tr><td>75</td></tr></table>
 <table class="harp harp-588">
@@ -2396,7 +2266,6 @@ A1B1 . . . . . A5 A4
 <tr><td><svg x="0" y="0" class="OFF silent button-5" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-6" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF button-7" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF silent button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td><td><svg x="0" y="0" class="OFF silent button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="26" class="icon silent"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td>-</td></tr></table>
 <table class="voice"><tr><td>-</td></tr></table>
@@ -2405,7 +2274,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
-
 
 <hr /><table class="num"><tr><td>77</td></tr></table>
 <table class="harp harp-603 silent">
@@ -2446,7 +2314,6 @@ A1B1 . . . . . A5 A4
 </svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
@@ -2456,7 +2323,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td>Some</td></tr></table>
 <table class="voice"><tr><td>times</td></tr></table>
 <table class="voice"><tr><td>it</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>79</td></tr></table>
 <table class="harp harp-619">
@@ -2496,7 +2362,6 @@ A1B1 . . . . . A5 A4
 <tr><td><svg x="0" y="0" class="OFF button-5" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-6" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-7" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td>lasts</td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
@@ -2506,7 +2371,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td>but</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>81</td></tr></table>
 <table class="harp harp-635">
@@ -2543,7 +2407,6 @@ A1B1 . . . . . A5 A4
 <tr><td><svg x="0" y="0" class="OFF button-5" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-6" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-7" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td>some</td></tr></table>
 <table class="voice"><tr><td>times</td></tr></table>
@@ -2553,7 +2416,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td>-</td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td>in</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>83</td></tr></table>
 <table class="harp harp-651">
@@ -2591,7 +2453,6 @@ A1B1 . . . . . A5 A4
 <tr><td><svg x="0" y="0" class="circle button-5" viewBox="0 0 91 91"><path class="button ON-0" d="M90.7 76.5c0 7.8-6.3 14.2-14.2 14.2H14.2C6.3 90.7 0 84.4 0 76.5V14.2C0 6.3 6.3 0 14.2 0h62.3c7.8 0 14.2 6.3 14.2 14.2V76.5z"/><circle cx="45.4" cy="45.4" r="25.5" class="icon ON-0"/></svg></td><td><svg x="0" y="0" class="OFF button-6" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-7" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td>stead</td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
@@ -2600,7 +2461,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
-
 
 <hr /><table class="num"><tr><td>85</td></tr></table>
 <table class="harp harp-666">
@@ -2641,7 +2501,6 @@ A1B1 . . . . . A5 A4
 </svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td>-</td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
@@ -2651,7 +2510,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td>Some</td></tr></table>
 <table class="voice"><tr><td>times</td></tr></table>
 <table class="voice"><tr><td>it</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>87</td></tr></table>
 <table class="harp harp-682">
@@ -2691,7 +2549,6 @@ A1B1 . . . . . A5 A4
 <tr><td><svg x="0" y="0" class="OFF button-5" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-6" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-7" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td>lasts</td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
@@ -2701,7 +2558,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td>but</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>89</td></tr></table>
 <table class="harp harp-698">
@@ -2737,7 +2593,6 @@ A1B1 . . . . . A5 A4
 <tr><td><svg x="0" y="0" class="circle button-5" viewBox="0 0 91 91"><path class="button ON-0" d="M90.7 76.5c0 7.8-6.3 14.2-14.2 14.2H14.2C6.3 90.7 0 84.4 0 76.5V14.2C0 6.3 6.3 0 14.2 0h62.3c7.8 0 14.2 6.3 14.2 14.2V76.5z"/><circle cx="45.4" cy="45.4" r="25.5" class="icon ON-0"/></svg></td><td><svg x="0" y="0" class="OFF button-6" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-7" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td>some</td></tr></table>
 <table class="voice"><tr><td>times</td></tr></table>
@@ -2747,7 +2602,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td>hurts</td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td>in</td></tr></table>
-
 
 <hr /><table class="num"><tr><td>91</td></tr></table>
 <table class="harp harp-714">
@@ -2784,7 +2638,6 @@ A1B1 . . . . . A5 A4
 <tr><td><svg x="0" y="0" class="OFF button-5" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-6" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-7" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-8" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-9" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr>
 <tr><td><svg x="0" y="0" class="OFF button-10" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-11" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-12" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-13" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td><td><svg x="0" y="0" class="OFF button-14" viewBox="0 0 91 91"><circle cx="45.4" cy="45.4" r="12" class="icon OFF"/></svg></td></tr></table>
 
-
 <br />
 <table class="voice"><tr><td>stead</td></tr></table>
 <table class="voice"><tr><td></td></tr></table>
@@ -2794,7 +2647,6 @@ A1B1 . . . . . A5 A4
 <table class="voice"><tr><td></td></tr></table>
 <table class="voice"><tr><td>-</td></tr></table>
 <table class="voice"><tr><td>-</td></tr></table>
-
 
 </div>
 </body>

@@ -2,12 +2,9 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu Sep 10 21:36:48 2020
-
 @author: lagaffe
 """
-
 import os, re
-
 
 def get_html_paths(html_dir):
     '''
@@ -20,9 +17,7 @@ def get_html_paths(html_dir):
             (basename, ext) = os.path.splitext(filename)
             if ext.lower() == '.html':
                 html_paths.append(os.path.join(dirpath, filename))
-
     return html_paths
-
 def get_sanitized_name(name):
     
     sanitized_name = re.sub(r'[\\/:"~`#*?<>|]', '', re.escape(name)).strip()
@@ -33,27 +28,19 @@ def get_sanitized_name(name):
     else:
         return sanitized_name
 
-
 html_dir = 'movies'
 index_path = '../index.md'
-
 with open(index_path, 'r', encoding='utf-8', errors='ignore') as fp:        
     index_content = fp.read()
 
-
 artist_regex = re.compile(r"<p>\s*<b>Original artist\(s\):\s*</b>([^<]+)</p>", re.I)
-
 html_paths = get_html_paths(html_dir)
-
 print(f"Found {len(html_paths)} HTML files in {html_dir}")
-
 for html_path in html_paths:
     
     with open(html_path, 'r', encoding='utf-8', errors='ignore') as fp:        
         html_content = fp.read()
-
     artist_match = artist_regex.search(html_content)
-
     if artist_match:
         (dirname, old_name) = os.path.split(html_path)
         artist = get_sanitized_name(artist_match.group(1))

@@ -2,53 +2,45 @@
 <html>
 <head> 
 <script type="text/javascript" src="/js/navigationTableScript.js"></script>
-<script type="text/javascript" src="/js/sheetDarkModeScript.js"></script>
 <script type="text/javascript" src="/js/sheetDownloaderScript.js"></script>
 <title>Dango daikazoku - Kyoto Animation</title>
 <style type="text/css">
 html {
   scroll-behavior: smooth;
 }
-
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
   }
 }
-
 /* <!-- Defines the em unit--> */
 body {
   font-family: "Noto Sans", "Noto Sans CJK JP", "Noto Sans CJK KR", "Noto Sans CJK SC", "Noto Sans CJK TC", "Avenir", Arial, sans-serif;
   font-size: 12pt;
 }
-
 /* <!-- Song title --> */
 h1, svg text.title {
     font-family: "Noto Sans", "Noto Sans CJK JP", "Noto Sans CJK KR", "Noto Sans CJK SC", "Noto Sans CJK TC", "Avenir", Arial, sans-serif;
 	font-size: 1.3em;
 	font: bold;
 }
-
 /* <!-- Song headers (HTML only) --> */
 p, svg text.headers {
     font-family: "Noto Sans", "Noto Sans CJK JP", "Noto Sans CJK KR", "Noto Sans CJK SC", "Noto Sans CJK TC", "Avenir", Arial, sans-serif;
 	font-size: 0.8em;
 	line-height: 50%;
 }
-
 .root, .diamond, .circle {
   transform: scale(1.0);
   -ms-transform: scale(1.0);
   -webkit-transform: scale(1.0);
 }
-
 /* <!-- Alignment of SVG (HTML only) --> */
 /* <!-- Seems to have no effect ? --> */
 .root svg, .diamond svg, .circle svg {
   display: inline-block;
   vertical-align: middle;
 }
-
 /* <!-- Sky chord chart: a table with rounded edges (HTML only) --> */
 table {
   margin-top: 0px;
@@ -63,21 +55,18 @@ table {
   border-color: black;
   border-spacing: 0 auto;
 }
-
 /* <!-- Sky chord chart: a table with rounded edges (SVG only) --> */
 svg rect.harp {
   fill:white;
   stroke-width:1;
   stroke:black;
 }
-
 /* <!-- Sky chord chart: a table with rounded edges and thick edges (PNG only) --> */
 svg rect.harp-png {
   fill:white;
   stroke-width:3;
   stroke:black;
 }
-
 
 /* <!-- WARNING: The td font size affects the note size! (HTML only)--> */
 td {
@@ -86,33 +75,28 @@ td {
   margin: 0px;
   font-size: 1.0em;
 }
-
 /* <!-- Makes the table disappear in case of broken chord  (HTML only)--> */
 table.broken {
   border-color: white;
   border-width: 0;
 }
-
 /* <!-- Makes the table disappear in case of broken chord  (SVG only)--> */
 svg.broken rect{
   fill:none;
   stroke-width:0;
   stroke:white;
 }
-
 /* <!-- Silent table  (HTML only)--> */
 table.silent {
   border-color:#BBBBBB;
   border-width:0;
 }
-
 /* <!-- Silent table  (HTML only)--> */
 svg.silent rect {
   stroke: grey;
   stroke-width:0;
   fill:none;
 }
-
 table.voice {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -122,7 +106,6 @@ table.voice {
   border-radius: 0px;
   border-width: 0px;
 }
-
 table.voice td {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -131,7 +114,6 @@ table.voice td {
   width: 7.5em;
   text-align: center;
 }
-
 /* <!-- Sky voice (SVG only) --> */
 svg text.voice {
   font-family: "Noto Sans", "Noto Sans CJK JP", "Noto Sans CJK KR", "Noto Sans CJK SC", "Noto Sans CJK TC", "Avenir", Arial, sans-serif;
@@ -140,7 +122,6 @@ svg text.voice {
   fill:black;
   dominant-baseline: middle;
 }
-
 /* <!-- Invisible table to contain the repetition mark --> */
 table.repeat {
   margin: 0px;
@@ -149,7 +130,6 @@ table.repeat {
   border-width: 0px;
   font-size: 0.9em;
 }
-
 /* <!-- Bottom-left corner repetition mark --> */
 svg.repeat text.repeat {
   stroke: none;
@@ -158,7 +138,6 @@ svg.repeat text.repeat {
   font-size: 0.9em;
   font-family: "Noto Sans", "Noto Sans CJK JP", "Noto Sans CJK KR", "Noto Sans CJK SC", "Noto Sans CJK TC", "Avenir", Arial, sans-serif;
 }
-
 
 /* <!-- Horizontal line --> */
 hr {
@@ -170,12 +149,10 @@ hr {
   margin-top: 0px;
   margin-bottom: 4px;
 }
-
 svg line.divide {
 	stroke: grey;
 	stroke-width: 1.0px;
 }
-
 
 /* <!-- TODO: Check if this has no effect ??? --> */
 /*
@@ -184,12 +161,10 @@ path.instrument-button{
 	opacity:0.4;
 }
  */
-
 /* <!-- TODO: Check if this has no effect ??? --> */
 #transcript {
   margin: 0 0;
 }
-
 
 /* <!-- Small buttons showing notes positions --> */
 svg.button-0 .OFF.icon,
@@ -202,7 +177,6 @@ svg.button-4 .OFF.icon {
   fill: rgb(194,240,194);
   opacity: 1;
 }
-
 /* <!-- Small buttons showing notes positions --> */
 svg.button-5 .OFF.icon,
 svg.button-6 .OFF.icon,
@@ -214,7 +188,6 @@ svg.button-9 .OFF.icon {
   fill: rgb(179,236,255);
   opacity: 1;
 }
-
 /* <!-- Small buttons showing notes positions --> */
 svg.button-10 .OFF.icon,
 svg.button-11 .OFF.icon,
@@ -226,7 +199,6 @@ svg.button-14 .OFF.icon {
   fill: rgb(255,185,223);
   opacity: 1;
 }
-
 /* <!-- Note background when the chord is or is silent --> */
 table.broken .ON-0.instrument-button,
 table.silent .ON-0.instrument-button {
@@ -234,7 +206,6 @@ table.silent .ON-0.instrument-button {
   stroke: white;
   fill: none;
 }
-
 /* <!-- Small note buttons when the chord is broken --> */
 table.broken .OFF.icon,
 svg.broken .OFF.icon {
@@ -242,7 +213,6 @@ svg.broken .OFF.icon {
   stroke: white;
   fill: none;
 }
-
 /* <!-- Small note buttons when the chord is silent --> */
 table.silent .OFF.icon,
 svg.silent .OFF.icon {
@@ -250,7 +220,6 @@ svg.silent .OFF.icon {
   stroke: white;
   fill: none;
 }
-
 /* <!-- Middle note button when the chord is silent --> */
 table.silent svg.button-7 .OFF.icon,
 svg.silent svg.button-7 .OFF.icon,
@@ -260,7 +229,6 @@ svg.silent.button-7 .OFF.icon {
   fill: #BBBBBB;
   opacity: 1;
 }
-
 /* <!-- Red question mark when table is broken --> */
 table.broken text,
 svg.broken text {
@@ -271,14 +239,12 @@ svg.broken text {
   stroke:red;
 }
 
-
 /* <!-- Note decoration (circle, diamond) --> */
 .ON-0.icon {
   stroke-width: 5;
   stroke: white;
   fill: none;
 }
-
 /* <!-- Note background color in first row --> */
 svg.button-0 path.ON-0,
 svg.button-1 path.ON-0,
@@ -288,7 +254,6 @@ svg.button-4 path.ON-0 {
   fill: limegreen;
   opacity: 1.0;
 }
-
 /* <!-- Note background color in second row --> */
 svg.button-5 path.ON-0,
 svg.button-6 path.ON-0,
@@ -298,7 +263,6 @@ svg.button-9 path.ON-0 {
   fill: deepskyblue;
   opacity: 1.0;
 }
-
 /* <!-- Note background color in third row --> */
 svg.button-10 path.ON-0,
 svg.button-11 path.ON-0,
@@ -308,7 +272,6 @@ svg.button-14 path.ON-0 {
   fill: deeppink;
   opacity: 1.0;
 }
-
 /* <!-- Element background color for icons in ../elements
 Set to none to have a transparent SVG, and a transparent PNG with alpha layer (RGBA) later
 Set to white to make the background white in RGB mode, and the PNG background white when converted to RGB
@@ -316,90 +279,74 @@ Set to white to make the background white in RGB mode, and the PNG background wh
 svg rect.harp-background {
 	fill:white;
 }
-
 svg rect.note-background {
 	fill:white;
 }
-
 /* <!-- Below the styles for buttons in a quaver --> */
 .ON-7 {
   fill: rgb(68,1,84);
   opacity: 1.0;
 }
-
 .ON-7.icon {
   stroke-width: 3;
   stroke: white;
   fill: none;
 }
-
 .ON-6 {
   fill: rgb(68,57,130);
   opacity: 1.0;
 }
-
 .ON-6.icon {
   stroke-width: 3;
   stroke: white;
   fill: none;
 }
-
 .ON-5 {
   fill: rgb(48,103,141);
   opacity: 1.0;
 }
-
 .ON-5.icon {
   stroke-width: 3;
   stroke: white;
   fill: none;
 }
 
-
 .ON-4 {
   fill: rgb(32,144,140);
   opacity: 1.0;
 }
-
 .ON-4.icon {
   stroke-width: 3;
   stroke: white;
   fill: none;
 }
-
 .ON-3 {
   fill: rgb(53,183,120);
   opacity: 1.0;
 }
-
 .ON-3.icon {
   stroke-width: 3;
   stroke: white;
   fill: none;
 }
-
 .ON-2 {
   fill: rgb(144,214,67);
   opacity: 1.0;
 }
-
 .ON-2.icon {
   stroke-width: 3;
   stroke: white;
   fill: none;
 }
-
 .ON-1 {
   fill: rgb(253,231,36);
   opacity: 1.0;
 }
-
 .ON-1.icon {
   stroke-width: 3;
   stroke: white;
   fill: none;
 }
-
 /* <!-- Button styles if chord has en broken --> */
 /* <!-- TODO: Check if this has no effect ??? --> */
 /*
@@ -407,30 +354,23 @@ svg rect.note-background {
   fill: red;
   stroke: red;
 }
-
 .diamond.silent {
   fill: red;
   stroke: red;
 }
  */
 
-
 </style>
 <meta charset="utf-8"/>
 </head>
 <body>
 
-
 <h1> Dango daikazoku - Kyoto Animation </h1>
 <p> <b>Original Artist(s):</b> Kyoto Animation </p>
 <p> <b> Transcript:</b> Francis - Sky (music sheet by Tracey) </p>
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/X3sgY6xtRs0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 <div id="transcript">
-
 <h2>Section 1</h2>
-
 <table class="harp harp-0"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -464,7 +404,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-1"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -497,7 +436,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-2"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -531,7 +469,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-3 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -563,7 +500,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-4"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -598,7 +534,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-5 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -630,7 +565,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-6"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -663,7 +597,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-7 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -695,7 +628,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 
 <br />
 <hr />
@@ -733,7 +665,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-9 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -765,7 +696,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-10"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -798,7 +728,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-11 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -830,7 +759,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-12"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -865,7 +793,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-13 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -897,7 +824,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-14"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -930,7 +856,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-15 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -962,7 +887,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 
 <br />
 <hr />
@@ -1000,7 +924,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-17"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -1033,7 +956,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-18"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -1067,7 +989,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-19 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -1099,7 +1020,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-20"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -1134,7 +1054,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-21 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -1166,7 +1085,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-22"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -1199,7 +1117,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-23 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -1231,7 +1148,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 
 <br />
 <hr />
@@ -1269,7 +1185,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-25 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -1301,7 +1216,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-26"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -1334,7 +1248,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-27 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -1366,7 +1279,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-28"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -1400,7 +1312,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-29 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -1432,7 +1343,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-30 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -1464,7 +1374,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-31 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -1496,7 +1405,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 
 <br />
 <hr />
@@ -1534,7 +1442,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-33"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -1567,7 +1474,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-34"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -1601,7 +1507,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-35 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -1633,7 +1538,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-36"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -1668,7 +1572,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-37 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -1700,7 +1603,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-38"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -1733,7 +1635,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-39 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -1765,7 +1666,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 
 <br />
 <hr />
@@ -1803,7 +1703,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-41 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -1835,7 +1734,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-42"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -1868,7 +1766,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-43 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -1900,7 +1797,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-44"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -1935,7 +1831,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-45 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -1967,7 +1862,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-46"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -2000,7 +1894,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-47 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -2032,7 +1925,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 
 <br />
 <hr />
@@ -2070,7 +1962,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-49"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -2103,7 +1994,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-50"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -2137,7 +2027,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-51 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -2169,7 +2058,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-52"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -2204,7 +2092,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-53 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -2236,7 +2123,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-54"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -2271,7 +2157,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-55 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -2303,7 +2188,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 
 <br />
 <hr />
@@ -2344,7 +2228,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-57 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -2376,7 +2259,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-58 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -2408,7 +2290,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-59 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -2440,7 +2321,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-60 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -2472,7 +2352,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-61 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -2504,7 +2383,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-62 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -2536,7 +2414,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-63 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -2569,13 +2446,10 @@ svg rect.note-background {
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
 
-
 <br />
 <hr />
 <br />
-
 <h2>Section 2</h2>
-
 <table class="harp harp-64"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -2609,7 +2483,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-65"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -2642,7 +2515,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-66"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -2676,7 +2548,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-67"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -2709,7 +2580,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-68 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -2741,7 +2611,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-69"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -2775,7 +2644,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-70"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -2808,7 +2676,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-71"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -2841,7 +2708,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 
 <br />
 <hr />
@@ -2879,7 +2745,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-73 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -2911,7 +2776,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-74"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -2944,7 +2808,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-75 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -2976,7 +2839,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-76"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -3009,7 +2871,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-77 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -3041,7 +2902,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-78"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -3075,7 +2935,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-79 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -3107,7 +2966,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 
 <br />
 <hr />
@@ -3145,7 +3003,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-81"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -3178,7 +3035,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-82"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -3212,7 +3068,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-83"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -3245,7 +3100,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-84 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -3277,7 +3131,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-85"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -3311,7 +3164,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-86"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -3344,7 +3196,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-87"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -3377,7 +3228,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 
 <br />
 <hr />
@@ -3415,7 +3265,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-89 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -3447,7 +3296,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-90 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -3479,7 +3327,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-91 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -3511,7 +3358,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-92 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -3543,7 +3389,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-93 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -3575,7 +3420,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-94 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -3607,7 +3451,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-95 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -3639,7 +3482,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 
 <br />
 <hr />
@@ -3677,7 +3519,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-97"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -3710,7 +3551,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-98"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -3744,7 +3584,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-99"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -3777,7 +3616,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-100 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -3809,7 +3647,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-101"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -3843,7 +3680,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-102"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -3876,7 +3712,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-103"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -3909,7 +3744,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 
 <br />
 <hr />
@@ -3947,7 +3781,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-105 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -3979,7 +3812,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-106"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -4012,7 +3844,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-107 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -4044,7 +3875,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-108"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -4077,7 +3907,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-109 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -4109,7 +3938,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-110"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -4143,7 +3971,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-111"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -4176,7 +4003,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 
 <br />
 <hr />
@@ -4212,7 +4038,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-113 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -4244,7 +4069,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-114 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -4276,7 +4100,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-115"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -4310,7 +4133,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-116"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -4343,7 +4165,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-117 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -4375,7 +4196,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-118 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -4407,7 +4227,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-119"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -4440,7 +4259,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 
 <br />
 <hr />
@@ -4477,7 +4295,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-121"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -4510,7 +4327,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-122"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -4543,7 +4359,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-123"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -4576,7 +4391,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-124"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <path class="instrument-button ON-0" d="M90.7 76.5c0 7.8-6.3 14.2-14.2 14.2H14.2C6.4 90.7 0 84.4 0 76.5V14.2C0 6.4 6.3 0 14.2 0h62.3c7.8 0 14.2 6.3 14.2 14.2V76.5z"/>
 <circle cx="45.5" cy="45.4" r="26" class="icon ON-0"/><rect x="19.5" y="19.3" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 109.7415 45.2438)" width="52" height="52" class="icon ON-0"/>
@@ -4610,7 +4424,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-125"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -4643,7 +4456,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-126"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -4678,7 +4490,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-127"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -4713,13 +4524,10 @@ svg rect.note-background {
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
 
-
 <br />
 <hr />
 <br />
-
 <h2>Section 3</h2>
-
 <table class="harp harp-128"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <path class="instrument-button ON-0" d="M90.7 76.5c0 7.8-6.3 14.2-14.2 14.2H14.2C6.4 90.7 0 84.4 0 76.5V14.2C0 6.4 6.3 0 14.2 0h62.3c7.8 0 14.2 6.3 14.2 14.2V76.5z"/>
 <circle cx="45.5" cy="45.4" r="26" class="icon ON-0"/><rect x="19.5" y="19.3" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 109.7415 45.2438)" width="52" height="52" class="icon ON-0"/>
@@ -4755,7 +4563,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-129"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -4788,7 +4595,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-130"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -4822,7 +4628,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-131"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -4855,7 +4660,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-132 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -4887,7 +4691,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-133"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -4921,7 +4724,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-134"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -4954,7 +4756,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-135"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -4987,7 +4788,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 
 <br />
 <hr />
@@ -5028,7 +4828,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-137"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -5061,7 +4860,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-138"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -5095,7 +4893,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-139 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -5127,7 +4924,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-140"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -5162,7 +4958,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-141"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -5195,7 +4990,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-142"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -5230,7 +5024,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-143"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -5264,7 +5057,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 
 <br />
 <hr />
@@ -5304,7 +5096,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-145"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -5337,7 +5128,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-146"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -5371,7 +5161,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-147"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -5404,7 +5193,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-148 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -5436,7 +5224,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-149"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -5470,7 +5257,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-150"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -5505,7 +5291,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-151"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -5539,7 +5324,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 
 <br />
 <hr />
@@ -5579,7 +5363,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-153"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -5612,7 +5395,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-154"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -5645,7 +5427,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-155"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -5679,7 +5460,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-156"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -5712,7 +5492,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-157"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -5745,7 +5524,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-158"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -5780,7 +5558,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-159"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -5814,7 +5591,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 
 <br />
 <hr />
@@ -5854,7 +5630,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-161"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -5887,7 +5662,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-162"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -5921,7 +5695,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-163"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -5954,7 +5727,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-164 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -5986,7 +5758,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-165"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -6020,7 +5791,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-166"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -6053,7 +5823,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-167"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -6086,7 +5855,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 
 <br />
 <hr />
@@ -6127,7 +5895,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-169"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -6160,7 +5927,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-170"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -6194,7 +5960,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-171 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -6226,7 +5991,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-172"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -6262,7 +6026,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-173 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -6294,7 +6057,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-174"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -6329,7 +6091,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-175 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -6361,7 +6122,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 
 <br />
 <hr />
@@ -6403,7 +6163,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-177 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -6435,7 +6194,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-178 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -6467,7 +6225,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-179 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -6499,7 +6256,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-180"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -6532,7 +6288,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-181 silent "><tr><td><svg class="root OFF silent button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td><td><svg class="diamond OFF silent button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -6564,7 +6319,6 @@ svg rect.note-background {
 </td><td><svg class="root OFF silent button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF silent"/></svg>
 </td></tr></table>
-
 <table class="harp harp-182"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -6598,7 +6352,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-183"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -6631,7 +6384,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 
 <br />
 <hr />
@@ -6669,7 +6421,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-185"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -6702,7 +6453,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-186"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -6735,7 +6485,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-187"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -6769,7 +6518,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-188"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -6802,7 +6550,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-189"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -6835,7 +6582,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-190"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td><td><svg class="diamond button-1 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
@@ -6868,7 +6614,6 @@ svg rect.note-background {
 </td><td><svg class="root button-14 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <circle cx="45.4" cy="45.4" r="12" class="icon OFF "/></svg>
 </td></tr></table>
-
 <table class="harp harp-191"><tr><td><svg class="root button-0 " xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 91 91">
 <path class="instrument-button ON-0" d="M90.7 76.5c0 7.8-6.3 14.2-14.2 14.2H14.2C6.4 90.7 0 84.4 0 76.5V14.2C0 6.4 6.3 0 14.2 0h62.3c7.8 0 14.2 6.3 14.2 14.2V76.5z"/>
 <circle cx="45.5" cy="45.4" r="26" class="icon ON-0"/><rect x="19.5" y="19.3" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 109.7415 45.2438)" width="52" height="52" class="icon ON-0"/>
@@ -6907,7 +6652,6 @@ svg rect.note-background {
 <circle cx="45.5" cy="45.4" r="26" class="icon ON-4"/><rect x="19.5" y="19.3" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 109.7415 45.2438)" width="52" height="52" class="icon ON-4"/>
 </svg>
 </td></tr></table>
-
 
 <br />
 <hr />
