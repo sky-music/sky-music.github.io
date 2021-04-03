@@ -1,64 +1,116 @@
-window.addEventListener("load", function () {
-    let body = document.getElementsByTagName("body")[0]
-    let downloadButton = document.createElement("div")
-    let downloadPdf = document.createElement("div")
-    let style = "background-color:#121212; font-size:1.3em; height:1.5em;color:white; width:100%" +
-        "border-radius:4px; display: flex; align-items: center; justify-content: center; cursor:pointer; margin-bottom:5px; padding:5px;"
 
-    downloadButton.style = style
-    downloadPdf.style = style
-    downloadPdf.innerHTML = "Print / Save as PDF"
-    downloadPdf.addEventListener("click", function () {
-        let iframe = document.querySelector("iframe")
-        let container = this.parentElement
-        if (iframe !== null) iframe.style.display = "none"
-        container.style.display = "none"
-        window.print()
-        if (iframe !== null) iframe.style.display = "block"
-        container.style.display = "block"
-    })
-    downloadPdf.id = "downloadPdf"
-    downloadButton.id = "downloadButton"
-    downloadButton.innerHTML = "Download song JSON"
-    let toolTip = `
-      After the download:
-      1/ go to https://sky-music.herokuapp.com
-      2/ Press 'manage recordings'
-      3/ Import the text file
-      4/ Listen to your song being played!
+window.addEventListener("load", function () {
+    let style = `
+        #buttonsWrapper{
+            position:absolute;
+            right:0;
+            top:0;
+            display:flex;
+            flex-direction:column;
+        }
+        #buttonsWrapper button{
+            background-color:rgb(53, 52, 52);
+            font-size:1.2rem;
+            color:white;
+            margin:0.2rem;
+            padding:0.8rem;
+            border:none;
+            border-radius:5px;
+            cursor:pointer;
+            text-align:left;
+        }
+        .redirect{
+            color: #2879d0;
+            font-size:1.5rem;
+            position:absolute;
+            right:1rem;
+            top:1rem;
+            font-weight:bold;
+        }
     `
-    downloadButton.setAttribute("title", toolTip)
-    downloadButton.addEventListener("click", function () {
+    let styleElement = document.createElement("style")
+    styleElement.innerHTML = style
+    let isV3Sheet = document.querySelectorAll("d1").length > 0
+    let injectedHTML = `
+        <div id="buttonsWrapper">
+            <button id="downloadJSON" >
+                Downlaod song as JSON
+            </button>
+            <button id="downloadHTML" >
+                Download song as HTML
+            </button>
+            <button id="downloadPDF" >
+                Print / Save as PDF
+            </button>
+        </div>
+    
+    
+    `
+    document.body.appendChild(styleElement)
+    document.body.innerHTML += injectedHTML
+    let downloadJSON = document.getElementById("downloadJSON")
+    let downloadPDF = document.getElementById("downloadPDF")
+    let downloadHTML = document.getElementById("downloadHTML")
+    let buttonsWrapper = document.getElementById("buttonsWrapper")
+    downloadJSON.addEventListener("click", function () {
         let tables = document.getElementsByTagName("table")
         let songNotes = []
         let timestamp = 200
         let bpm = 200
         let songName = document.title
         let bpmToMs = Math.floor(60000 / bpm)
-        for (let i = 1; i < tables.length; i++) {
-            let cell = tables[i].children[0]
-            if (cell.children.length > 2) timestamp += bpmToMs
-            let noteNumber = 0
-            for (let j = 0; j < 3; j++) {
-                if (cell.children.length < 3) break
-                let row = cell.children[j]
-                for (let k = 0; k < 5; k++) {
-                    let note = row.children[k]
-                    if (note.children[0].classList[0] != "OFF") {
-                        if (!note.children[0].children[0].classList.value.includes("unhighlighted")) {
-                            let keyObj = {
-                                key: "1Key" + noteNumber,
-                                time: timestamp
+
+        if (isV3Sheet) {
+            console.log("v3 sheet")
+            let temp = [...document.querySelectorAll(".line")]
+            tables = []
+            temp.forEach(e => tables.push(...e.children))
+            for (let i = 0; i < tables.length; i++) {
+                let notesContainer = tables[i]
+                if (notesContainer.children.length > 10) {
+                    timestamp += bpmToMs
+                    let notes = notesContainer.children
+                    if (!notesContainer.classList.contains("silent")) {
+                        for (let j = 0; j < notes.length; j++) {
+                            if (!["D1", "D2", "D3"].includes(notes[j].tagName)) {
+                                let keyObj = {
+                                    key: "1Key" + j,
+                                    time: timestamp
+                                }
+                                songNotes.push(keyObj)
                             }
-                            songNotes.push(keyObj)
                         }
                     }
-                    noteNumber++
+
+                }
+            }
+
+
+        } else {
+            //V1 and V2
+            for (let i = 1; i < tables.length; i++) {
+                let cell = tables[i].children[0]
+                if (cell.children.length > 2) timestamp += bpmToMs
+                let noteNumber = 0
+                for (let j = 0; j < 3; j++) {
+                    if (cell.children.length < 3) break
+                    let row = cell.children[j]
+                    for (let k = 0; k < 5; k++) {
+                        let note = row.children[k]
+                        if (note.children[0].classList[0] != "OFF") {
+                            if (!note.children[0].children[0].classList.value.includes("unhighlighted")) {
+                                let keyObj = {
+                                    key: "1Key" + noteNumber,
+                                    time: timestamp
+                                }
+                                songNotes.push(keyObj)
+                            }
+                        }
+                        noteNumber++
+                    }
                 }
             }
         }
-
-        let helpText = "Go to https://sky-music.herokuapp.com/, press 'manage recordings' and import the text file, and listen to your song being played!"
 
         let exportObj = {
             name: songName,
@@ -70,35 +122,63 @@ window.addEventListener("load", function () {
         }
         let exportArray = [exportObj]
         download(exportArray, songName)
-
-        function download(inArray, fileName) {
-            let dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(inArray));
-            let dlAnchorElem = document.createElement("a")
-            dlAnchorElem.setAttribute("href", dataStr);
-            dlAnchorElem.setAttribute("download", fileName + ".txt");
-            dlAnchorElem.click();
-            dlAnchorElem.remove()
-        }
     })
 
-    let container = document.createElement("div")
-    container.id = "scriptContainer"
-    container.style = "position:absolute; right: 8px; top:8px; width:30%;"
-    if (document.getElementById("scriptContainer") == null) {
-        body.appendChild(container)
-    } else {
-        container = document.getElementById("scriptContainer")
-        if (body.style.backgroundColor != "rgb(18, 18, 18)") {
-            downloadButton.style.background = "#121212"
-            downloadButton.style.color = "lightgray"
-            downloadPdf.style.background = "#121212"
-            downloadPdf.style.color = "lightgray"
-        } else {
-            downloadButton.style.background = "#f2f2f2"
-            downloadButton.style.color = "#121212"
-            downloadPdf.style.background = "#f2f2f2"
-            downloadPdf.style.color = "#121212"
+    downloadHTML.addEventListener("click", function () {
+        let element = document.createElement('a');
+        let clonedDom = document.documentElement.cloneNode(true)
+        try {
+            let navigation = clonedDom.querySelector("#navigation")
+            navigation.innerHTML = "<a href='https://sky-music.github.io/' class='redirect'> Sky music </a>"
+            clonedDom.querySelectorAll("script").forEach(script => {
+                script.parentNode.removeChild(script)
+            })
+            let scriptContainer = clonedDom.querySelector("#buttonsWrapper")
+            scriptContainer.parentElement.removeChild(scriptContainer)
+        } catch (e) {
+            console.log(e)
         }
+
+        element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(clonedDom.innerHTML));
+        element.setAttribute('download', document.title + ".html");
+
+        element.style.display = 'none';
+        document.body.appendChild(element);
+
+        element.click();
+
+        document.body.removeChild(element);
+    })
+
+    downloadPDF.addEventListener("click", function () {
+        buttonsWrapper.style.display = "none"
+        window.print()
+        buttonsWrapper.style.display = "flex"
+    })
+
+
+
+
+    function download(data, fileName) {
+        let dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(data, null, "\t"));
+        let dlAnchorElem = document.createElement("a")
+        dlAnchorElem.setAttribute("href", dataStr);
+        dlAnchorElem.setAttribute("download", fileName + ".txt");
+        dlAnchorElem.click();
+        dlAnchorElem.remove()
     }
-    container.append(downloadButton, downloadPdf)
+
+
+
+
+    let helpText = `
+    After the download:
+    1/ go to https://sky-music.herokuapp.com
+    2/ Press 'manage recordings'
+    3/ Import the text file
+    4/ Listen to your song being played!
+    `
+  downloadJSON.setAttribute("title", helpText)
+
+
 })
