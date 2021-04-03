@@ -133,6 +133,9 @@ window.addEventListener("load", function () {
             clonedDom.querySelectorAll("script").forEach(script => {
                 script.parentNode.removeChild(script)
             })
+            clonedDom.querySelectorAll("iframe").forEach(iframe => {
+                iframe.parentNode.removeChild(iframe)
+            })
             let scriptContainer = clonedDom.querySelector("#buttonsWrapper")
             scriptContainer.parentElement.removeChild(scriptContainer)
         } catch (e) {
@@ -151,9 +154,15 @@ window.addEventListener("load", function () {
     })
 
     downloadPDF.addEventListener("click", function () {
+        document.querySelectorAll("iframe").forEach(iframe => {
+            iframe.style.display = "none"
+        })
         buttonsWrapper.style.display = "none"
         window.print()
         buttonsWrapper.style.display = "flex"
+        document.querySelectorAll("iframe").forEach(iframe => {
+            iframe.style.display = ""
+        })
     })
 
 
