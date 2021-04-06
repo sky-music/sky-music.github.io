@@ -34,7 +34,7 @@ window.addEventListener("load", function () {
     let injectedHTML = `
         <div id="buttonsWrapper">
             <button id="downloadJSON" >
-                Downlaod song as JSON
+                Download song as JSON
             </button>
             <button id="downloadHTML" >
                 Download song as HTML
