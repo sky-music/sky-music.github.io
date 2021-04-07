@@ -98,7 +98,7 @@ window.addEventListener("load", function () {
                     for (let k = 0; k < 5; k++) {
                         let note = row.children[k]
                         if (note.children[0].classList[0] != "OFF") {
-                            if (!note.children[0].children[0].classList.value.includes("unhighlighted")) {
+                            if (note.children[0].querySelector('[class*=ON]') !== null) {
                                 let keyObj = {
                                     key: "1Key" + noteNumber,
                                     time: timestamp
