@@ -166,8 +166,6 @@ window.addEventListener("load", function () {
     })
 
 
-
-
     function download(data, fileName) {
         let dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(data, null, "\t"));
         let dlAnchorElem = document.createElement("a")
@@ -177,17 +175,25 @@ window.addEventListener("load", function () {
         dlAnchorElem.remove()
     }
 
+    let helpTextHTML = `
+    On iOS phones, use a non-Safari Browser to download HTML files.
+    `
+  downloadHTML.setAttribute("title", helpTextHTML)
 
+    
+    let helpTextPDF = `
+    Please check the 'print background' option in the printing window
+    `
+  downloadPDF.setAttribute("title", helpTextPDF)
 
-
-    let helpText = `
+    let helpTextJSON = `
     After the download:
     1/ go to https://sky-music.herokuapp.com
     2/ Press 'manage recordings'
     3/ Import the text file
     4/ Listen to your song being played!
     `
-  downloadJSON.setAttribute("title", helpText)
+  downloadJSON.setAttribute("title", helpTextJSON)
 
 
 })
