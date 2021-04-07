@@ -117,7 +117,7 @@ window.addEventListener("load", function () {
             bpm: bpm,
             bitsPerPage: 16,
             pitchLevel: 0,
-            helpText: helpText,
+            helpText: helpTextJSON,
             songNotes: songNotes
         }
         let exportArray = [exportObj]
@@ -179,10 +179,10 @@ window.addEventListener("load", function () {
     On iOS phones, use a non-Safari Browser to download HTML files.
     `
   downloadHTML.setAttribute("title", helpTextHTML)
-
     
     let helpTextPDF = `
-    Please check the 'print background' option in the printing window
+    On Chrome: Please check the 'Background graphics' box in the advanced options of the printing window
+    On Firefox: check the 'print background' box in File->Page Layout
     `
   downloadPDF.setAttribute("title", helpTextPDF)
 
