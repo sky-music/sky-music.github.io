@@ -349,22 +349,17 @@ footer a:hover {
 /* #Dark mode
 ================================================== */
 @media (prefers-color-scheme: dark) {
-  body {
-    background-color: #121212;
-  }
   table {
     border-color: white;
     background-color: #121212;
   }
-  p, body, td {
-    color: white;
-    background-color: #121212;
-  }
   li, details, summary {
+    color: white;
     background: #121212;
   }
 
   #content-wrapper {
+    color: white;
     background-color: #121212;
   }
 }
