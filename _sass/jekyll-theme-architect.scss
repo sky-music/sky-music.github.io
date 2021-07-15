@@ -345,6 +345,22 @@ footer a:hover {
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
 
+
+/* #Dark mode
+================================================== */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+  }
+  table {
+    border-color: white;
+  }
+  p, body, td {
+  color: white;  
+  }
+}
+
+
 /* #Media Queries
 ================================================== */
 
