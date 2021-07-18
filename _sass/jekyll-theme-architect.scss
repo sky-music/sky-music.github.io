@@ -110,6 +110,7 @@ header a.button {
   position: absolute;
   top: 0;
   right: 0;
+  width: 177px;
   background: transparent url(../images/sky-music-logo.png) 0 0 no-repeat;
 }
 aside a.button {
@@ -362,6 +363,12 @@ footer a:hover {
     color: white;
     background-color: #121212;
   }
+    
+  aside#sidebar {
+  background: transparent url(../images/sidebar-bg.jpg) 0 0 no-repeat;
+  }
+  
+  
 }
 
 

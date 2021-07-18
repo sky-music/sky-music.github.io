@@ -50,6 +50,25 @@ table {
 hr {
   color: grey;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+  }
+  table {
+    border-color: white;
+  }
+  table.broken {
+    border-color: #121212;
+  }
+  table.broken .ON-0.button,
+  table.silent .ON-0.button {
+    stroke: #121212;
+  }
+  p, body, td, text.headers {
+  color: white;  
+  }
+}
 </style>
 </head>
 <body>

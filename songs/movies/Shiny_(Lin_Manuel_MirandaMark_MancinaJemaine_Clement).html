@@ -347,18 +347,26 @@ svg rect.note-background {
   stroke: white;
   fill: none;
 }
-/* <!-- Button styles if chord has en broken --> */
-/* <!-- TODO: Check if this has no effect ??? --> */
-/*
-.icon.silent {
-  fill: red;
-  stroke: red;
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+  }
+  table {
+    border-color: white;
+  }
+  table.broken {
+    border-color: #121212;
+  }
+  table.broken .ON-0.button,
+  table.silent .ON-0.button {
+    stroke: #121212;
+  }
+  p, body, td, text.headers {
+  color: white;  
+  }
 }
-.diamond.silent {
-  fill: red;
-  stroke: red;
-}
- */
+
 
 </style>
  <meta charset="utf-8"/>

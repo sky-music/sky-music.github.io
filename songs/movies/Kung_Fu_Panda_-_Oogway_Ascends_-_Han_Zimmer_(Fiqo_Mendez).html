@@ -358,6 +358,26 @@ svg rect.note-background {
 #transcript {
   margin: 0 0;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+  }
+  table {
+    border-color: white;
+  }
+  table.broken {
+    border-color: #121212;
+  }
+  table.broken .ON-0.button,
+  table.silent .ON-0.button {
+    stroke: #121212;
+  }
+  p, body, td, text.headers {
+  color: white;  
+  }
+}
+
 </style>
 <meta charset="utf-8"/></head>
 <body>

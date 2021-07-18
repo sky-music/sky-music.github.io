@@ -13,6 +13,7 @@ html {
     scroll-behavior: auto;
   }
 }
+
 /* <!-- Defines the em unit--> */
 body {
   font-family: "Noto Sans", "Noto Sans CJK JP", "Noto Sans CJK KR", "Noto Sans CJK SC", "Noto Sans CJK TC", "Avenir", Arial, sans-serif;
@@ -359,6 +360,27 @@ svg rect.note-background {
   stroke: red;
 }
  */
+
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+  }
+  table {
+    border-color: white;
+  }
+  table.broken {
+    border-color: #121212;
+  }
+  table.broken .ON-0.button,
+  table.silent .ON-0.button {
+    stroke: #121212;
+  }
+  p, body, td, text.headers {
+  color: white;  
+  }
+}
+
 
 </style>
 <meta charset="utf-8"/>
