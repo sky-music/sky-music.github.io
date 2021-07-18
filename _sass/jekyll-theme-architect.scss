@@ -110,8 +110,8 @@ header a.button {
   position: absolute;
   top: 0;
   right: 0;
-  width: 177px;
   background: transparent url(../images/sky-music-logo.png) 0 0 no-repeat;
+  background-size: 177px;
 }
 aside a.button {
   display: block;
@@ -351,21 +351,21 @@ footer a:hover {
 ================================================== */
 @media (prefers-color-scheme: dark) {
   table {
-    border-color: white;
+    border-color: lightgray;
     background-color: #121212;
   }
   li, details, summary {
-    color: white;
+    color: lightgray;
     background: #121212;
   }
 
   #content-wrapper {
-    color: white;
+    color: lightgray;
     background-color: #121212;
   }
     
   aside#sidebar {
-  background: transparent url(../images/sidebar-bg.jpg) 0 0 no-repeat;
+  background: transparent url(../images/sidebar-bg-dark.jpg) 0 0 no-repeat;
   }
   
   
