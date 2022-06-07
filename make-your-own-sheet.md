@@ -181,7 +181,7 @@ Finally, the JSON recordings (text files ending with .json.txt) can be fed to th
 ## Going even further: customization
 
 The command-line program can be called with arguments to customize the names of the songs directory, as well as reading from a preference file with default answers to questions asked by the program,
-as well as the possibility to generate a temporary song link at our partner website <https://sky-music.herokuapp.com>.
+as well as the possibility to generate a temporary song link at our [partner website](https://specy.github.io/skyMusic/).
 To activate these options, please refer to the README on the [code repository](https://github.com/sky-music/sky-music.github.io).
 
 
