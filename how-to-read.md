@@ -32,6 +32,6 @@ If you notice any errors on a sheet or require any further assistance, come and 
 
 ## Demo
  
-<p class="home-page"> We recommend <a href="https://sky-music.herokuapp.com">https://sky-music.herokuapp.com</a> as piano simulator to practise songs. You can even export your Visual Sheet in a format directly playable by this website, by clicking the "Download" button at the top right corner.</p>
+<p class="home-page"> We recommend <a href="https://specy.github.io/skyMusic/">https://specy.github.io/skyMusic/</a> as piano simulator to practise songs. You can even export your Visual Sheet in a format directly playable by this website, by clicking the "Download" button at the top right corner.</p>
   
 <iframe src="https://player.vimeo.com/video/358248560" width="640" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
