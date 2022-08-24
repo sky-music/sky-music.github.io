@@ -136,8 +136,11 @@ Use this with great caution as any error in these tags can break the whole HTML 
 
 If you're not familiar with HTML, you can use basic Markdown formatting:
 `# **Bold text**`
+
 `# *Slanted text*`
+
 `# #H1 header`
+
 `# ##H2 header`
 
 Finally, in the file header you can enter song metadata using '#$'. A standard header looks like this:
