@@ -115,8 +115,10 @@ To indicate a repeat section, use * directly followed by a number, for example "
 
 _____________
 
+Separate layers with `==`, immediatly followed by the layer name. A layer is a sheet section for a single instrument. Layers will be automatically created when importing JSON sheets from used by SkyMusic.
+
 Add a line break (press enter in Python or in your text editor) to separate song lines with an thin grey horizontal divider.
-If you need a stronger break, add a line using the Markdown codes: `--`, `__`, or `==`.
+If you need a darker break line, add a line using the Markdown codes: `--`, `__`
 
 _____________
 
