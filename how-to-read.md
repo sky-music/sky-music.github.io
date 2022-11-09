@@ -35,6 +35,8 @@ If you notice any errors on a sheet or require any further assistance, come and 
 If you use your web browser to print the sheet (or convert it to PDF using a a virtual printer), make sure to select the "background graphics" options in the "more settings" panel of the print window.
 This options is called "Backround images" in Firefox.
 
+[<img src="./assets/images/print_options.jpg" height="200" />](./assets/images/print_options.jpg)
+
 ## Demo
  
 <p class="home-page"> We recommend <a href="https://specy.github.io/skyMusic/">https://specy.github.io/skyMusic/</a> as piano simulator to practise songs. You can even export your Visual Sheet in a format directly playable by this website, by clicking the "Download" button at the top right corner.</p>
