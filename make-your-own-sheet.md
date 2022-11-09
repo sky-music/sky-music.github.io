@@ -176,6 +176,17 @@ And out comes:
 
 ![finished example](/assets/images/finishedexample.JPG)
 
+server.
+
+## How to print or save as PDF
+
+If you use your web browser to print the sheet (or convert it to PDF using a a virtual printer), make sure to select the "background graphics" options in the "more settings" panel of the print window.
+This options is called "Backround images" in Firefox.
+
+[<img src="./assets/images/print_options.jpg" height="200" />](./assets/images/print_options.jpg)
+
+You could also consider changing the sheet layout when generating it (default is 16/9), especially if you intend to print in portrait mode.
+
 ## We would love to have your song on this website!
 Join our [Discord](/discord.html) and send us the file so we can upload it here! We can also embed an accompanying video if you have one hosted somewhere.
 All we ask is that you quality check your sheet before submitting, as others will be learning from it too.
