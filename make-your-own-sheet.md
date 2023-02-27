@@ -153,6 +153,14 @@ Finally, in the file header you can enter song metadata using '#$'. A standard h
 Tip 1: We usually find 8 boxes a row works best for a 16:9 aspect ratio (widescreen). Use line breaks to divide your song in rows.
 Tip 2: In the Python command-line program do not press enter after a blank line as this will end the song. If you need a full blank line in the song use '.' for blank notes or enter a lyrics line with no text.
 
+## Start from an existing sheet to improve it
+
+If you want to improve a published sheet, you can retrieve the notes two ways:
+
+* by opening the HTML file in a text editor and look for the tag called `<div id='ascii'>`. It should contain the notes in ABC1-5 format (except for old sheets published before July 2021).
+
+* by feeding an HTML sheet to the Visual Sheet Maker. It should read the notes of the 'ascii' tag and export them as TXT, in ABC1-5 and English CDEFGAB formats.
+
 ## Finish your sheet!
 
 With your music notes typed out, now simply copy and paste all of your notes into cmd/terminal after you've followed Step 2.
