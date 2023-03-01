@@ -17,7 +17,7 @@ Here's a step by step guide how to create your own visual music sheet.
 	- [For MacOS](/binaries/SkyMusicSheetMaker_MacOS.zip)
 	- [For Windows](/binaries/SkyMusicSheetMaker_x64.zip)
 
-*Please note that support is not provided for executables, so if the program crashes on your machine you are encouraged to try another option.*
+*Please note that support is not provided for executables, so if the program does not work on your machine you are encouraged to try another option.*
 
 Then you can skip [here](#write-your-music) to learn how to type notes and to read music sheets.
 
@@ -89,13 +89,14 @@ _____________
 
 Type letters with no space for a chord, for example typing "A1A3A5 B1B3B5" will produce:
 
-![chords](/assets/images/chords.png)
+[<img src="./assets/images/chords.png" height="120" />](./assets/images/chords.png)
 
 _____________
 
 Use . for blank notes, used to signify a pause in the song, for example typing "B4 . B5" will produce:
 
-![space](/assets/images/space.png)
+[<img src="./assets/images/space.png" height="120" />](./assets/images/space.png)
+
 
 *If using Jianpu notation please use 0 instead*
 
@@ -103,7 +104,8 @@ _____________
 
 Use - for coloured notes, used to signify pressing buttons in a fast pace one after the other from light to dark colour, for example "A3-B1-B3-B5-C3" will produce:
 
-![colourednotes](/assets/images/colourednotes.JPG)
+[<img src="./assets/images/colourednotes.JPG" height="120" />](./assets/images/colourednotes.JPG)
+
 
 *If using Jianpu notation please use ^ instead*
 
@@ -111,14 +113,7 @@ _____________
 
 To indicate a repeat section, use * directly followed by a number, for example "C1C3 *2" will produce:
 
-![repeat](/assets/images/Repeat.JPG)
-
-_____________
-
-Separate layers with `==`, immediatly followed by the layer name. A layer is a sheet section for a single instrument. Layers will be automatically created when importing JSON sheets from used by SkyMusic.
-
-Add a line break (press enter in Python or in your text editor) to separate song lines with an thin grey horizontal divider.
-If you need a darker break line, add a line using the Markdown codes: `--`, `__`
+[<img src="./assets/images/Repeat.JPG" height="120" />](./assets/images/Repeat.JPG)
 
 _____________
 
@@ -129,6 +124,23 @@ Use '#' to start a lyrics line. Type '#' again to split the lyrics and align wor
 
 ![comments](/assets/images/Comments.PNG)
 
+_____________
+
+**To separate song lines with a thin grey divider**: add a line break in your texte file (press enter in Python or in your text editor).
+
+Tip 1: We usually find 8 boxes a row works best for a 16:9 aspect ratio (widescreen). Use line breaks to divide your song in rows.
+
+Tip 2: In the Python command-line program do not press enter after a blank line as this will end the song. If you need a full blank line in the song use '.' for blank notes or enter a lyrics line with no text.
+
+
+## Advanced sheet layout
+
+Separate layers with `==`, immediatly followed by the layer name. A layer is a sheet section for a single instrument. Layers will be automatically created when importing JSON sheets from used by SkyMusic.
+
+Add thin dark horizontal dividers using the Markdown codes: `--`, `__`
+
+_____________
+
 You can also use '#' to add a section title, and format it using HTML tags. For instance:
 
      <h1 style="color:red;>Section 1</h1>
@@ -136,7 +148,7 @@ You can also use '#' to add a section title, and format it using HTML tags. For 
 will produce a section title in big, bold, red letters. This will work with HTML output files but be ignored in other formats.
 Use this with great caution as any error in these tags can break the whole HTML file. 
 
-If you're not familiar with HTML, you can use basic Markdown formatting:
+If you're not familiar with HTML, you can use basic Markdown formatting to create titles:
 
     # **Bold text**
     # *Slanted text*
@@ -149,9 +161,6 @@ Finally, in the file header you can enter song metadata using '#$'. A standard h
     #$Author: popular
     #$Arranger, Transcriber: Arken#8524
     #$Musical key: C
-
-Tip 1: We usually find 8 boxes a row works best for a 16:9 aspect ratio (widescreen). Use line breaks to divide your song in rows.
-Tip 2: In the Python command-line program do not press enter after a blank line as this will end the song. If you need a full blank line in the song use '.' for blank notes or enter a lyrics line with no text.
 
 ## Start from an existing sheet to improve it
 
@@ -184,7 +193,6 @@ And out comes:
 
 ![finished example](/assets/images/finishedexample.JPG)
 
-server.
 
 ## How to print or save as PDF
 
@@ -209,6 +217,8 @@ For input, the Visual Sheet Maker accepts the following formats:
 - HTML Visual Sheets (only for sheets generated after July, 2020 1st). This way, you can generate a new version of a visual sheet if you found mistakes in it.
 
 As output, PNG is recommended for quick sharing of songs with friends over forums, but cannot be edited or stretched out.
+
+[<img src="./assets/images/compatibility_chart.png" width="75%" />](./assets/images/compatibility_chart.png)
 
 ## Going even further: customizing the Python program
 
