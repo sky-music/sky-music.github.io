@@ -6,22 +6,22 @@ layout: default
 
 Here's a step by step guide how to create your own visual music sheet.
 
-## Without Python
+## Getting started (without Python)
 
 **If you do not want to customize the program, and are not interested in getting the latest version, you have several options:**
 
 1. Use the [website version](https://jmmelko.eu.pythonanywhere.com/)
-2. Use the Discord Bot version by typing `!song` in the [official tcg forum](https://discord.gg/thatskygame)
+2. Use the Discord Bot version by typing `!song` in the [official tgc forum](https://discord.gg/thatskygame)
 3. Download a binary executable:
 
 	- [For MacOS](/binaries/SkyMusicSheetMaker_MacOS.zip)
 	- [For Windows](/binaries/SkyMusicSheetMaker_x64.zip)
 
-*Please note that support is not provided for executables, so if the program crashes on your machine you are encouraged to try another option.*
+*Please note that support is not provided for executables, so if the program does not work on your machine you are encouraged to try another option.*
 
 Then you can skip [here](#write-your-music) to learn how to type notes and to read music sheets.
 
-## Using Python
+## Getting started with Python
 
 You will need Python >= 3.6 and a few addition packages. We have a [dedicated page](/install-python.html) to explain how to install Python.
 
@@ -49,7 +49,7 @@ If you have installed our program using pip, simply type instead:
 
 If nothing happens or you get an error, there's probably something wrong with your Python installation. Write down the error and contact us by Discord.
 
-## Where files are stored
+**Where files are stored**
 
 Input song files must be put in ‘test_songs’. This directory is placed 2 levels above the command_line_player.py script if you made a manual installation, or inside your home user directory, in a folder named 'skymusic/'.
 Music sheets will be written in ’songs_out’.
@@ -89,13 +89,14 @@ _____________
 
 Type letters with no space for a chord, for example typing "A1A3A5 B1B3B5" will produce:
 
-![chords](/assets/images/chords.png)
+[<img src="./assets/images/chords.png" height="120" />](./assets/images/chords.png)
 
 _____________
 
 Use . for blank notes, used to signify a pause in the song, for example typing "B4 . B5" will produce:
 
-![space](/assets/images/space.png)
+[<img src="./assets/images/space.png" height="120" />](./assets/images/space.png)
+
 
 *If using Jianpu notation please use 0 instead*
 
@@ -103,7 +104,8 @@ _____________
 
 Use - for coloured notes, used to signify pressing buttons in a fast pace one after the other from light to dark colour, for example "A3-B1-B3-B5-C3" will produce:
 
-![colourednotes](/assets/images/colourednotes.JPG)
+[<img src="./assets/images/colourednotes.JPG" height="120" />](./assets/images/colourednotes.JPG)
+
 
 *If using Jianpu notation please use ^ instead*
 
@@ -111,12 +113,7 @@ _____________
 
 To indicate a repeat section, use * directly followed by a number, for example "C1C3 *2" will produce:
 
-![repeat](/assets/images/Repeat.JPG)
-
-_____________
-
-Add a line break (press enter in Python or in your text editor) to separate song lines with an thin grey horizontal divider.
-If you need a stronger break, add a line using the Markdown codes: `--`, `__`, or `==`.
+[<img src="./assets/images/Repeat.JPG" height="120" />](./assets/images/Repeat.JPG)
 
 _____________
 
@@ -127,6 +124,23 @@ Use '#' to start a lyrics line. Type '#' again to split the lyrics and align wor
 
 ![comments](/assets/images/Comments.PNG)
 
+_____________
+
+**To separate song lines with a thin grey divider**: add a line break in your texte file (press enter in Python or in your text editor).
+
+Tip 1: We usually find 8 boxes a row works best for a 16:9 aspect ratio (widescreen). Use line breaks to divide your song in rows.
+
+Tip 2: In the Python command-line program do not press enter after a blank line as this will end the song. If you need a full blank line in the song use '.' for blank notes or enter a lyrics line with no text.
+
+
+## Advanced sheet layout
+
+Separate layers with `==`, immediatly followed by the layer name. A layer is a sheet section for a single instrument. Layers will be automatically created when importing JSON sheets from used by SkyMusic.
+
+Add thin dark horizontal dividers using the Markdown codes: `--`, `__`
+
+_____________
+
 You can also use '#' to add a section title, and format it using HTML tags. For instance:
 
      <h1 style="color:red;>Section 1</h1>
@@ -134,7 +148,7 @@ You can also use '#' to add a section title, and format it using HTML tags. For 
 will produce a section title in big, bold, red letters. This will work with HTML output files but be ignored in other formats.
 Use this with great caution as any error in these tags can break the whole HTML file. 
 
-If you're not familiar with HTML, you can use basic Markdown formatting:
+If you're not familiar with HTML, you can use basic Markdown formatting to create titles:
 
     # **Bold text**
     # *Slanted text*
@@ -148,17 +162,22 @@ Finally, in the file header you can enter song metadata using '#$'. A standard h
     #$Arranger, Transcriber: Arken#8524
     #$Musical key: C
 
-Tip 1: We usually find 8 boxes a row works best for a 16:9 aspect ratio (widescreen). Use line breaks to divide your song in rows.
-Tip 2: In the Python command-line program do not press enter after a blank line as this will end the song. If you need a full blank line in the song use '.' for blank notes or enter a lyrics line with no text.
+## Start from an existing sheet to improve it
 
-## Step 4 - Input your music!
+If you want to improve a published sheet, you can retrieve the notes two ways:
 
-With your music typed out, now simply copy and paste all of your notes into cmd/terminal after you've followed Step 2.
-To end the song, press 'Enter' for a new line, then press 'Enter' again on the blank line.
+* by opening the HTML file in a text editor and look for the tag called `<div id='ascii'>`. It should contain the notes in ABC1-5 format (except for old sheets published before July 2021).
+
+* by feeding an HTML sheet to the Visual Sheet Maker. It should read the notes of the 'ascii' tag and export them as TXT, in ABC1-5 and English CDEFGAB formats.
+
+## Finish your sheet!
+
+With your music notes typed out, now simply copy and paste all of your notes into cmd/terminal after you've followed Step 2.
+To end the song, press 'Enter' twice.
 
 You'll now be asked to input a recommended key (leave blank if unsure), the octave shift (leave blank if unsure), the song title, original artist and who it was transcribed by (your name). For midi output you will be asked the song tempo in beats per minutes (leave blank if you don't need it).
 
-Your song will be saved in several formats including HTML to the ‘songs_out’ folder where you saved the sky-python-music-sheet-maker folder.
+Your song will be saved in several formats including HTML, the format that is used on this website.
 
 ## Finished Example
 
@@ -174,19 +193,37 @@ And out comes:
 
 ![finished example](/assets/images/finishedexample.JPG)
 
+
+## How to print or save as PDF
+
+If you use your web browser to print the sheet (or convert it to PDF using a a virtual printer), make sure to select the "background graphics" options in the "more settings" panel of the print window.
+This options is called "Backround images" in Firefox.
+
+[<img src="./assets/images/print_options.jpg" height="200" />](./assets/images/print_options.jpg)
+
+You could also consider changing the sheet layout when generating it (default is 16/9), especially if you intend to print in portrait mode.
+
 ## We would love to have your song on this website!
 Join our [Discord](/discord.html) and send us the file so we can upload it here! We can also embed an accompanying video if you have one hosted somewhere.
 All we ask is that you quality check your sheet before submitting, as others will be learning from it too.
 
 ## Going further: file formats and Sky Studio compatibility
 
-For input, besides text, the Visual Sheet Maker also accepts its own HTML Visual Sheets (only for sheets generated after July, 2020 1st). This way, you can generate a new version of a visual sheet if you found mistakes in it.
-The program also accepts Sky-JSON recordings generated by the [Sky Music website](https://specy.github.io/skyMusic/) (Manage Recordings->Song->Export song) and the Sky Studio mobile app.
+For input, the Visual Sheet Maker accepts the following formats:
 
-If you intend to share visual sheets beyond our website, you can export them to something else than HTML. PNG is recommended for quick sharing of songs with friends, but cannot be edited or stretched out. TXT formats are useful for sharing song notes.
-Finally, the JSON recordings (text files ending with .json or .json.txt) can be fed to the [Sky Music website](https://specy.github.io/skyMusic/), the Android [Sky Music](https://play.google.com/store/apps/details?id=com.herokuapp.sky_music.twa) app and to the iOS/Android Sky Studio app.
+- text files (with individual note names as explained above)
+- JSON files (ending with .json), as generated by the [Sky Music website](https://specy.github.io/skyMusic/) (Manage Recordings->Song->Export song)
+- JSON files (ending with .txt) as used by the Sky Studio iOS/Android mobile app.
+- MIDI files
+- HTML Visual Sheets (only for sheets generated after July, 2020 1st). This way, you can generate a new version of a visual sheet if you found mistakes in it.
 
-## Going even further: customization
+As output, PNG is recommended for quick sharing of songs with friends over forums, but cannot be edited or stretched out.
+
+The full compatibility chart between the three apps is explained in the image below:
+
+[<img src="./assets/images/compatibility_chart.png" width="85%" />](./assets/images/compatibility_chart.png)
+
+## Going even further: customizing the Python program
 
 The command-line program can be called with arguments to customize the names of the songs directory, as well as reading from a preference file with default answers to questions asked by the program,
 as well as the possibility to generate a temporary song link at our [partner website](https://specy.github.io/skyMusic/).
