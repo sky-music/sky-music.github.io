@@ -221,7 +221,7 @@ As output, PNG is recommended for quick sharing of songs with friends over forum
 
 The full compatibility chart between the three apps is explained in the image below:
 
-[<img src="./assets/images/compatibility_chart.png" width="85%" />](./assets/images/compatibility_chart.png)
+[<img src="./assets/images/compatibility_chart.png" width="95%" />](./assets/images/compatibility_chart.png)
 
 ## Going even further: customizing the Python program
 
