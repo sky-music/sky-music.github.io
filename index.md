@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Sky Music Sheets"
+title: "Sky Music Visual Sheets (tablatures)"
 permalink: /index.html
 ---
 
