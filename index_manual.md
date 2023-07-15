@@ -165,12 +165,6 @@ Click a section to see a drop down list.
   
     <li><a href="/songs/popular/Ariana_Grande__thank_u_next.html">Ariana Grande - thank u next</a></li>
   
-    <li><a href="/songs/popular/Austin_Wintory,_Laura_Intravia__Threshold.html">Austin Wintory, Laura Intravia - Threshold</a></li>
-  
-    <li><a href="/songs/popular/Austin_Wintory__I_was_born_for_this.html">Austin Wintory - I was born for this</a></li>
-  
-    <li><a href="/songs/popular/Austin_Wintory__threshold_bass.html">Austin Wintory - threshold bass</a></li>
-  
     <li><a href="/songs/popular/Ben_E._King__Stand_By_Me_Bass.html">Ben E. King - Stand By Me Bass</a></li>
   
     <li><a href="/songs/popular/Billy_Joel__Piano_Man.html">Billy Joel - Piano Man</a></li>
@@ -292,6 +286,14 @@ Click a section to see a drop down list.
     <li><a href="/songs/videogames/Hoshi_no_Arika_-_Trails_in_the_Sky_FC.html">Hoshi no Arika - Trails in the Sky FC</a></li>
   
     <li><a href="/songs/videogames/Journey_-_theme.html">Journey - theme</a></li>
+
+    <li><a href="/songs/videogames/I_Was_Born_For_This_Aurora.html">Journey - I Was Born For This (AURORA Voice Solo)</a></li>
+
+    <li><a href="/songs/popular/Austin_Wintory,_Laura_Intravia__Threshold.html">Austin Wintory, Laura Intravia - Threshold</a></li>
+  
+    <li><a href="/songs/popular/Austin_Wintory__I_was_born_for_this.html">Austin Wintory - I was born for this</a></li>
+  
+    <li><a href="/songs/popular/Austin_Wintory__threshold_bass.html">Austin Wintory - threshold bass</a></li>
   
     <li><a href="/songs/videogames/Kahoot_-_Lobby_Theme.html">Kahoot - Lobby Theme</a></li>
   
