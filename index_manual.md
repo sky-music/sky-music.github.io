@@ -292,6 +292,8 @@ Click a section to see a drop down list.
     <li><a href="/songs/videogames/Hoshi_no_Arika_-_Trails_in_the_Sky_FC.html">Hoshi no Arika - Trails in the Sky FC</a></li>
   
     <li><a href="/songs/videogames/Journey_-_theme.html">Journey - theme</a></li>
+
+    <li><a href="/songs/videogames/I_Was_Born_For_This_Aurora.html">Journey - I Was Born For This (AURORA Voice Solo)</a></li>
   
     <li><a href="/songs/videogames/Kahoot_-_Lobby_Theme.html">Kahoot - Lobby Theme</a></li>
   
