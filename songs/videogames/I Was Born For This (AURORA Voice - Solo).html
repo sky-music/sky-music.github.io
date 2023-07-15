@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html xmlns:svg="http://www.w3.org/2000/svg" lang="en_US"><head>
+<meta charset="utf-8">
+<meta name="date.created" content="2023-07-15 04:36:47.472255">
+<title>I Was Born For This (AURORA Voice - Solo)</title>
+<script type="text/javascript" src="/js/navigationTableScript.js"></script><style type="text/css"></style>
+<script type="text/javascript" src="/js/sheetDownloaderScript.js"></script>
+<style type="text/css">
+@media (prefers-reduced-motion: reduce)
+{
+	html { scroll-behavior: auto; }
+}
+
+html { scroll-behavior: smooth; }
+
+/* <!-- Navigation table --> */
+#navigation { border: none; }
+
+/* <!-- Song table --> */
+#transcript { margin: 0 0; }
+
+/* <!-- Defines the em unit --> */
+body
+{
+	font-family: "Noto Sans", "Noto Sans CJK JP", "Noto Sans CJK KR", "Noto Sans CJK SC", "Noto Sans CJK TC", "Avenir", "Arial", "sans-serif";
+	font-size: 12pt;
+}
+
+h1
+{
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+/* <!-- Song sheet header --> */
+.header
+{
+	font-size: 0.8em;
+	line-height: 50%;
+}
+
+/* <!-- Song line --> */
+.line
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.lyrics
+{
+	margin-left: 0.5rem;
+	margin-bottom: 0.35rem;
+	border: 0px black solid;
+	width: 8.11em;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+/* <!-- Rulers --> */
+hr
+{
+	border: none;
+	margin-left: 0;
+	padding: 0;
+	margin-right: 1.8em;
+	width: 100vw;
+}
+hr.sep { border-top: thin solid lightgray; width: 93vw; padding-bottom: 3pt; padding-top: 3pt;}
+hr.solid { border-top: thin solid black; }
+hr.double { border-top: medium double black; }
+hr.dashed { border-top: thin dashed black; }
+
+.instr.silent, .instr.broken
+{
+	border-width: 0;
+	background-color: transparent;
+}
+
+.repeat, .num
+{
+	font-size: 0.8em;
+	align-self: flex-end;
+	margin: 2px;
+}
+
+.num
+{
+	color: grey;
+	padding-left: 2em;
+}
+
+.broken
+{
+	color: red;
+	font-weight: bold;
+}
+
+@media (prefers-color-scheme: dark)
+{
+	body { background-color: #282828; }
+	.instr.harp { border-color: white; }
+	p, body, td, text.headers { color: white; }
+}
+/* <!-- Skygrid instruments --> */
+.instr
+{
+	margin-left: 0.5rem;
+	margin-bottom: 0.35rem;
+	border-radius: 5px;
+	border: 1px black solid;
+	display: grid;
+	width: fit-content;
+}
+
+.instr.harp { grid-template-columns: repeat(5, 1.3em); grid-template-rows: repeat(3, 1.4em); }
+
+.instr.drum { grid-template-columns: repeat(4, 1.3em); grid-template-rows: repeat(2, 1.4em); }
+
+/* <!-- Rows --> */
+.r1, .r2, .r3, [class^="q"]
+{
+	border-radius: 4px;
+	margin: 2px;
+	width: 1em;
+	height: 1em;
+	justify-self: center;
+	align-self: center;
+}
+
+/* <!-- Skygrid Notes: d=dot, r=row, q=quaver, crc=circle, dmn=diamond, crcdmn=circle-diamond --> */
+d1, d2, d3, silence { background-position: 50%; }
+.r1 { background-color: limegreen; }
+.r2 { background-color: deepskyblue; }
+.r3 { background-color: deeppink; }
+.n { background-image: none; }
+.q1 { background-color: rgb(253,231,36); }
+.q2 { background-color: rgb(144,214,67); }
+.q3 { background-color: rgb(53,183,120); }
+.q4 { background-color: rgb(32,144,140); }
+.q5 { background-color: rgb(48,103,141); }
+.q6 { background-color: rgb(68,57,130); }
+.q7 { background-color: rgb(68,1,84); }
+crc { background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 91 91'%3E%3Ccircle fill='transparent' stroke='white' stroke-width='5px' cx='45.4' cy='45.4' r='25.5'%3E%3C/circle%3E%3C/svg%3E"); }
+dmn { background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 123.40601 123.40601'%0A%3E%3Cg transform='translate(-52.444184,-69.21989)'%0A%3E%3Crect style='fill:none;stroke:white ;stroke-width:5px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:100;stroke-dasharray:none;' width='64.633926' height='64.633926' x='140.97375' y='-20.454748' transform='rotate(45)' /%3E%3C/g%3E%3C/svg%3E"); }
+crdm { background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 123.40601 123.40601'%0A%3E%3Cg transform='translate(-52.444184,-69.21989)' %3E%3Crect style='fill:none;stroke:white;stroke-width:5px;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1' width='64.633926' height='64.633926' x='140.97375' y='-20.454748' transform='rotate(45)' /%3E%3Ccircle style='fill:none;stroke:white;stroke-width:5px;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1' cx='114.12409' cy='130.82843' r='31.938707' /%3E%3C/g%3E%3C/svg%3E"); }
+d1 { background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 123.40601 123.40601'%3E%3Ccircle stroke='none' fill='rgb(194,240,194)' cx='61.5' cy='61.5' r='14'%3E%3C/circle%3E%3C/svg%3E"); }
+d2 { background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 123.40601 123.40601'%3E%3Ccircle stroke='none' fill='rgb(179,236,255)' cx='61.5' cy='61.5' r='14'%3E%3C/circle%3E%3C/svg%3E"); }
+d3 { background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 123.40601 123.40601'%3E%3Ccircle stroke='none' fill='rgb(255,185,223)' cx='61.5' cy='61.5' r='14'%3E%3C/circle%3E%3C/svg%3E"); }
+dn { background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 123.40601 123.40601'%3E%3Ccircle stroke='none' fill='rgb(167,167,167)' cx='61.5' cy='61.5' r='14'%3E%3C/circle%3E%3C/svg%3E"); }
+silence { background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 123.40601 123.40601'%3E%3Ccircle stroke='none' fill='rgb(167,167,167)' cx='61.5' cy='61.5' r='28'%3E%3C/circle%3E%3C/svg%3E"); }
+
+</style></head>
+<body>
+<h1>I Was Born For This (AURORA Voice - Solo)</h1>
+<p class="header"><b>Original artist(s): </b>Austin Wintory</p>
+<p class="header"><b>Arranger, Transcriber: </b>Tracey</p>
+<p class="header"><b>Musical key: </b>A major</p>
+<!-- Embedded video tag goes here (Youtube: share/embed/iframe) -->
+<div id="ascii" style="display:none;" hidden="">
+#$Title: I Was Born For This (AURORA Voice - Solo)
+#$Original artist(s): Austin Wintory
+#$Arranger, Transcriber: Tracey
+#$Musical key: A major
+
+#A major
+#Stat #- #su - #a #cu - #i #que #di - #es
+B1 A5 B1 A4 A3 A5 A4 A3 A2
+#G major
+#Stat #su - #a #cu - #i #que #di - #e - #es
+B2 B1 B4 B3 B2 B1 B2 A5 B1
+#A major
+#Ma - #el #i - #is #me - #to #fe - #ruhn
+B4 B3 B3 B1 B1 A5 B1 B3
+#A major
+#O #- #le - #to #m' - #en #me #nos - #tos
+B1 A5 B1 A4 A3 A5 A4 A3 A2
+#G major
+#O #- #le - #to #m' - #en #me #nos - #tos
+B2 B1 B4 B3 B2 B1 B2 A5 B2
+#G major
+#C'est #- #- #pour #ce - #la
+B1 A5 B1 B2 B3 A5
+#que #- #- #je #suis #- #- #neé #- #- #- #-
+B1 A5 B1 B2 B5 B3 B4 B2 B3 B2 B1 A5
+#A major
+#Ko - #no #mi - #chi #ya #- #yu #ku #hi - #to #na - #shi #ni #-
+B1 B1 B1 A5 B1 A4 A4 A3 A5 A5 A5 A4 A3 A2
+#G major
+#Ko - #no #mi - #chi #ya #- #a - #ki #no #ku - #re
+B2 B2 B2 B1 B4 B3 B2 B1 B2 A5 B1
+#A major
+#C'est #- #- #pour #ce - #la
+B1 A5 B1 B2 B3 A5
+#que #- #- #je #suis #- #- #- #- #neé #-
+B1 A5 B1 B2 B5 C2 C3 C1 C2 B4 B3
+#G major
+#Ne #me #plai - #gnez #pas
+B3 B2 B1 B3 B4
+#A major
+#C'est #- #- #pour #ce - #la
+A2B4 A1B3 A2B4 A3B5 A4C1 A1B3
+#que #- #- #je #suis #- #- #- #neé #- #Ah #-
+A2B4 A1B3 A2B4 A3B5 B1C3 A4C1 A5C2 A3B5 A4C1 A3B5 A1B3 A2B1B4
+</div>
+<div id="transcript">
+<hr class="sep"><div class="line" id="line-0">
+<div class="lyrics"><b>A major</b></div>
+</div>
+<div class="line" id="line-1">
+<div class="lyrics">Stat</div>
+<div class="lyrics">-</div>
+<div class="lyrics">su -</div>
+<div class="lyrics">a</div>
+<div class="lyrics">cu -</div>
+<div class="lyrics">i</div>
+<div class="lyrics">que</div>
+<div class="lyrics">di -</div>
+<div class="lyrics">es</div>
+</div>
+
+<div class="line" id="line-2">
+<div class="instr harp" id="instr-10"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r2"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-11"><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r1"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-12"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r2"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-13"><d1></d1><d1></d1><d1></d1><dmn class="r1"></dmn><d1></d1><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-14"><d1></d1><d1></d1><crc class="r1"></crc><d1></d1><d1></d1><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-15"><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r1"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-16"><d1></d1><d1></d1><d1></d1><dmn class="r1"></dmn><d1></d1><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-17"><d1></d1><d1></d1><crc class="r1"></crc><d1></d1><d1></d1><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-18"><d1></d1><dmn class="r1"></dmn><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="num">1</div>
+</div>
+<div class="line" id="line-3">
+<hr class="sep"><div class="lyrics"><b>G major</b></div>
+</div>
+<div class="line" id="line-4">
+<div class="lyrics">Stat</div>
+<div class="lyrics">su -</div>
+<div class="lyrics">a</div>
+<div class="lyrics">cu -</div>
+<div class="lyrics">i</div>
+<div class="lyrics">que</div>
+<div class="lyrics">di -</div>
+<div class="lyrics">-</div>
+<div class="lyrics">es</div>
+</div>
+
+<div class="line" id="line-5">
+<div class="instr harp" id="instr-29"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><dmn class="r2"></dmn><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-30"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r2"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-31"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><d2></d2><dmn class="r2"></dmn><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-32"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><crdm class="r2"></crdm><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-33"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><dmn class="r2"></dmn><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-34"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r2"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-35"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><dmn class="r2"></dmn><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-36"><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r1"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-37"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r2"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="num">2</div>
+</div>
+<hr class="sep"><div class="line" id="line-6">
+<div class="lyrics"><b>A major</b></div>
+</div>
+<div class="line" id="line-7">
+<div class="lyrics">Ma -</div>
+<div class="lyrics">el</div>
+<div class="lyrics">i -</div>
+<div class="lyrics">is</div>
+<div class="lyrics">me -</div>
+<div class="lyrics">to</div>
+<div class="lyrics">fe -</div>
+<div class="lyrics">ruhn</div>
+</div>
+
+<div class="line" id="line-8">
+<div class="instr harp" id="instr-47"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><d2></d2><dmn class="r2"></dmn><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-48"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><crdm class="r2"></crdm><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-49"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><crdm class="r2"></crdm><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-50"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r2"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-51"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r2"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-52"><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r1"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-53"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r2"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-54"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><crdm class="r2"></crdm><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="num">3</div>
+</div>
+<hr class="sep"><div class="line" id="line-9">
+<div class="lyrics"><b>A major</b></div>
+</div>
+<div class="line" id="line-10">
+<div class="lyrics">O</div>
+<div class="lyrics">-</div>
+<div class="lyrics">le -</div>
+<div class="lyrics">to</div>
+<div class="lyrics">m' -</div>
+<div class="lyrics">en</div>
+<div class="lyrics">me</div>
+<div class="lyrics">nos -</div>
+<div class="lyrics">tos</div>
+</div>
+
+<div class="line" id="line-11">
+<div class="instr harp" id="instr-65"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r2"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-66"><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r1"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-67"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r2"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-68"><d1></d1><d1></d1><d1></d1><dmn class="r1"></dmn><d1></d1><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-69"><d1></d1><d1></d1><crc class="r1"></crc><d1></d1><d1></d1><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-70"><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r1"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-71"><d1></d1><d1></d1><d1></d1><dmn class="r1"></dmn><d1></d1><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-72"><d1></d1><d1></d1><crc class="r1"></crc><d1></d1><d1></d1><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-73"><d1></d1><dmn class="r1"></dmn><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="num">4</div>
+</div>
+<hr class="sep"><div class="line" id="line-12">
+<div class="lyrics"><b>G major</b></div>
+</div>
+<div class="line" id="line-13">
+<div class="lyrics">O</div>
+<div class="lyrics">-</div>
+<div class="lyrics">le -</div>
+<div class="lyrics">to</div>
+<div class="lyrics">m' -</div>
+<div class="lyrics">en</div>
+<div class="lyrics">me</div>
+<div class="lyrics">nos -</div>
+<div class="lyrics">tos</div>
+</div>
+
+<div class="line" id="line-14">
+<div class="instr harp" id="instr-84"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><dmn class="r2"></dmn><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-85"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r2"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-86"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><d2></d2><dmn class="r2"></dmn><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-87"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><crdm class="r2"></crdm><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-88"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><dmn class="r2"></dmn><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-89"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r2"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-90"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><dmn class="r2"></dmn><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-91"><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r1"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-92"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><dmn class="r2"></dmn><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="num">5</div>
+</div>
+<hr class="sep"><div class="line" id="line-15">
+<div class="lyrics"><b>G major</b></div>
+</div>
+<div class="line" id="line-16">
+<div class="lyrics">C'est</div>
+<div class="lyrics">-</div>
+<div class="lyrics">-</div>
+<div class="lyrics">pour</div>
+<div class="lyrics">ce -</div>
+<div class="lyrics">la</div>
+</div>
+
+<div class="line" id="line-17">
+<div class="instr harp" id="instr-100"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r2"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-101"><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r1"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-102"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r2"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-103"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><dmn class="r2"></dmn><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-104"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><crdm class="r2"></crdm><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-105"><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r1"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="num">6</div>
+</div>
+<hr class="sep"><div class="line" id="line-18">
+<div class="lyrics">que</div>
+<div class="lyrics">-</div>
+<div class="lyrics">-</div>
+<div class="lyrics">je</div>
+<div class="lyrics">suis</div>
+<div class="lyrics">-</div>
+<div class="lyrics">-</div>
+<div class="lyrics">neé</div>
+<div class="lyrics">-</div>
+<div class="lyrics">-</div>
+<div class="lyrics">-</div>
+<div class="lyrics">-</div>
+</div>
+
+<div class="line" id="line-19">
+<div class="instr harp" id="instr-118"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r2"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-119"><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r1"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-120"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r2"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-121"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><dmn class="r2"></dmn><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-122"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><d2></d2><d2></d2><crc class="r2"></crc><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-123"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><crdm class="r2"></crdm><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-124"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><d2></d2><dmn class="r2"></dmn><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-125"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><dmn class="r2"></dmn><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-126"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><crdm class="r2"></crdm><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-127"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><dmn class="r2"></dmn><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-128"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r2"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-129"><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r1"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="num">7</div>
+</div>
+<hr class="sep"><div class="line" id="line-20">
+<div class="lyrics"><b>A major</b></div>
+</div>
+<div class="line" id="line-21">
+<div class="lyrics">Ko -</div>
+<div class="lyrics">no</div>
+<div class="lyrics">mi -</div>
+<div class="lyrics">chi</div>
+<div class="lyrics">ya</div>
+<div class="lyrics">-</div>
+<div class="lyrics">yu</div>
+<div class="lyrics">ku</div>
+<div class="lyrics">hi -</div>
+<div class="lyrics">to</div>
+<div class="lyrics">na -</div>
+<div class="lyrics">shi</div>
+<div class="lyrics">ni</div>
+<div class="lyrics">-</div>
+</div>
+
+<div class="line" id="line-22">
+<div class="instr harp" id="instr-145"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r2"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-146"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r2"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-147"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r2"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-148"><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r1"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-149"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r2"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-150"><d1></d1><d1></d1><d1></d1><dmn class="r1"></dmn><d1></d1><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-151"><d1></d1><d1></d1><d1></d1><dmn class="r1"></dmn><d1></d1><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-152"><d1></d1><d1></d1><crc class="r1"></crc><d1></d1><d1></d1><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-153"><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r1"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-154"><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r1"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-155"><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r1"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-156"><d1></d1><d1></d1><d1></d1><dmn class="r1"></dmn><d1></d1><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-157"><d1></d1><d1></d1><crc class="r1"></crc><d1></d1><d1></d1><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-158"><d1></d1><dmn class="r1"></dmn><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="num">8</div>
+</div>
+<hr class="sep"><div class="line" id="line-23">
+<div class="lyrics"><b>G major</b></div>
+</div>
+<div class="line" id="line-24">
+<div class="lyrics">Ko -</div>
+<div class="lyrics">no</div>
+<div class="lyrics">mi -</div>
+<div class="lyrics">chi</div>
+<div class="lyrics">ya</div>
+<div class="lyrics">-</div>
+<div class="lyrics">a -</div>
+<div class="lyrics">ki</div>
+<div class="lyrics">no</div>
+<div class="lyrics">ku -</div>
+<div class="lyrics">re</div>
+</div>
+
+<div class="line" id="line-25">
+<div class="instr harp" id="instr-171"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><dmn class="r2"></dmn><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-172"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><dmn class="r2"></dmn><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-173"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><dmn class="r2"></dmn><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-174"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r2"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-175"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><d2></d2><dmn class="r2"></dmn><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-176"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><crdm class="r2"></crdm><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-177"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><dmn class="r2"></dmn><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-178"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r2"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-179"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><dmn class="r2"></dmn><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-180"><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r1"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-181"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r2"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="num">9</div>
+</div>
+<hr class="sep"><div class="line" id="line-26">
+<div class="lyrics"><b>A major</b></div>
+</div>
+<div class="line" id="line-27">
+<div class="lyrics">C'est</div>
+<div class="lyrics">-</div>
+<div class="lyrics">-</div>
+<div class="lyrics">pour</div>
+<div class="lyrics">ce -</div>
+<div class="lyrics">la</div>
+</div>
+
+<div class="line" id="line-28">
+<div class="instr harp" id="instr-189"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r2"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-190"><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r1"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-191"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r2"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-192"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><dmn class="r2"></dmn><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-193"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><crdm class="r2"></crdm><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-194"><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r1"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="num">10</div>
+</div>
+<hr class="sep"><div class="line" id="line-29">
+<div class="lyrics">que</div>
+<div class="lyrics">-</div>
+<div class="lyrics">-</div>
+<div class="lyrics">je</div>
+<div class="lyrics">suis</div>
+<div class="lyrics">-</div>
+<div class="lyrics">-</div>
+<div class="lyrics">-</div>
+<div class="lyrics">-</div>
+<div class="lyrics">neé</div>
+<div class="lyrics">-</div>
+</div>
+
+<div class="line" id="line-30">
+<div class="instr harp" id="instr-206"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r2"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-207"><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r1"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-208"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r2"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-209"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><dmn class="r2"></dmn><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-210"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><d2></d2><d2></d2><crc class="r2"></crc><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-211"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><dmn class="r3"></dmn><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-212"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><crc class="r3"></crc><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-213"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><crc class="r3"></crc><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-214"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><dmn class="r3"></dmn><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-215"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><d2></d2><dmn class="r2"></dmn><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-216"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><crdm class="r2"></crdm><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="num">11</div>
+</div>
+<hr class="sep"><div class="line" id="line-31">
+<div class="lyrics"><b>G major</b></div>
+</div>
+<div class="line" id="line-32">
+<div class="lyrics">Ne</div>
+<div class="lyrics">me</div>
+<div class="lyrics">plai -</div>
+<div class="lyrics">gnez</div>
+<div class="lyrics">pas</div>
+</div>
+
+<div class="line" id="line-33">
+<div class="instr harp" id="instr-223"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><crdm class="r2"></crdm><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-224"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><dmn class="r2"></dmn><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-225"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r2"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-226"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><crdm class="r2"></crdm><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-227"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><d2></d2><dmn class="r2"></dmn><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="num">12</div>
+</div>
+<hr class="sep"><div class="line" id="line-34">
+<div class="lyrics"><b>A major</b></div>
+</div>
+<div class="line" id="line-35">
+<div class="lyrics">C'est</div>
+<div class="lyrics">-</div>
+<div class="lyrics">-</div>
+<div class="lyrics">pour</div>
+<div class="lyrics">ce -</div>
+<div class="lyrics">la</div>
+</div>
+
+<div class="line" id="line-36">
+<div class="instr harp" id="instr-235"><d1></d1><dmn class="r1"></dmn><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><d2></d2><dmn class="r2"></dmn><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-236"><crdm class="r1"></crdm><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><crdm class="r2"></crdm><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-237"><d1></d1><dmn class="r1"></dmn><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><d2></d2><dmn class="r2"></dmn><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-238"><d1></d1><d1></d1><crc class="r1"></crc><d1></d1><d1></d1><d2></d2><d2></d2><d2></d2><d2></d2><crc class="r2"></crc><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-239"><d1></d1><d1></d1><d1></d1><dmn class="r1"></dmn><d1></d1><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><crc class="r3"></crc><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-240"><crdm class="r1"></crdm><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><crdm class="r2"></crdm><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="num">13</div>
+</div>
+<hr class="sep"><div class="line" id="line-37">
+<div class="lyrics">que</div>
+<div class="lyrics">-</div>
+<div class="lyrics">-</div>
+<div class="lyrics">je</div>
+<div class="lyrics">suis</div>
+<div class="lyrics">-</div>
+<div class="lyrics">-</div>
+<div class="lyrics">-</div>
+<div class="lyrics">neé</div>
+<div class="lyrics">-</div>
+<div class="lyrics">Ah</div>
+<div class="lyrics">-</div>
+</div>
+
+<div class="line" id="line-38">
+<div class="instr harp" id="instr-253"><d1></d1><dmn class="r1"></dmn><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><d2></d2><dmn class="r2"></dmn><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-254"><crdm class="r1"></crdm><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><crdm class="r2"></crdm><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-255"><d1></d1><dmn class="r1"></dmn><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><d2></d2><dmn class="r2"></dmn><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-256"><d1></d1><d1></d1><crc class="r1"></crc><d1></d1><d1></d1><d2></d2><d2></d2><d2></d2><d2></d2><crc class="r2"></crc><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-257"><d1></d1><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r2"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><d3></d3><crc class="r3"></crc><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-258"><d1></d1><d1></d1><d1></d1><dmn class="r1"></dmn><d1></d1><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><crc class="r3"></crc><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-259"><d1></d1><d1></d1><d1></d1><d1></d1><crc class="r1"></crc><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><d3></d3><dmn class="r3"></dmn><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-260"><d1></d1><d1></d1><crc class="r1"></crc><d1></d1><d1></d1><d2></d2><d2></d2><d2></d2><d2></d2><crc class="r2"></crc><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-261"><d1></d1><d1></d1><d1></d1><dmn class="r1"></dmn><d1></d1><d2></d2><d2></d2><d2></d2><d2></d2><d2></d2><crc class="r3"></crc><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-262"><d1></d1><d1></d1><crc class="r1"></crc><d1></d1><d1></d1><d2></d2><d2></d2><d2></d2><d2></d2><crc class="r2"></crc><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-263"><crdm class="r1"></crdm><d1></d1><d1></d1><d1></d1><d1></d1><d2></d2><d2></d2><crdm class="r2"></crdm><d2></d2><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="instr harp" id="instr-264"><d1></d1><dmn class="r1"></dmn><d1></d1><d1></d1><d1></d1><crc class="r2"></crc><d2></d2><d2></d2><dmn class="r2"></dmn><d2></d2><d3></d3><d3></d3><d3></d3><d3></d3><d3></d3></div>
+<div class="num">14</div>
+</div>
+</div>
+
+</body></html>
