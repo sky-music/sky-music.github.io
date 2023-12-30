@@ -56,7 +56,7 @@ window.addEventListener("load", function () {
         let tables = document.getElementsByTagName("table")
         let songNotes = []
         let timestamp = 200
-        let bpm = 200
+        let bpm = 120
         let songName = document.title
         let bpmToMs = Math.floor(60000 / bpm)
 
