@@ -4,7 +4,7 @@ title: "Sky Music Visual Sheets (tablatures) & EasyPlays visual music sheets"
 permalink: /index.html
 ---
 
-<p>A collection of fan made visual music sheets/tablature for songs to learn in <a href="https://thatskygame.com/">Sky: Children of the Light!</a> and with the <a href="https://www.summertones.fun">EasyPlays</a> physical music keyboard.</p>
+<p>A collection of fan made visual music sheets/tablature for songs to learn in <a href="https://thatskygame.com/">Sky: Children of the Light</a> and with the <a href="https://www.summertones.fun">EasyPlays</a> physical music keyboard!</p>
 <p>If you would like to <a href="./make-your-own-sheet.html">create your own music sheet</a> please check the links in the side bar (or below on mobile) for a tutorial, amongst other useful links.</p>
 <p>Click a section to see a drop down list.</p>
 {% assign static_files = site.static_files | where: 'extname', '.html' %}
